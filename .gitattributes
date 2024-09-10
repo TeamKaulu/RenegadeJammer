@@ -1,1 +1,2 @@
 Content/01_Player/RaycastSuspensionVehicle/BP_RaycastSuspensionVehicle_COPY.uasset filter=lfs diff=lfs merge=lfs -text
+*.uasset lockable
