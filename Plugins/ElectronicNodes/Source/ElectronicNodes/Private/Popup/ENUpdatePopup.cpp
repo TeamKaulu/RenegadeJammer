@@ -5,6 +5,7 @@
 #include "Widgets/Text/SRichTextBlock.h"
 #include "SWebBrowser.h"
 #include "Interfaces/IPluginManager.h"
+#include "GenericPlatform/GenericPlatformMisc.h"
 
 void ENUpdatePopup::OnBrowserLinkClicked(const FSlateHyperlinkRun::FMetadata& Metadata)
 {
@@ -18,25 +19,26 @@ void ENUpdatePopup::OnBrowserLinkClicked(const FSlateHyperlinkRun::FMetadata& Me
 
 void ENUpdatePopup::Register()
 {
-	const FString PluginDirectory = IPluginManager::Get().FindPlugin(TEXT("ElectronicNodes"))->GetBaseDir();
-	const FString UpdatedConfigFile = PluginDirectory + "/UpdateConfig.ini";
-	const FString CurrentPluginVersion = "3.9";
+	FString UpdateConfigPath = IPluginManager::Get().FindPlugin(TEXT("ElectronicNodes"))->GetBaseDir();
+	UpdateConfigPath /= "UpdateConfig.ini";
+	const FString UpdateConfigFile = FConfigCacheIni::NormalizeConfigIniPath(UpdateConfigPath);
+	const FString CurrentPluginVersion = "3.14";
 
 	UENUpdateConfig* ENUpdatePopupConfig = GetMutableDefault<UENUpdateConfig>();
 
-	if (FPaths::FileExists(UpdatedConfigFile))
+	if (FPaths::FileExists(UpdateConfigFile))
 	{
-		ENUpdatePopupConfig->LoadConfig(nullptr, *UpdatedConfigFile);
+		ENUpdatePopupConfig->LoadConfig(nullptr, *UpdateConfigFile);
 	}
 	else
 	{
-		ENUpdatePopupConfig->SaveConfig(CPF_Config, *UpdatedConfigFile);
+		ENUpdatePopupConfig->SaveConfig(CPF_Config, *UpdateConfigFile);
 	}
 
 	if (ENUpdatePopupConfig->PluginVersionUpdate != CurrentPluginVersion)
 	{
 		ENUpdatePopupConfig->PluginVersionUpdate = CurrentPluginVersion;
-		ENUpdatePopupConfig->SaveConfig(CPF_Config, *UpdatedConfigFile);
+		ENUpdatePopupConfig->SaveConfig(CPF_Config, *UpdateConfigFile);
 
 		FCoreDelegates::OnPostEngineInit.AddLambda([]()
 		{
@@ -72,14 +74,13 @@ void ENUpdatePopup::Open()
 	const FSlateFontInfo ContentFont = FCoreStyle::GetDefaultFontStyle("Regular", 12);
 
 	TSharedRef<SVerticalBox> InnerContent = SNew(SVerticalBox)
-		// Default settings example
 		+ SVerticalBox::Slot()
 		  .AutoHeight()
 		  .Padding(10)
 		[
 			SNew(STextBlock)
 			.Font(HeadingFont)
-			.Text(FText::FromString("Electronic Nodes v3.9"))
+			.Text(FText::FromString("Electronic Nodes v3.14"))
 		]
 		+ SVerticalBox::Slot()
 		  .FillHeight(1.0)
@@ -87,11 +88,7 @@ void ENUpdatePopup::Open()
 		[
 			SNew(SBorder)
 			.Padding(10)
-#if ENGINE_MAJOR_VERSION == 5 && ENGINE_MINOR_VERSION >= 1
 			.BorderImage(FAppStyle::GetBrush("ToolPanel.DarkGroupBorder"))
-#else
-			.BorderImage(FEditorStyle::GetBrush("ToolPanel.DarkGroupBorder"))
-#endif
 			[
 				SNew(SScrollBox)
 				+ SScrollBox::Slot()
@@ -100,38 +97,40 @@ void ENUpdatePopup::Open()
 					.Text(FText::FromString(R"(
 <LargeText>Hello and thank you for using Electronic Nodes!</>
 
-First thing first, if you've been enjoying using it, it would mean a lot if you could just drop <a id="browser" href="https://bit.ly/2U1YT8O">a small review on the marketplace page</> :). I also wanted to mention that I made another plugin to update the UE4 style called <a id="browser" href="https://bit.ly/2TolSKQ">Darker Nodes</>.
+First thing first, if you've been enjoying using it, it would mean a lot if you could just drop <a id="browser" href="https://bit.ly/2U1YT8O">a small review on the marketplace page</> :). I also wanted to mention that I made another plugin to update the engine theme called <a id="browser" href="https://bit.ly/2TolSKQ">Darker Nodes</>.
 
 I also made a marketplace search engine called <a id="browser" href="https://bit.ly/3uhO9CG">Orbital Market</>. It's completely free, super fast and full of filters to refine your search.
 
-Last but not least, I'm building <a id="browser" href="https://luna-park.app">Luna Park</> (a visual scripting editor for the web) and <a id="browser" href="https://roller-coaster.app">Roller Coaster</> (an automation tool using Luna Park), and I'm looking for beta testers, so if you're interested, feel free to join the <a id="browser" href="https://discord.gg/2eAk2AHvdw">Discord server</>!
-
-But let's keep it short, here are the cool new features (and bugfixes) of version 3.9!
+But let's keep it short, here are the cool new features (and bugfixes) of version 3.14!
 
 
-<LargeText>Version 3.9</>
-
-<RichTextBlock.Bold>Bugfixes</>
-
-* Fix bubbles on animation blueprints (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/8">issue #8</>)
-
-
-<LargeText>Version 3.8</>
+<LargeText>Version 3.14</>
 
 <RichTextBlock.Bold>Features</>
 
-* Add a spline type selector for wires bellow minimum distance (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/66">issue #66</>)
+* Remove annoying licence check (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/89">issue #89</>)
+
+<RichTextBlock.Bold>Bugfixes</>
+
+* Fix Metasound activation (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/90">issue #90</>)
+
+
+<LargeText>Version 3.13</>
+
+<RichTextBlock.Bold>Features</>
+
+* Add entitlement check disabling (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/86">issue #86</>)
+* Remove Metasound dependency (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/87">issue #87</>)
+
+<RichTextBlock.Bold>Bugfixes</>
+
+* Fix incorrect warning about licence (<a id="browser" href="https://github.com/hugoattal/ElectronicNodes/issues/84">issue #84</>)
 
 
 <a id="browser" href="https://github.com/hugoattal/ElectronicNodes#changelog">See complete changelog</>
 )"))
-#if ENGINE_MAJOR_VERSION == 5 && ENGINE_MINOR_VERSION >= 1
 					.TextStyle(FAppStyle::Get(), "NormalText")
 					.DecoratorStyleSet(&FAppStyle::Get())
-#else
-					.TextStyle(FEditorStyle::Get(), "NormalText")
-					.DecoratorStyleSet(&FEditorStyle::Get())
-#endif
 					.AutoWrapText(true)
 					+ SRichTextBlock::HyperlinkDecorator(TEXT("browser"), FSlateHyperlinkRun::FOnClick::CreateStatic(&OnBrowserLinkClicked))
 				]

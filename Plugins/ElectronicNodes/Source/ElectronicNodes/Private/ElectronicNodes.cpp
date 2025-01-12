@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Hugo ATTAL - All Rights Reserved
+/* Copyright (C) 2024 Hugo ATTAL - All Rights Reserved
 * This plugin is downloadable from the Unreal Engine Marketplace
 */
 
@@ -8,19 +8,21 @@
 #include "NodeFactory.h"
 #include "Interfaces/IPluginManager.h"
 #include "Lib/HotPatch.h"
-#include "MainFrame/Public/Interfaces/IMainFrameModule.h"
+#include "Interfaces/IMainFrameModule.h"
 #include "Patch/NodeFactoryPatch.h"
 #include "Popup/ENUpdatePopup.h"
-#include "SettingsEditor/Public/ISettingsEditorModule.h"
+#include "ISettingsEditorModule.h"
 
 #define LOCTEXT_NAMESPACE "FElectronicNodesModule"
 
 void FElectronicNodesModule::StartupModule()
 {
-	const TSharedPtr<FENConnectionDrawingPolicyFactory> ENConnectionFactory = MakeShareable(new FENConnectionDrawingPolicyFactory);
+	const TSharedPtr<FENConnectionDrawingPolicyFactory> ENConnectionFactory = MakeShareable(
+		new FENConnectionDrawingPolicyFactory);
 	FEdGraphUtilities::RegisterVisualPinConnectionFactory(ENConnectionFactory);
 
-	auto const CommandBindings = FModuleManager::LoadModuleChecked<IMainFrameModule>("MainFrame").GetMainFrameCommandBindings();
+	auto const CommandBindings = FModuleManager::LoadModuleChecked<IMainFrameModule>("MainFrame").
+		GetMainFrameCommandBindings();
 	ENCommands::Register();
 
 	CommandBindings->MapAction(
@@ -28,8 +30,9 @@ void FElectronicNodesModule::StartupModule()
 		FExecuteAction::CreateRaw(this, &FElectronicNodesModule::ToggleMasterActivation)
 	);
 
-	PluginDirectory = IPluginManager::Get().FindPlugin(TEXT("ElectronicNodes"))->GetBaseDir();
-	GlobalSettingsFile = PluginDirectory + "/Settings.ini";
+	FString GlobalSettingsPath = IPluginManager::Get().FindPlugin(TEXT("ElectronicNodes"))->GetBaseDir();
+	GlobalSettingsPath /= "Settings.ini";
+	GlobalSettingsFile = FConfigCacheIni::NormalizeConfigIniPath(GlobalSettingsPath);
 
 	ElectronicNodesSettings = GetMutableDefault<UElectronicNodesSettings>();
 	ElectronicNodesSettings->OnSettingChanged().AddRaw(this, &FElectronicNodesModule::ReloadConfiguration);
@@ -55,15 +58,10 @@ void FElectronicNodesModule::StartupModule()
 	}
 }
 
-#if ENGINE_MAJOR_VERSION == 4 && ENGINE_MINOR_VERSION <= 25
-void FElectronicNodesModule::ReloadConfiguration(FName PropertyName)
-#else
+
 void FElectronicNodesModule::ReloadConfiguration(UObject* Object, struct FPropertyChangedEvent& Property)
-#endif
 {
-#if (ENGINE_MAJOR_VERSION == 4 && ENGINE_MINOR_VERSION > 25) || (ENGINE_MAJOR_VERSION == 5)
 	const FName PropertyName = Property.GetPropertyName();
-#endif
 
 	if (PropertyName == "UseGlobalSettings")
 	{
@@ -82,7 +80,8 @@ void FElectronicNodesModule::ReloadConfiguration(UObject* Object, struct FProper
 
 	if (PropertyName == "UseHotPatch")
 	{
-		ISettingsEditorModule* SettingsEditorModule = FModuleManager::GetModulePtr<ISettingsEditorModule>("SettingsEditor");
+		ISettingsEditorModule* SettingsEditorModule = FModuleManager::GetModulePtr<ISettingsEditorModule>(
+			"SettingsEditor");
 		if (SettingsEditorModule)
 		{
 			SettingsEditorModule->OnApplicationRestartRequired();

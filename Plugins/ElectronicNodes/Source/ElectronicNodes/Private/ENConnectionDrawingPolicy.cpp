@@ -1,16 +1,15 @@
-﻿/* Copyright (C) 2021 Hugo ATTAL - All Rights Reserved
+﻿/* Copyright (C) 2024 Hugo ATTAL - All Rights Reserved
 * This plugin is downloadable from the Unreal Engine Marketplace
 */
 
 #include "ENConnectionDrawingPolicy.h"
-#include "BlueprintEditorSettings.h"
 #include "ENPathDrawer.h"
 #include "SGraphPanel.h"
 #include "Framework/Application/SlateApplication.h"
 #include "MaterialGraph/MaterialGraphSchema.h"
 #include "Policies/ENAnimGraphConnectionDrawingPolicy.h"
 #include "Policies/ENBehaviorTreeConnectionDrawingPolicy.h"
-
+#include "Policies/ENMaterialGraphConnectionDrawingPolicy.h"
 
 FConnectionDrawingPolicy* FENConnectionDrawingPolicyFactory::CreateConnectionPolicy(const class UEdGraphSchema* Schema, int32 InBackLayerID, int32 InFrontLayerID, float ZoomFactor, const class FSlateRect& InClippingRect, class FSlateWindowElementList& InDrawElements, class UEdGraph* InGraphObj) const
 {
@@ -60,6 +59,11 @@ FConnectionDrawingPolicy* FENConnectionDrawingPolicyFactory::CreateConnectionPol
 		return new FENConnectionDrawingPolicy(InBackLayerID, InFrontLayerID, ZoomFactor, InClippingRect, InDrawElements, InGraphObj);
 	}
 
+	if (ElectronicNodesSettings.ActivateOnMetasound && ClassName == "MetasoundEditorGraphSchema")
+	{
+		return new FENConnectionDrawingPolicy(InBackLayerID, InFrontLayerID, ZoomFactor, InClippingRect, InDrawElements, InGraphObj);
+	}
+
 	if (ElectronicNodesSettings.ActivateOnReferenceViewer && ClassName == "ReferenceViewerSchema")
 	{
 		return new FENConnectionDrawingPolicy(InBackLayerID, InFrontLayerID, ZoomFactor, InClippingRect, InDrawElements, InGraphObj);
@@ -72,7 +76,7 @@ FConnectionDrawingPolicy* FENConnectionDrawingPolicyFactory::CreateConnectionPol
 
 	if (ElectronicNodesSettings.ActivateOnMaterial && Schema->IsA(UMaterialGraphSchema::StaticClass()))
 	{
-		return new FENConnectionDrawingPolicy(InBackLayerID, InFrontLayerID, ZoomFactor, InClippingRect, InDrawElements, InGraphObj);
+		return new FENMaterialGraphConnectionDrawingPolicy(InBackLayerID, InFrontLayerID, ZoomFactor, InClippingRect, InDrawElements, InGraphObj);
 	}
 
 	for (const auto& Type : ElectronicNodesSettings.CustomGraphSchemas)
@@ -176,11 +180,7 @@ void FENConnectionDrawingPolicy::DrawConnection(int32 LayerId, const FVector2D& 
 				const float SquaredDistToPin1 = (Params.AssociatedPin1 != nullptr) ? (Start - ClosestPoint).SizeSquared() : FLT_MAX;
 				const float SquaredDistToPin2 = (Params.AssociatedPin2 != nullptr) ? (End - ClosestPoint).SizeSquared() : FLT_MAX;
 
-#if ENGINE_MAJOR_VERSION == 5
 				SplineOverlapResult = FGraphSplineOverlapResult(Params.AssociatedPin1, Params.AssociatedPin2, ClosestDistanceSquared, SquaredDistToPin1, SquaredDistToPin2, false);
-#else
-				SplineOverlapResult = FGraphSplineOverlapResult(Params.AssociatedPin1, Params.AssociatedPin2, ClosestDistanceSquared, SquaredDistToPin1, SquaredDistToPin2);
-#endif
 			}
 		}
 	}
@@ -491,7 +491,13 @@ void FENConnectionDrawingPolicy::BuildRelatedNodes(UEdGraphNode* Node, TArray<UE
 
 void FENConnectionDrawingPolicy::ENDrawBubbles(const FVector2D& Start, const FVector2D& StartTangent, const FVector2D& End, const FVector2D& EndTangent)
 {
-	const bool ENDrawBubbles = ElectronicNodesSettings.ForceDrawBubbles && (ElectronicNodesSettings.BubbleZoomThreshold <= ENGetZoomLevel());
+	const bool ENDrawBubbles = ElectronicNodesSettings.ForceDrawBubbles
+	&& (ElectronicNodesSettings.BubbleZoomThreshold <= ENGetZoomLevel())
+	&& (!ElectronicNodesSettings.DrawBubblesOnlyOnExec ||
+		(_Params->AssociatedPin1 != nullptr && _Params->AssociatedPin1->PinType.PinCategory.ToString() == "exec")
+		|| (_Params->AssociatedPin2 != nullptr && _Params->AssociatedPin2->PinType.PinCategory.ToString() == "exec")
+		);
+	
 	if (_Params->bDrawBubbles || ENDrawBubbles)
 	{
 		bool LinkedBubbles = true;
