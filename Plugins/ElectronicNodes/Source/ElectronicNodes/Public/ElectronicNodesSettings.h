@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Hugo ATTAL - All Rights Reserved
+/* Copyright (C) 2024 Hugo ATTAL - All Rights Reserved
 * This plugin is downloadable from the Unreal Engine Marketplace
 */
 
@@ -115,6 +115,10 @@ public:
 	UPROPERTY(config, EditAnywhere, Category = "Activation|Schema", meta = (EditCondition = "MasterActivate && UseHotPatch"))
 	bool ActivateOnControlRig = true;
 
+	/* Activate Electronic Nodes on Metasound. Default: true */
+	UPROPERTY(config, EditAnywhere, Category = "Activation|Schema", meta = (EditCondition = "MasterActivate && UseHotPatch"))
+	bool ActivateOnMetasound = true;
+
 	/* Activate Electronic Nodes on Reference Viewer. Default: true */
 	UPROPERTY(config, EditAnywhere, Category = "Activation|Schema", meta = (EditCondition = "MasterActivate && UseHotPatch"))
 	bool ActivateOnReferenceViewer = true;
@@ -215,6 +219,10 @@ public:
 	UPROPERTY(config, EditAnywhere, Category = "Bubbles Style")
 	bool ForceDrawBubbles = false;
 
+	/* Draw bubbles only on exec wires. Default: true */
+	UPROPERTY(config, EditAnywhere, Category = "Bubbles Style", meta = (EditCondition = "ForceDrawBubbles"))
+	bool DrawBubblesOnlyOnExec = true;
+
 	/* Display rules to show/move bubbles only near selected nodes. Default: Always */
 	UPROPERTY(config, EditAnywhere, Category = "Bubbles Style", meta = (EditCondition = "ForceDrawBubbles"))
 	EBubbleDisplayRule BubbleDisplayRule = EBubbleDisplayRule::Always;
@@ -254,21 +262,4 @@ public:
 	{
 		MasterActivate = !MasterActivate;
 	}
-
-#if ENGINE_MAJOR_VERSION == 4 && ENGINE_MINOR_VERSION <= 25
-    	DECLARE_EVENT_OneParam(UDarkerNodesSettings, FSettingChangedEvent, FName);
-    	FSettingChangedEvent& OnSettingChanged( ) { return SettingChangedEvent; }
-        
-    	virtual void PostEditChangeProperty(struct FPropertyChangedEvent& PropertyChangedEvent) override
-    	{
-    		Super::PostEditChangeProperty(PropertyChangedEvent);
-        
-    		const FName Name = (PropertyChangedEvent.Property != nullptr) ? PropertyChangedEvent.Property->GetFName() : NAME_None;
-    		SettingChangedEvent.Broadcast(Name);
-    	}
-        
-    	private:
-        
-    	FSettingChangedEvent SettingChangedEvent;
-#endif
 };

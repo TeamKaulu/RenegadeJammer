@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Hugo ATTAL - All Rights Reserved
+/* Copyright (C) 2024 Hugo ATTAL - All Rights Reserved
 * This plugin is downloadable from the Unreal Engine Marketplace
 */
 
@@ -21,12 +21,7 @@ public:
 
 private:
 	UElectronicNodesSettings* ElectronicNodesSettings = nullptr;
-	FString PluginDirectory;
 	FString GlobalSettingsFile;
 
-#if ENGINE_MAJOR_VERSION == 4 && ENGINE_MINOR_VERSION <= 25
-	void ReloadConfiguration(FName PropertyName);
-#else
 	void ReloadConfiguration(UObject* Object, struct FPropertyChangedEvent& Property);
-#endif
 };

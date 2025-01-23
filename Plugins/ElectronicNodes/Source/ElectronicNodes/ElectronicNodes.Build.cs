@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Hugo ATTAL - All Rights Reserved
+/* Copyright (C) 2024 Hugo ATTAL - All Rights Reserved
 * This plugin is downloadable from the UE4 Marketplace
 */
 
@@ -19,7 +19,9 @@ public class ElectronicNodes : ModuleRules
 		PrivateIncludePaths.AddRange(
 			new string[]
 			{
-				Path.Combine(enginePath, "Source/Editor/AnimationBlueprintEditor/Private/")
+				Path.Combine(enginePath, "Source/Editor/AnimationBlueprintEditor/Private/"),
+				Path.Combine(enginePath, "Source/Editor/BehaviorTreeEditor/Private/"),
+				Path.Combine(enginePath, "Source/Editor/GraphEditor/Private/")
 			}
 		);
 
@@ -37,6 +39,7 @@ public class ElectronicNodes : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+				"RenderCore",
 				"InputCore",
 				"Projects",
 				"UnrealEd",
@@ -44,13 +47,12 @@ public class ElectronicNodes : ModuleRules
 				"BlueprintGraph",
 				"AnimGraph",
 				"AnimationBlueprintEditor",
-				"RigVM",
-				"RigVMDeveloper",
 				"AIGraph",
 				"BehaviorTreeEditor",
 				"DeveloperSettings",
 				"EditorStyle",
-				"WebBrowser"
+				"WebBrowser",
+				"SettingsEditor"
 			}
 		);
 
