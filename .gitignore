@@ -12,9 +12,9 @@
 !/Source/**
 !/Config/**
 !/Plugins/**
-!/RenegadeJammer_WwiseProject/**
 
 !/Content/RenegadeJammer/**
+!/Content/WwiseAudio/**
 !/RenegadeJammer.png
 
 # Allow any files from /RawContent dir.
