@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D487E6EB-9DAA-415F-9438-B362017197F5}" SchemaVersion="123" RootDocumentID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}" ParentDocumentID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}">
+	<AudioObjects>
+		<WorkUnit Name="PlayerFX" ID="{D487E6EB-9DAA-415F-9438-B362017197F5}" OwnerID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Hoverboard" ID="{CAC8AE8F-058F-49FA-81E9-553AA2075D2B}" ShortID="592419474">
+					<ChildrenList>
+						<BlendContainer Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" ShortID="888916629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Engine-000" ID="{7B11C015-2661-42DB-9BDF-BF9C686485C3}" ShortID="852388550">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-000" ID="{6C443813-2979-4552-8BF7-1DDC73E0A67D}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-000.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="324177290"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-000" ID="{6C443813-2979-4552-8BF7-1DDC73E0A67D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-001" ID="{F7EC2661-6CFD-4F93-9A91-B8BDD3C05B95}" ShortID="1005144085">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-001" ID="{CFDF71D3-3E3C-46D6-8D67-FD93E1EC8277}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435802985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-001" ID="{CFDF71D3-3E3C-46D6-8D67-FD93E1EC8277}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-002" ID="{7309D097-BA6E-438A-AD91-C7E8325F3ED8}" ShortID="95981298">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-002" ID="{D02E821C-41C4-40EB-BE87-B7E97EF35884}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454305394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-002" ID="{D02E821C-41C4-40EB-BE87-B7E97EF35884}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-003" ID="{88E4466A-FEF6-42CE-9B3C-2F6B63C06D53}" ShortID="353735235">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-003" ID="{FA88FA06-36AE-44DE-A8E0-781CED3832AB}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="218789267"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-003" ID="{FA88FA06-36AE-44DE-A8E0-781CED3832AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-004" ID="{4DBC7CC3-6BBF-455B-A68B-F948216D6040}" ShortID="341146317">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-004" ID="{9F11EB6E-2A7E-470A-9DF4-39AA10B94FB5}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1022475561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-004" ID="{9F11EB6E-2A7E-470A-9DF4-39AA10B94FB5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-005" ID="{823D63EA-83C8-4B40-BE4F-BAD521F1E21C}" ShortID="464623988">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-005" ID="{3E1E6F65-ABF2-4F0A-B9E3-CCFB687E0DD4}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="96770222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-005" ID="{3E1E6F65-ABF2-4F0A-B9E3-CCFB687E0DD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-006" ID="{58075E4F-90DD-46BF-850B-A4F8F97F17A4}" ShortID="552957424">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-006" ID="{946F78CD-62C4-4B51-A291-D78735846F04}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332525592"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-006" ID="{946F78CD-62C4-4B51-A291-D78735846F04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-007" ID="{30AE8981-AD03-492B-9B5B-CB2570F62317}" ShortID="831133472">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-007" ID="{497F84B9-091F-4898-9EDD-94A0C13A878F}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="728176368"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-007" ID="{497F84B9-091F-4898-9EDD-94A0C13A878F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-008" ID="{E2898692-3768-4967-9D03-E9F8C35BBBCA}" ShortID="86013042">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-008" ID="{F1DA9C88-CB00-4287-8B60-95AD23F5FBED}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="461154160"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-008" ID="{F1DA9C88-CB00-4287-8B60-95AD23F5FBED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-009" ID="{104A3F6E-9E27-4235-B4AB-CD6EA534DBFC}" ShortID="968520144">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-009" ID="{3F31675A-D34B-4698-9FF3-3211F10A7612}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="94877223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-009" ID="{3F31675A-D34B-4698-9FF3-3211F10A7612}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Engine-010" ID="{2313749C-0B0D-4BB7-BB26-6CC1DACC40C7}" ShortID="207510720">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Engine-010" ID="{730EAA10-E21E-4644-8AD1-D06C09D1E2E7}">
+											<Language>SFX</Language>
+											<AudioFile>Engine-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372955990"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Engine-010" ID="{730EAA10-E21E-4644-8AD1-D06C09D1E2E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Air-000" ID="{CD49FDD9-6F6F-4207-A015-1D085871BDBE}" ShortID="224052612">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Air-000" ID="{D695C6A4-286B-4D52-873C-0F695CF410A5}">
+											<Language>SFX</Language>
+											<AudioFile>Air-000.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1044760240"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Air-000" ID="{D695C6A4-286B-4D52-873C-0F695CF410A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Air-001" ID="{E5046CF4-91D5-4271-8C0A-C8201CD7E7EC}" ShortID="23525703">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Air-001" ID="{23B08BA5-4450-4ABF-AE6A-3C1856F80E5D}">
+											<Language>SFX</Language>
+											<AudioFile>Air-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821119433"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Air-001" ID="{23B08BA5-4450-4ABF-AE6A-3C1856F80E5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Air-002" ID="{11F1BF5C-D4D0-4DC8-BD4E-B483C907241D}" ShortID="704447023">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Air-002" ID="{98F3B1E1-8E33-4A2E-B68C-9B33D539DDE7}">
+											<Language>SFX</Language>
+											<AudioFile>Air-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="584589149"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Air-002" ID="{98F3B1E1-8E33-4A2E-B68C-9B33D539DDE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Air-003" ID="{C36C0CF1-AB59-4EF1-B173-89CA8B8545A4}" ShortID="1024331687">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Air-003" ID="{75D82A61-92B0-46C6-BFB4-CAE2C2B42F66}">
+											<Language>SFX</Language>
+											<AudioFile>Air-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151344550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Air-003" ID="{75D82A61-92B0-46C6-BFB4-CAE2C2B42F66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="HoverboarEngineBlend" ID="{9636F949-E0B7-4C3D-B983-AE3FB39C44F9}" ShortID="616457123">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}" WorkUnitID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-000" ID="{7B11C015-2661-42DB-9BDF-BF9C686485C3}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>30.9090909090909</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-001" ID="{F7EC2661-6CFD-4F93-9A91-B8BDD3C05B95}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.588070821434847</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>61.8181818181818</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-002" ID="{7309D097-BA6E-438A-AD91-C7E8325F3ED8}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>32.7605375675114</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>92.7272727272727</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-003" ID="{88E4466A-FEF6-42CE-9B3C-2F6B63C06D53}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>63.0379405581095</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>123.636363636364</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-004" ID="{4DBC7CC3-6BBF-455B-A68B-F948216D6040}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>93.631187507954</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>154.545454545455</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-005" ID="{823D63EA-83C8-4B40-BE4F-BAD521F1E21C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>124.224434457798</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>185.454545454545</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-006" ID="{58075E4F-90DD-46BF-850B-A4F8F97F17A4}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>155.133525366889</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>216.363636363636</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-007" ID="{30AE8981-AD03-492B-9B5B-CB2570F62317}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>185.726772316734</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>247.272727272727</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-008" ID="{E2898692-3768-4967-9D03-E9F8C35BBBCA}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>216.951707185071</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>278.181818181818</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-009" ID="{104A3F6E-9E27-4235-B4AB-CD6EA534DBFC}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>248.176642053409</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>309.090909090909</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Engine-010" ID="{2313749C-0B0D-4BB7-BB26-6CC1DACC40C7}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>278.769889003253</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>340</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="HoverboardAirBlend" ID="{0A3479C5-9E4C-4B8D-974E-DE3676DFA8C0}" ShortID="232286201">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}" WorkUnitID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{CED164EC-69C9-4AC0-BFB8-56081D9A7D11}" ShortID="303850995">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}" WorkUnitID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{B6A9CFB6-C8E8-4E4E-BFC9-DE68DDF8F138}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-20.28481</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>181.29077</XPos>
+																				<YPos>-8.00504</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>340</XPos>
+																				<YPos>-8</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{5B2E31C1-18FE-46B9-BC9D-08FCD2C4275C}" ShortID="956402779">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}" WorkUnitID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{212C56AF-43F7-4133-A48F-15CA4B4BB291}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-2632</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>199.31035</XPos>
+																				<YPos>1462</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>293.103448275862</XPos>
+																				<YPos>2140</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>340</XPos>
+																				<YPos>2170</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Air-000" ID="{CD49FDD9-6F6F-4207-A015-1D085871BDBE}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>92.9731993299832</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Air-001" ID="{E5046CF4-91D5-4271-8C0A-C8201CD7E7EC}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>20.0753768844221</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>199.045226130653</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Air-002" ID="{11F1BF5C-D4D0-4DC8-BD4E-B483C907241D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>95.963149078727</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>338.963243447283</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Air-003" ID="{C36C0CF1-AB59-4EF1-B173-89CA8B8545A4}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>203.743718592965</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>340</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="Drift" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" ShortID="443482780">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Drift_Begin" ID="{57DF7817-1976-455A-B880-02A2821A81F3}" ShortID="671562106">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drift_Begin" ID="{5A7569DF-2085-4D27-99CA-9DEF08D0D9D5}">
+											<Language>SFX</Language>
+											<AudioFile>Drift_Begin.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932733454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drift_Begin" ID="{5A7569DF-2085-4D27-99CA-9DEF08D0D9D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Drift_Loop" ID="{5EA4DEEF-71B0-471B-846B-70F286488E3F}" ShortID="307080027">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Drift_Loop" ID="{ECB7239F-1BA3-4221-A19C-C94312E30DF0}">
+											<Language>SFX</Language>
+											<AudioFile>Drift_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577540629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Drift_Loop" ID="{ECB7239F-1BA3-4221-A19C-C94312E30DF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Drift_Begin" ID="{57DF7817-1976-455A-B880-02A2821A81F3}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Drift_Loop" ID="{5EA4DEEF-71B0-471B-846B-70F286488E3F}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,258 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "866741359",
+    "Type": "User",
+    "GUID": "{209A0503-445E-491C-8B99-C6FFBED161F2}",
+    "Language": "SFX",
+    "Hash": "{EB1954F6-3642-40C0-029B-E84E8051A5A9}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\Hoverboard",
+    "ShortName": "Hoverboard",
+    "Path": "Hoverboard.bnk",
+    "Media": [
+     {
+      "Id": "94877223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-009.wav",
+      "CachePath": "18/{183A7CC9-38B7-2DA0-6C4A-E97D9B767AB9}.wem"
+     },
+     {
+      "Id": "96770222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-005.wav",
+      "CachePath": "48/{486CE684-E0AA-7824-26CC-1AFD4CFA28E4}.wem"
+     },
+     {
+      "Id": "151344550",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Air-003.wav",
+      "CachePath": "66/{66A494EE-47A9-8C59-7F17-0DE869E442DD}.wem"
+     },
+     {
+      "Id": "218789267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-003.wav",
+      "CachePath": "DE/{DED734BD-D66E-7E22-43B7-7060C6C7F67B}.wem"
+     },
+     {
+      "Id": "324177290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-000.wav",
+      "CachePath": "22/{22FFE4CC-2BE4-65B1-FF97-3E9A02FDD655}.wem"
+     },
+     {
+      "Id": "332525592",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-006.wav",
+      "CachePath": "BD/{BDF69631-DDEF-F281-93F8-E463C7165083}.wem"
+     },
+     {
+      "Id": "372955990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-010.wav",
+      "CachePath": "1A/{1A5DE6C1-D023-5C0B-C368-CBCBA874E498}.wem"
+     },
+     {
+      "Id": "435802985",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-001.wav",
+      "CachePath": "FC/{FCFE7DDF-096C-DF17-B8C4-66F3CBF22F59}.wem"
+     },
+     {
+      "Id": "454305394",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-002.wav",
+      "CachePath": "B5/{B5402674-3A7B-A468-614D-042D4E48D43A}.wem"
+     },
+     {
+      "Id": "461154160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-008.wav",
+      "CachePath": "4B/{4B0E1DAB-D3A1-3970-08C4-440C19DD4251}.wem"
+     },
+     {
+      "Id": "577540629",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drift_Loop.wav",
+      "CachePath": "99/{9982D97E-EB7A-0BB0-30E1-57214EE3F39E}.wem"
+     },
+     {
+      "Id": "584589149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Air-002.wav",
+      "CachePath": "BF/{BF0EA8AE-38D2-7028-0655-DDCC87054597}.wem"
+     },
+     {
+      "Id": "728176368",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-007.wav",
+      "CachePath": "7B/{7BA645C2-EF7C-1CB5-A255-54321D6A4988}.wem"
+     },
+     {
+      "Id": "821119433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Air-001.wav",
+      "CachePath": "A1/{A1A46173-C428-FC6A-3607-EDA60AB2B384}.wem"
+     },
+     {
+      "Id": "932733454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drift_Begin.wav",
+      "CachePath": "16/{165002F0-6008-6B71-7BC8-9BB26C955B63}.wem"
+     },
+     {
+      "Id": "1022475561",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine-004.wav",
+      "CachePath": "FC/{FCC058CC-B827-6A42-2EE0-0F9D8137EA1B}.wem"
+     },
+     {
+      "Id": "1044760240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Air-000.wav",
+      "CachePath": "98/{9848F3B6-06C9-B0BA-A6A9-B0194438855C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4176759311",
+      "Name": "Play_Drift",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Play_Drift",
+      "GUID": "{046E5E13-E673-47D0-91BE-F25BD01EFCC1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "577540629"
+       },
+       {
+        "Id": "932733454"
+       }
+      ]
+     },
+     {
+      "Id": "2184182942",
+      "Name": "Play_HoverboardEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Play_HoverboardEngine",
+      "GUID": "{08D5B0F1-B236-48A2-90F5-2AB08E14EBE5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "94877223"
+       },
+       {
+        "Id": "96770222"
+       },
+       {
+        "Id": "151344550"
+       },
+       {
+        "Id": "218789267"
+       },
+       {
+        "Id": "324177290"
+       },
+       {
+        "Id": "332525592"
+       },
+       {
+        "Id": "372955990"
+       },
+       {
+        "Id": "435802985"
+       },
+       {
+        "Id": "454305394"
+       },
+       {
+        "Id": "461154160"
+       },
+       {
+        "Id": "584589149"
+       },
+       {
+        "Id": "728176368"
+       },
+       {
+        "Id": "821119433"
+       },
+       {
+        "Id": "1022475561"
+       },
+       {
+        "Id": "1044760240"
+       }
+      ]
+     },
+     {
+      "Id": "275715425",
+      "Name": "Stop_Drift",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Stop_Drift",
+      "GUID": "{0109E49A-11FE-489F-B665-AB4B0998F778}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "995328048",
+      "Name": "Stop_HoverboardEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Stop_HoverboardEngine",
+      "GUID": "{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "640949982",
+      "Name": "Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerControlled\\Hoverboard\\Speed",
+      "GUID": "{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A95CD3CF-5303-01D5-78E5-8C08EE31FAF9}"
+ }
+}

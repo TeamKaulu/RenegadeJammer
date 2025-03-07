@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	275715425	Stop_Drift			\Default Work Unit\PlayerEvents\Stop_Drift	
+	995328048	Stop_HoverboardEngine			\Default Work Unit\PlayerEvents\Stop_HoverboardEngine	
+	2184182942	Play_HoverboardEngine			\Default Work Unit\PlayerEvents\Play_HoverboardEngine	
+	4176759311	Play_Drift			\Default Work Unit\PlayerEvents\Play_Drift	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	640949982	Speed			\Default Work Unit\PlayerControlled\Hoverboard\Speed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	94877223	Engine-009	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\18\{183A7CC9-38B7-2DA0-6C4A-E97D9B767AB9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-009		705696
+	96770222	Engine-005	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\48\{486CE684-E0AA-7824-26CC-1AFD4CFA28E4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-005		705696
+	151344550	Air-003	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\66\{66A494EE-47A9-8C59-7F17-0DE869E442DD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Air-003		1058496
+	218789267	Engine-003	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\DE\{DED734BD-D66E-7E22-43B7-7060C6C7F67B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-003		705696
+	324177290	Engine-000	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\22\{22FFE4CC-2BE4-65B1-FF97-3E9A02FDD655}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-000		705696
+	332525592	Engine-006	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\BD\{BDF69631-DDEF-F281-93F8-E463C7165083}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-006		705696
+	372955990	Engine-010	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\1A\{1A5DE6C1-D023-5C0B-C368-CBCBA874E498}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-010		705696
+	435802985	Engine-001	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\FC\{FCFE7DDF-096C-DF17-B8C4-66F3CBF22F59}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-001		705696
+	454305394	Engine-002	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\B5\{B5402674-3A7B-A468-614D-042D4E48D43A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-002		705696
+	461154160	Engine-008	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\4B\{4B0E1DAB-D3A1-3970-08C4-440C19DD4251}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-008		705696
+	577540629	Drift_Loop	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\99\{9982D97E-EB7A-0BB0-30E1-57214EE3F39E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\Drift\Drift_Loop		1852296
+	584589149	Air-002	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\BF\{BF0EA8AE-38D2-7028-0655-DDCC87054597}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Air-002		1058496
+	728176368	Engine-007	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\7B\{7BA645C2-EF7C-1CB5-A255-54321D6A4988}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-007		705696
+	821119433	Air-001	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\A1\{A1A46173-C428-FC6A-3607-EDA60AB2B384}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Air-001		1058496
+	932733454	Drift_Begin	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\16\{165002F0-6008-6B71-7BC8-9BB26C955B63}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\Drift\Drift_Begin		264696
+	1022475561	Engine-004	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\FC\{FCC058CC-B827-6A42-2EE0-0F9D8137EA1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Engine-004		705696
+	1044760240	Air-000	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\98\{9848F3B6-06C9-B0BA-A6A9-B0194438855C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerFX\Hoverboard\HoverboardEngine\Air-000		1058496
+

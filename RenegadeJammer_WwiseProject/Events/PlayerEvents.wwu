@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" SchemaVersion="123" RootDocumentID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" ParentDocumentID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}">
+	<Events>
+		<WorkUnit Name="PlayerEvents" ID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" OwnerID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_HoverboardEngine" ID="{08D5B0F1-B236-48A2-90F5-2AB08E14EBE5}">
+					<ChildrenList>
+						<Action Name="" ID="{EC755887-DE61-44FD-B584-6C2C09EDF07D}" ShortID="948340939">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_HoverboardEngine" ID="{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}">
+					<ChildrenList>
+						<Action Name="" ID="{340B3456-01CB-4503-B0AA-B998A66C3F8E}" ShortID="26840016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Drift" ID="{0109E49A-11FE-489F-B665-AB4B0998F778}">
+					<ChildrenList>
+						<Action Name="" ID="{F2C5A9CE-0E22-4D41-920E-9BB7AB62F4F9}" ShortID="682934985">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drift" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drift" ID="{046E5E13-E673-47D0-91BE-F25BD01EFCC1}">
+					<ChildrenList>
+						<Action Name="" ID="{914FE624-2B7E-4849-9601-A13E431E489E}" ShortID="197815623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drift" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
