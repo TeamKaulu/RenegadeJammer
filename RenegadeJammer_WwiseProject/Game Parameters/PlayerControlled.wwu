@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}" SchemaVersion="123" RootDocumentID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}" ParentDocumentID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}">
+	<GameParameters>
+		<WorkUnit Name="PlayerControlled" ID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}" OwnerID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Hoverboard" ID="{8E2D98BA-4E36-404E-B40B-4B5DC8CAB420}" ShortID="123145282">
+					<ChildrenList>
+						<GameParameter Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="340"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

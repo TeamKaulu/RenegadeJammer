@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "RenegadeJammer_WwiseProject",
+   "GUID": "{7CBE1BCC-9D3D-45A6-B103-D86A7619BC88}",
+   "Generator": "2024.1.2.8726"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{42656AE4-A062-411C-A67B-B9C40BB5DB17}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{1FFBB981-8D30-4634-94E0-01C511672112}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{0615566C-8F9B-46C4-B10D-676DD6251DB6}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{E1DA55CC-BAF4-359F-EBD6-AB803E32492D}"
+ }
+}

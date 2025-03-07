@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="PlayerEvents" ID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
