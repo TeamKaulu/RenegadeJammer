@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D740576-D71D-4BED-82F6-6014C2D05123}" SchemaVersion="123" RootDocumentID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}" ParentDocumentID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}">
+	<SoundBanks>
+		<WorkUnit Name="MusicSB" ID="{0D740576-D71D-4BED-82F6-6014C2D05123}" OwnerID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Level1" ID="{5FEC579A-307C-431B-BF65-28F440CFE99F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Level1Music" ID="{6519EBD6-84DE-4151-9948-A480196D7CCF}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Level1Music" ID="{170F632A-5CB6-4FAD-89FB-88AF7E75CC85}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

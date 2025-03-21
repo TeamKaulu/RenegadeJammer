@@ -1,0 +1,66 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2678230382",
+    "Type": "User",
+    "GUID": "{5FEC579A-307C-431B-BF65-28F440CFE99F}",
+    "Language": "SFX",
+    "Hash": "{63B67FF2-5E6D-93A0-D2B2-411E2248836E}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB\\Level1",
+    "ShortName": "Level1",
+    "Path": "Level1.bnk",
+    "Media": [
+     {
+      "Id": "6757402",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RJMusicLevel1_Intro.wav",
+      "CachePath": "55/{5565D0BC-637E-606C-3652-5EE79D408D1A}.wem"
+     },
+     {
+      "Id": "774268289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RJMusicLevel1_Loop.wav",
+      "CachePath": "02/{02B07E9E-DBE7-CC1E-7D80-FD202B13DB2A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3605952550",
+      "Name": "Play_Level1Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Level1\\Play_Level1Music",
+      "GUID": "{6519EBD6-84DE-4151-9948-A480196D7CCF}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "6757402"
+       },
+       {
+        "Id": "774268289"
+       }
+      ]
+     },
+     {
+      "Id": "698863348",
+      "Name": "Stop_Level1Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Level1\\Stop_Level1Music",
+      "GUID": "{170F632A-5CB6-4FAD-89FB-88AF7E75CC85}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FAD3796E-2F5F-3CF4-6994-9008CC4122CD}"
+ }
+}

@@ -13,6 +13,18 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="States" ID="{333D2BDC-0318-4F49-8449-29B53C17D679}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SHOT_PunchHit" ID="{5C7EE1B3-F15E-4052-B6DF-3EF5E093ACB7}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SHOT_Hit" ID="{A281313D-8C9F-41CC-A4E0-EF3251ED1B2D}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SHOT_BurnHit" ID="{4CA22BB3-2A41-423D-AB1B-3E9466911C7C}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SHOT_ObjectHit" ID="{C1D028A7-8D2A-4A51-A514-0CACFA82679D}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SHOT_GreenObjectHit" ID="{3FD016BE-DD28-4E3C-87FB-DE8ECEF709F8}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WindImpulse" ID="{386DB68E-CA12-4F23-B77C-E4E5448C3063}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

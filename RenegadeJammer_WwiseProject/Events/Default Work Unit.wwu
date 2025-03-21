@@ -4,6 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PlayerEvents" ID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" PersistMode="Reference"/>
+				<WorkUnit Name="ObjectsEvents" ID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" PersistMode="Reference"/>
+				<WorkUnit Name="MusicEvents" ID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

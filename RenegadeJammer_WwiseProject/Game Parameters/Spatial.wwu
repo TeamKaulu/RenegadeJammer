@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD564179-F3D1-4FEF-9B31-6D94930471A5}" SchemaVersion="123" RootDocumentID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}" ParentDocumentID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}">
+	<GameParameters>
+		<WorkUnit Name="Spatial" ID="{CD564179-F3D1-4FEF-9B31-6D94930471A5}" OwnerID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Map1Zone3" ID="{5F3F2EB0-5B84-4E83-88A9-0FA3A98DF0CD}" ShortID="485221296">
+					<ChildrenList>
+						<GameParameter Name="DistanceFromFan" ID="{2C62AB0E-938B-4782-8250-8DB75A9C663E}">
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="VerticalSpeed" ID="{055E3708-B015-43D1-89A4-DF1A2CA77708}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="200"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

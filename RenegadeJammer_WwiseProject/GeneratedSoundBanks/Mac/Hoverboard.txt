@@ -1,8 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	275715425	Stop_Drift			\Default Work Unit\PlayerEvents\Stop_Drift	
-	995328048	Stop_HoverboardEngine			\Default Work Unit\PlayerEvents\Stop_HoverboardEngine	
-	2184182942	Play_HoverboardEngine			\Default Work Unit\PlayerEvents\Play_HoverboardEngine	
-	4176759311	Play_Drift			\Default Work Unit\PlayerEvents\Play_Drift	
+	275715425	Stop_Drift			\Default Work Unit\PlayerEvents\PlayerControlled\Stop_Drift	
+	995328048	Stop_HoverboardEngine			\Default Work Unit\PlayerEvents\PlayerControlled\Stop_HoverboardEngine	
+	2184182942	Play_HoverboardEngine			\Default Work Unit\PlayerEvents\PlayerControlled\Play_HoverboardEngine	
+	4176759311	Play_Drift			\Default Work Unit\PlayerEvents\PlayerControlled\Play_Drift	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Default Work Unit\PlayerControlled\Hoverboard\Speed	

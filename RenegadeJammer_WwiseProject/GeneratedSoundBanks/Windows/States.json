@@ -1,0 +1,366 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1208172739",
+    "Type": "User",
+    "GUID": "{333D2BDC-0318-4F49-8449-29B53C17D679}",
+    "Language": "SFX",
+    "Hash": "{87208A5A-99ED-7804-C29D-38CADC1551B5}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\States",
+    "ShortName": "States",
+    "Path": "States.bnk",
+    "Media": [
+     {
+      "Id": "15384653",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SHOT_PunchHit.wav",
+      "CachePath": "CD/{CD9E85E8-59F7-8001-4DDC-8BA8A4C69D81}.wem"
+     },
+     {
+      "Id": "57318376",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-008.wav",
+      "CachePath": "73/{7343BB31-EED1-FC0D-197D-AF30917569ED}.wem"
+     },
+     {
+      "Id": "158227192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-007.wav",
+      "CachePath": "EB/{EB719178-63FD-AE98-61A7-1B4374998CEF}.wem"
+     },
+     {
+      "Id": "278452142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-002.wav",
+      "CachePath": "F2/{F20BA457-A1DC-1342-9A09-F48BC2AD020B}.wem"
+     },
+     {
+      "Id": "286020316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SHOT_BurnHit.wav",
+      "CachePath": "6A/{6A425572-89F9-AD15-3B8F-2AB427192E40}.wem"
+     },
+     {
+      "Id": "337880302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-006.wav",
+      "CachePath": "34/{340C98E1-9897-9C00-74DE-000C37767F3D}.wem"
+     },
+     {
+      "Id": "368213517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SHOT_ObjectHit.wav",
+      "CachePath": "56/{566091F4-55CD-5177-2DC1-EE14CB0590CA}.wem"
+     },
+     {
+      "Id": "409283814",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-013.wav",
+      "CachePath": "78/{78DC3000-4DC4-2769-1194-005818A8C7A4}.wem"
+     },
+     {
+      "Id": "410268727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-001.wav",
+      "CachePath": "D0/{D04E9E85-A304-9573-09F8-DE98A7B02E5E}.wem"
+     },
+     {
+      "Id": "429911330",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-004.wav",
+      "CachePath": "E6/{E6088B89-387D-858F-A7DC-DD5DB1BDDE3A}.wem"
+     },
+     {
+      "Id": "543731436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-010.wav",
+      "CachePath": "4A/{4A20D181-DE7B-4C3C-3AA0-0ABDFE276AA1}.wem"
+     },
+     {
+      "Id": "632201984",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-009.wav",
+      "CachePath": "87/{877902BF-21F8-3AEA-2CD9-04ADF4EC452F}.wem"
+     },
+     {
+      "Id": "733616993",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-003.wav",
+      "CachePath": "F1/{F177B563-DB6E-5624-A94F-F5846AACDC18}.wem"
+     },
+     {
+      "Id": "764711818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-011.wav",
+      "CachePath": "83/{839EB8CA-CF1C-1387-6B91-B4BCE2FBBA99}.wem"
+     },
+     {
+      "Id": "790456397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-000.wav",
+      "CachePath": "0A/{0AA6E0CB-5189-9174-F904-84CB390F947A}.wem"
+     },
+     {
+      "Id": "884177862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-005.wav",
+      "CachePath": "A2/{A20F7FBE-598D-9273-7DE8-27F630ADC0F8}.wem"
+     },
+     {
+      "Id": "1017454771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BLSP_WindImpulse-012.wav",
+      "CachePath": "C5/{C5F4D477-B669-5B6A-BC29-F6DA340960F0}.wem"
+     },
+     {
+      "Id": "1025909049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SHOT_Hit.wav",
+      "CachePath": "EF/{EFB2AE39-D02D-7480-9DBD-D833331398C2}.wem"
+     },
+     {
+      "Id": "1040877171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SHOT_GreenObjectHit.wav",
+      "CachePath": "F2/{F29BEE9F-7445-9B1C-C34A-E3A975E8788C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "275215017",
+      "Name": "Play_SHOT_BurnHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Play_SHOT_BurnHit",
+      "GUID": "{EFE05BDE-CEE9-47E7-BE61-2E963CA475A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "3",
+      "MediaRefs": [
+       {
+        "Id": "286020316"
+       }
+      ]
+     },
+     {
+      "Id": "2602221866",
+      "Name": "Play_SHOT_GreenObjectHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Play_SHOT_GreenObjectHit",
+      "GUID": "{532863EF-E05C-4683-A946-352EA3AF3D21}",
+      "DurationType": "OneShot",
+      "DurationMin": "10",
+      "DurationMax": "10",
+      "MediaRefs": [
+       {
+        "Id": "1040877171"
+       }
+      ]
+     },
+     {
+      "Id": "3528827452",
+      "Name": "Play_SHOT_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Play_SHOT_Hit",
+      "GUID": "{84E42BD6-C00C-4EFC-9ADB-64B9194ACAAE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.5",
+      "MediaRefs": [
+       {
+        "Id": "1025909049"
+       }
+      ]
+     },
+     {
+      "Id": "1937847247",
+      "Name": "Play_SHOT_ObjectHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Play_SHOT_ObjectHit",
+      "GUID": "{B3216E96-CA06-4607-83C8-24060A3E0859}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5",
+      "DurationMax": "2.5",
+      "MediaRefs": [
+       {
+        "Id": "368213517"
+       }
+      ]
+     },
+     {
+      "Id": "3916878806",
+      "Name": "Play_SHOT_PunchHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Play_SHOT_PunchHit",
+      "GUID": "{385B656E-4D65-4237-83BF-09280F1C3D05}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8809977",
+      "DurationMax": "0.8809977",
+      "MediaRefs": [
+       {
+        "Id": "15384653"
+       }
+      ]
+     },
+     {
+      "Id": "4230896237",
+      "Name": "Play_WindImpulse",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Play_WindImpulse",
+      "GUID": "{061AB3FA-51FD-468D-9F17-B6099E03C104}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "57318376"
+       },
+       {
+        "Id": "158227192"
+       },
+       {
+        "Id": "278452142"
+       },
+       {
+        "Id": "337880302"
+       },
+       {
+        "Id": "409283814"
+       },
+       {
+        "Id": "410268727"
+       },
+       {
+        "Id": "429911330"
+       },
+       {
+        "Id": "543731436"
+       },
+       {
+        "Id": "632201984"
+       },
+       {
+        "Id": "733616993"
+       },
+       {
+        "Id": "764711818"
+       },
+       {
+        "Id": "790456397"
+       },
+       {
+        "Id": "884177862"
+       },
+       {
+        "Id": "1017454771"
+       }
+      ]
+     },
+     {
+      "Id": "1303174779",
+      "Name": "Stop_WindImpulse",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\States\\Stop_WindImpulse",
+      "GUID": "{1FDAD456-34FF-450B-82F1-5F83412581C4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "57318376"
+       },
+       {
+        "Id": "158227192"
+       },
+       {
+        "Id": "278452142"
+       },
+       {
+        "Id": "337880302"
+       },
+       {
+        "Id": "409283814"
+       },
+       {
+        "Id": "410268727"
+       },
+       {
+        "Id": "429911330"
+       },
+       {
+        "Id": "543731436"
+       },
+       {
+        "Id": "632201984"
+       },
+       {
+        "Id": "733616993"
+       },
+       {
+        "Id": "764711818"
+       },
+       {
+        "Id": "790456397"
+       },
+       {
+        "Id": "884177862"
+       },
+       {
+        "Id": "1017454771"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "901888628",
+      "Name": "VerticalSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Spatial\\Map1Zone3\\VerticalSpeed",
+      "GUID": "{055E3708-B015-43D1-89A4-DF1A2CA77708}"
+     },
+     {
+      "Id": "1780787007",
+      "Name": "DistanceFromFan",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Spatial\\Map1Zone3\\DistanceFromFan",
+      "GUID": "{2C62AB0E-938B-4782-8250-8DB75A9C663E}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9B4BAF26-840E-6317-A0B3-84AD795E75BC}"
+ }
+}

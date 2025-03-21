@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{209A0503-445E-491C-8B99-C6FFBED161F2}",
     "Language": "SFX",
-    "Hash": "{EB1954F6-3642-40C0-029B-E84E8051A5A9}",
+    "Hash": "{470A4257-3BCF-2077-D72C-7EC6FCB08022}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\Hoverboard",
     "ShortName": "Hoverboard",
     "Path": "Hoverboard.bnk",
@@ -156,7 +156,7 @@
      {
       "Id": "4176759311",
       "Name": "Play_Drift",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Play_Drift",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Play_Drift",
       "GUID": "{046E5E13-E673-47D0-91BE-F25BD01EFCC1}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -171,7 +171,7 @@
      {
       "Id": "2184182942",
       "Name": "Play_HoverboardEngine",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Play_HoverboardEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Play_HoverboardEngine",
       "GUID": "{08D5B0F1-B236-48A2-90F5-2AB08E14EBE5}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -225,7 +225,7 @@
      {
       "Id": "275715425",
       "Name": "Stop_Drift",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Stop_Drift",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Stop_Drift",
       "GUID": "{0109E49A-11FE-489F-B665-AB4B0998F778}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -235,7 +235,7 @@
      {
       "Id": "995328048",
       "Name": "Stop_HoverboardEngine",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\Stop_HoverboardEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Stop_HoverboardEngine",
       "GUID": "{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -253,6 +253,6 @@
     ]
    }
   ],
-  "FileHash": "{A95CD3CF-5303-01D5-78E5-8C08EE31FAF9}"
+  "FileHash": "{F4791686-21BC-3EA9-55FC-90D8E5B9F783}"
  }
 }

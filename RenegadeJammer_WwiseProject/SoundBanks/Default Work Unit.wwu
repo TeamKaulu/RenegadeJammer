@@ -4,6 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PlayerSB" ID="{1CAD4B5A-4D1C-46FB-951C-455CE32005E1}" PersistMode="Reference"/>
+				<WorkUnit Name="ObjectsSB" ID="{30CE414E-B9E3-404B-9EAC-D0F88F93F22D}" PersistMode="Reference"/>
+				<WorkUnit Name="MusicSB" ID="{0D740576-D71D-4BED-82F6-6014C2D05123}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

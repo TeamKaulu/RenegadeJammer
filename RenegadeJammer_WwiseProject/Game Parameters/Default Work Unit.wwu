@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{3D8D70B8-6772-46BD-9F57-16D3113FF53B}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PlayerControlled" ID="{2DE26FD1-1088-40CA-BCA6-A3EB11A0DDDE}" PersistMode="Reference"/>
+				<WorkUnit Name="Spatial" ID="{CD564179-F3D1-4FEF-9B31-6D94930471A5}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
