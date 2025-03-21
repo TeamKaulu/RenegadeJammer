@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F03D7BDF-C892-ACFB-E8AA-F0B0A9EFCAA0}",
+    "Hash": "{0CA26A82-6C8E-26D2-F00B-CFC11F60F7B5}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,10 +48,22 @@
       "Name": "Speed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerControlled\\Hoverboard\\Speed",
       "GUID": "{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}"
+     },
+     {
+      "Id": "901888628",
+      "Name": "VerticalSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Spatial\\Map1Zone3\\VerticalSpeed",
+      "GUID": "{055E3708-B015-43D1-89A4-DF1A2CA77708}"
+     },
+     {
+      "Id": "1780787007",
+      "Name": "DistanceFromFan",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Spatial\\Map1Zone3\\DistanceFromFan",
+      "GUID": "{2C62AB0E-938B-4782-8250-8DB75A9C663E}"
      }
     ]
    }
   ],
-  "FileHash": "{31E8CE1E-87E0-3779-B32C-8B1A2BE5EA79}"
+  "FileHash": "{7A57DC60-5097-42AA-AB16-6D9628C3EEAD}"
  }
 }

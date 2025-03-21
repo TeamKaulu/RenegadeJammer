@@ -6,6 +6,13 @@
 				<Folder Name="Hoverboard" ID="{CAC8AE8F-058F-49FA-81E9-553AA2075D2B}" ShortID="592419474">
 					<ChildrenList>
 						<BlendContainer Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" ShortID="888916629">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
@@ -450,16 +457,16 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="Engine-005" ID="{823D63EA-83C8-4B40-BE4F-BAD521F1E21C}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>124.224434457798</LeftEdgePos>
+												<LeftEdgePos>124.496661319987</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>185.454545454545</RightEdgePos>
+												<RightEdgePos>185.726772316734</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Engine-006" ID="{58075E4F-90DD-46BF-850B-A4F8F97F17A4}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>155.133525366889</LeftEdgePos>
+												<LeftEdgePos>168.431305536568</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>216.363636363636</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -577,8 +584,8 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>199.31035</XPos>
-																				<YPos>1462</YPos>
+																				<XPos>219.76148</XPos>
+																				<YPos>-87</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -645,13 +652,12 @@
 						<RandomSequenceContainer Name="Drift" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" ShortID="443482780">
 							<PropertyList>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -723,6 +729,679 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="States" ID="{7CD56A55-168B-4823-BF6B-FA6E068954D8}" ShortID="470003094">
+					<ChildrenList>
+						<BlendContainer Name="WindImpulse" ID="{386DB68E-CA12-4F23-B77C-E4E5448C3063}" ShortID="544712824">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BLSP_WindImpulse-000" ID="{EBB368BC-0B7B-4D06-A12B-5B77EC3C3BEC}" ShortID="881820612">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-000" ID="{0E361C7F-CA18-49A1-A7A8-8AFC0199258B}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-000.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="790456397"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-000" ID="{0E361C7F-CA18-49A1-A7A8-8AFC0199258B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-001" ID="{CE383D8A-5C3D-4736-AD7C-380E6A72F85C}" ShortID="669423800">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-001" ID="{18EF2E01-F496-496E-B91C-214527CD06C4}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="410268727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-001" ID="{18EF2E01-F496-496E-B91C-214527CD06C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-002" ID="{B688BEFE-E2B1-42ED-A808-9FB61CCB5096}" ShortID="215623695">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-002" ID="{56E49F0A-8277-4A35-B392-60E68C12F11F}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="278452142"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-002" ID="{56E49F0A-8277-4A35-B392-60E68C12F11F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-003" ID="{ABE60B85-BD0C-4EA1-93A0-4E220EF79EA8}" ShortID="785919012">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-003" ID="{43B39C23-811E-4AD7-866D-256C758393D0}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733616993"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-003" ID="{43B39C23-811E-4AD7-866D-256C758393D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-004" ID="{5A2C2BA8-C36E-46E9-9F47-E4C10DEA82E5}" ShortID="672255689">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-004" ID="{24036F04-486E-4E72-8EE5-C105D4A989BD}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="429911330"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-004" ID="{24036F04-486E-4E72-8EE5-C105D4A989BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-005" ID="{9C8AC871-0864-4B6F-A5DA-EE48DD8AA110}" ShortID="403425390">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-005" ID="{FA02E929-8420-4544-8CB6-B69FEB248800}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884177862"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-005" ID="{FA02E929-8420-4544-8CB6-B69FEB248800}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-006" ID="{815CA820-1370-4257-B3F5-55F4446AC454}" ShortID="904165848">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-006" ID="{F525F7A8-663B-4B71-A643-7A8E6B33EC71}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337880302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-006" ID="{F525F7A8-663B-4B71-A643-7A8E6B33EC71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-007" ID="{D6576F49-B462-445C-9D38-3F11D0F03EED}" ShortID="144988873">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-007" ID="{161315B9-5388-4C10-9913-36E1A3616F6A}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="158227192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-007" ID="{161315B9-5388-4C10-9913-36E1A3616F6A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-008" ID="{8DC42084-CFEE-4A77-A448-D74BC2EB200D}" ShortID="339109318">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-008" ID="{92D27DA0-CD2F-4613-B1E5-25609EAA8C80}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="57318376"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-008" ID="{92D27DA0-CD2F-4613-B1E5-25609EAA8C80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-009" ID="{F01B0067-5169-4D48-B48D-0907C55815AE}" ShortID="162140361">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-009" ID="{294F9707-B4E3-4124-A363-1A78F2F7F33C}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="632201984"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-009" ID="{294F9707-B4E3-4124-A363-1A78F2F7F33C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-010" ID="{395F52BB-B3C6-41E2-A030-11CBBD5AF481}" ShortID="187974862">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-010" ID="{A1083D45-AEA4-44A5-AEFF-8F54DBBA8288}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="543731436"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-010" ID="{A1083D45-AEA4-44A5-AEFF-8F54DBBA8288}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-011" ID="{7E14F39C-B06A-4B49-A1ED-35C9700E85A6}" ShortID="337689913">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-011" ID="{C6305BF8-6EB5-461C-BF0D-6E9E24D37DBD}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764711818"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-011" ID="{C6305BF8-6EB5-461C-BF0D-6E9E24D37DBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-012" ID="{CD5455D9-4CF9-4124-88F5-4972A3DC594B}" ShortID="232448625">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-012" ID="{4A94736A-9F45-4BF9-A22E-E152C82BE79A}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017454771"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-012" ID="{4A94736A-9F45-4BF9-A22E-E152C82BE79A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BLSP_WindImpulse-013" ID="{67CF9D04-0DBC-4A34-9E43-1C7AACDA7C45}" ShortID="17189669">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BLSP_WindImpulse-013" ID="{45C38C98-2319-4834-BE2C-242EB9D979AC}">
+											<Language>SFX</Language>
+											<AudioFile>BLSP_WindImpulse-013.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409283814"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BLSP_WindImpulse-013" ID="{45C38C98-2319-4834-BE2C-242EB9D979AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="WindImpulseBlend" ID="{C12FF96A-F85C-473E-A422-8A8E83E5298A}" ShortID="271750365">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="VerticalSpeed" ID="{055E3708-B015-43D1-89A4-DF1A2CA77708}" WorkUnitID="{CD564179-F3D1-4FEF-9B31-6D94930471A5}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{AE684952-F78C-4984-8AF7-95B004F9BFF9}" ShortID="386590465">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="DistanceFromFan" ID="{2C62AB0E-938B-4782-8250-8DB75A9C663E}" WorkUnitID="{CD564179-F3D1-4FEF-9B31-6D94930471A5}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{E85C2000-6797-49B0-BBED-C0906D938238}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>716.394716394716</XPos>
+																				<YPos>-0.100949731173686</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1000</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-000" ID="{EBB368BC-0B7B-4D06-A12B-5B77EC3C3BEC}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>14.2857142857143</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-001" ID="{CE383D8A-5C3D-4736-AD7C-380E6A72F85C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>2.50276854928018</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>28.5714285714286</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-002" ID="{B688BEFE-E2B1-42ED-A808-9FB61CCB5096}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>14.2857142857143</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>42.8571428571429</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-003" ID="{ABE60B85-BD0C-4EA1-93A0-4E220EF79EA8}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>28.5714285714286</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>57.1428571428571</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-004" ID="{5A2C2BA8-C36E-46E9-9F47-E4C10DEA82E5}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>42.8571428571429</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>71.4285714285714</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-005" ID="{9C8AC871-0864-4B6F-A5DA-EE48DD8AA110}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>57.1428571428571</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>85.7142857142857</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-006" ID="{815CA820-1370-4257-B3F5-55F4446AC454}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>71.4507198228128</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-007" ID="{D6576F49-B462-445C-9D38-3F11D0F03EED}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>85.7142857142857</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>114.285714285714</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-008" ID="{8DC42084-CFEE-4A77-A448-D74BC2EB200D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>100</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>128.571428571429</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-009" ID="{F01B0067-5169-4D48-B48D-0907C55815AE}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>114.285714285714</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>142.857142857143</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-010" ID="{395F52BB-B3C6-41E2-A030-11CBBD5AF481}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>128.571428571429</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>157.142857142857</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-011" ID="{7E14F39C-B06A-4B49-A1ED-35C9700E85A6}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>142.857142857143</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>171.428571428571</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-012" ID="{CD5455D9-4CF9-4124-88F5-4972A3DC594B}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>157.142857142857</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>185.714285714286</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="BLSP_WindImpulse-013" ID="{67CF9D04-0DBC-4A34-9E43-1C7AACDA7C45}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>171.428571428571</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+												<RightEdgePos>200</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<Sound Name="SHOT_Hit" ID="{A281313D-8C9F-41CC-A4E0-EF3251ED1B2D}" ShortID="891037683">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SHOT_Hit" ID="{36875CD5-255E-4395-ADA6-ECEBB4045799}">
+									<Language>SFX</Language>
+									<AudioFile>SHOT_Hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1025909049"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SHOT_Hit" ID="{36875CD5-255E-4395-ADA6-ECEBB4045799}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SHOT_GreenObjectHit" ID="{3FD016BE-DD28-4E3C-87FB-DE8ECEF709F8}" ShortID="831738189">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SHOT_GreenObjectHit" ID="{843B5382-F4F4-416F-89AA-A18090966C29}">
+									<Language>SFX</Language>
+									<AudioFile>SHOT_GreenObjectHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040877171"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SHOT_GreenObjectHit" ID="{843B5382-F4F4-416F-89AA-A18090966C29}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SHOT_ObjectHit" ID="{C1D028A7-8D2A-4A51-A514-0CACFA82679D}" ShortID="737708286">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SHOT_ObjectHit" ID="{8137B76A-6A88-4E62-B853-DFF093455BFB}">
+									<Language>SFX</Language>
+									<AudioFile>SHOT_ObjectHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="368213517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SHOT_ObjectHit" ID="{8137B76A-6A88-4E62-B853-DFF093455BFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SHOT_PunchHit" ID="{5C7EE1B3-F15E-4052-B6DF-3EF5E093ACB7}" ShortID="453763347">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SHOT_PunchHit" ID="{4C345A31-8554-4176-95E8-1FA74CB9BFCF}">
+									<Language>SFX</Language>
+									<AudioFile>SHOT_PunchHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="15384653"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SHOT_PunchHit" ID="{4C345A31-8554-4176-95E8-1FA74CB9BFCF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SHOT_BurnHit" ID="{4CA22BB3-2A41-423D-AB1B-3E9466911C7C}" ShortID="887183525">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SHOT_BurnHit" ID="{069FA0C9-1482-494E-A2FB-16A2D2122250}">
+									<Language>SFX</Language>
+									<AudioFile>SHOT_BurnHit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="286020316"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SHOT_BurnHit" ID="{069FA0C9-1482-494E-A2FB-16A2D2122250}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

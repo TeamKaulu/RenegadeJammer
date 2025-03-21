@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3419961242	Play_LOOP_Fan			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_LOOP_Fan	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	880682140	LOOP_Fan	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\60\{60F15E49-7672-BEA9-8584-A459A08BD7F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\LOOP_Fan		1056764
+

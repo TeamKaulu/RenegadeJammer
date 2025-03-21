@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30CE414E-B9E3-404B-9EAC-D0F88F93F22D}" SchemaVersion="123" RootDocumentID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}" ParentDocumentID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}">
+	<SoundBanks>
+		<WorkUnit Name="ObjectsSB" ID="{30CE414E-B9E3-404B-9EAC-D0F88F93F22D}" OwnerID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Map1Zone1" ID="{54429D62-D3DE-4F0F-AAD6-ECCF9AFBC7D3}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Map1Zone2" ID="{D4BEAEB5-7940-4C90-8EB5-73DB035564CE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SHOT_Flamethrower2" ID="{BBB33985-EA0D-4385-9649-2A74CF8F8E22}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SHOT_Flamethrower1" ID="{4E394255-AB17-4B51-A89A-250D92CE7CF2}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Map1Zone3" ID="{7F62A4E5-D661-423D-8844-8163056272D4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_LOOP_Fan" ID="{2B5754B6-A4BD-4FA0-AA5D-59F548F3A7F1}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

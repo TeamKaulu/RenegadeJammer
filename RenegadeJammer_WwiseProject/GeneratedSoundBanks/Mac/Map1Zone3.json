@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2442673351",
+    "Type": "User",
+    "GUID": "{7F62A4E5-D661-423D-8844-8163056272D4}",
+    "Language": "SFX",
+    "Hash": "{565F643D-4B4F-ED36-0471-7AC7AC1B64F0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Map1Zone3",
+    "ShortName": "Map1Zone3",
+    "Path": "Map1Zone3.bnk",
+    "Media": [
+     {
+      "Id": "880682140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "LOOP_Fan.wav",
+      "CachePath": "60/{60F15E49-7672-BEA9-8584-A459A08BD7F9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3419961242",
+      "Name": "Play_LOOP_Fan",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Play_LOOP_Fan",
+      "GUID": "{2B5754B6-A4BD-4FA0-AA5D-59F548F3A7F1}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "880682140"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AEB3F7F9-F916-7179-B471-F47177D84609}"
+ }
+}

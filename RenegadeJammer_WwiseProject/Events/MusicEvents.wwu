@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" SchemaVersion="123" RootDocumentID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" ParentDocumentID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}">
+	<Events>
+		<WorkUnit Name="MusicEvents" ID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" OwnerID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Level1" ID="{6CC2FF3B-8E23-42E7-83DC-94BCD897B1AD}" ShortID="944248358">
+					<ChildrenList>
+						<Event Name="Play_Level1Music" ID="{6519EBD6-84DE-4151-9948-A480196D7CCF}">
+							<ChildrenList>
+								<Action Name="" ID="{129852EB-1698-4280-BD1E-AA715C70035F}" ShortID="824936479">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1Music" ID="{42757469-4B24-40D5-88EE-74FC12F2F175}" WorkUnitID="{28387217-D6D4-4F75-BB9F-8E7F372ACE33}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level1Music" ID="{170F632A-5CB6-4FAD-89FB-88AF7E75CC85}">
+							<ChildrenList>
+								<Action Name="" ID="{3BB74002-3AFF-403F-A70A-49452138B007}" ShortID="283715742">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level1Music" ID="{42757469-4B24-40D5-88EE-74FC12F2F175}" WorkUnitID="{28387217-D6D4-4F75-BB9F-8E7F372ACE33}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

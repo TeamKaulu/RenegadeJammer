@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2442673349",
+    "Type": "User",
+    "GUID": "{54429D62-D3DE-4F0F-AAD6-ECCF9AFBC7D3}",
+    "Language": "SFX",
+    "Hash": "{571967CC-4595-13E9-C464-F8A80D7E8CDF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Map1Zone1",
+    "ShortName": "Map1Zone1",
+    "Path": "Map1Zone1.bnk"
+   }
+  ],
+  "FileHash": "{5009D889-174B-1DC7-D6E5-D14A5A840BBE}"
+ }
+}

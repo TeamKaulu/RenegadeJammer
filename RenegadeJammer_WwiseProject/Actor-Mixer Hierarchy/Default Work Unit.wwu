@@ -4,6 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PlayerFX" ID="{D487E6EB-9DAA-415F-9438-B362017197F5}" PersistMode="Reference"/>
+				<WorkUnit Name="ObjectsFX" ID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{28387217-D6D4-4F75-BB9F-8E7F372ACE33}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
