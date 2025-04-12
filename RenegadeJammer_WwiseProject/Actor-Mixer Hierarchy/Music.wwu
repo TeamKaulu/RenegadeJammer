@@ -64,10 +64,13 @@
 									<ChildrenList>
 										<AudioFileSource Name="RJMusicLevel1_Loop" ID="{EEAB89DB-C6EC-43CE-B318-393BFA0D9396}">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 											<PropertyList>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 											<Language>SFX</Language>
 											<AudioFile>RJMusicLevel1_Loop.wav</AudioFile>
