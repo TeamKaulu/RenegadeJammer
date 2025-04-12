@@ -10,7 +10,15 @@
     "Type": "User",
     "GUID": "{209A0503-445E-491C-8B99-C6FFBED161F2}",
     "Language": "SFX",
+<<<<<<< Updated upstream
     "Hash": "{470A4257-3BCF-2077-D72C-7EC6FCB08022}",
+=======
+<<<<<<< Updated upstream
+    "Hash": "{EB1954F6-3642-40C0-029B-E84E8051A5A9}",
+=======
+    "Hash": "{6743EBA3-4784-35CC-3330-DF0EDC82AEF4}",
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\Hoverboard",
     "ShortName": "Hoverboard",
     "Path": "Hoverboard.bnk",
@@ -120,12 +128,28 @@
       "CachePath": "7B/{7BA645C2-EF7C-1CB5-A255-54321D6A4988}.wem"
      },
      {
+      "Id": "775350580",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drift2_Begin.wav",
+      "CachePath": "FD/{FDD6272F-E515-3632-1F84-6431495D45CF}.wem"
+     },
+     {
       "Id": "821119433",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Air-001.wav",
       "CachePath": "A1/{A1A46173-C428-FC6A-3607-EDA60AB2B384}.wem"
+     },
+     {
+      "Id": "879127209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drift2_Loop.wav",
+      "CachePath": "BC/{BC0AC3CF-73C2-A21D-F784-B8D638E2C52C}.wem"
      },
      {
       "Id": "932733454",
@@ -162,6 +186,12 @@
       "MediaRefs": [
        {
         "Id": "577540629"
+       },
+       {
+        "Id": "775350580"
+       },
+       {
+        "Id": "879127209"
        },
        {
         "Id": "932733454"
@@ -253,6 +283,14 @@
     ]
    }
   ],
+<<<<<<< Updated upstream
   "FileHash": "{F4791686-21BC-3EA9-55FC-90D8E5B9F783}"
+=======
+<<<<<<< Updated upstream
+  "FileHash": "{A95CD3CF-5303-01D5-78E5-8C08EE31FAF9}"
+=======
+  "FileHash": "{868147D2-4988-C955-8FDC-60B1EC61FB3B}"
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
  }
 }

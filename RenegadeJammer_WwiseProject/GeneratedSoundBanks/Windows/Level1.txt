@@ -4,5 +4,9 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6757402	RJMusicLevel1_Intro	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\55\{5565D0BC-637E-606C-3652-5EE79D408D1A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Intro		3927048
+<<<<<<< Updated upstream
 	774268289	RJMusicLevel1_Loop	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\02\{02B07E9E-DBE7-CC1E-7D80-FD202B13DB2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Loop		16545200
+=======
+	774268289	RJMusicLevel1_Loop	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\FD\{FD738147-FB0E-907B-5B5D-ADE2821D2EF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Loop		16545200
+>>>>>>> Stashed changes
 

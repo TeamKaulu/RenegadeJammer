@@ -649,15 +649,25 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
-						<RandomSequenceContainer Name="Drift" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" ShortID="443482780">
+						<BlendContainer Name="Drift" ID="{F5755259-68CF-4E32-B8A6-A33FCC7F6EA9}" ShortID="363461030">
 							<PropertyList>
+<<<<<<< Updated upstream
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
+<<<<<<< Updated upstream
 										<Value>-20</Value>
+=======
+										<Value>-10</Value>
+=======
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -670,31 +680,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Drift_Begin" ID="{57DF7817-1976-455A-B880-02A2821A81F3}" ShortID="671562106">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Drift_Begin" ID="{5A7569DF-2085-4D27-99CA-9DEF08D0D9D5}">
-											<Language>SFX</Language>
-											<AudioFile>Drift_Begin.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="932733454"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Drift_Begin" ID="{5A7569DF-2085-4D27-99CA-9DEF08D0D9D5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Drift_Loop" ID="{5EA4DEEF-71B0-471B-846B-70F286488E3F}" ShortID="307080027">
+								<RandomSequenceContainer Name="Drift_01" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" ShortID="443482780">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-29</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -705,30 +701,148 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Drift_Loop" ID="{ECB7239F-1BA3-4221-A19C-C94312E30DF0}">
-											<Language>SFX</Language>
-											<AudioFile>Drift_Loop.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="577540629"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Drift_Begin" ID="{57DF7817-1976-455A-B880-02A2821A81F3}" ShortID="671562106">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drift_Begin" ID="{5A7569DF-2085-4D27-99CA-9DEF08D0D9D5}">
+													<Language>SFX</Language>
+													<AudioFile>Drift_Begin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="932733454"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drift_Begin" ID="{5A7569DF-2085-4D27-99CA-9DEF08D0D9D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Drift_Loop" ID="{5EA4DEEF-71B0-471B-846B-70F286488E3F}" ShortID="307080027">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drift_Loop" ID="{ECB7239F-1BA3-4221-A19C-C94312E30DF0}">
+													<Language>SFX</Language>
+													<AudioFile>Drift_Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="577540629"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drift_Loop" ID="{ECB7239F-1BA3-4221-A19C-C94312E30DF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Drift_Loop" ID="{ECB7239F-1BA3-4221-A19C-C94312E30DF0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Drift_Begin" ID="{57DF7817-1976-455A-B880-02A2821A81F3}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Drift_Loop" ID="{5EA4DEEF-71B0-471B-846B-70F286488E3F}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Drift_02" ID="{4BE6906E-3DA4-4041-BD8A-7A96D7DF89B2}" ShortID="175726935">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Drift2_Begin" ID="{689EE935-CEEA-4C9C-B192-BE56CAB53659}" ShortID="997785705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drift2_Begin" ID="{6066BCBD-3664-4EE9-B174-EC07F526134E}">
+													<Language>SFX</Language>
+													<AudioFile>Drift2_Begin.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="775350580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drift2_Begin" ID="{6066BCBD-3664-4EE9-B174-EC07F526134E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Drift2_Loop" ID="{A60173A1-AFEA-47C4-981E-2AB6A282EE87}" ShortID="941991804">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drift2_Loop" ID="{EC9E8326-5CDF-41C4-8C55-3D0A4308C14F}">
+													<Language>SFX</Language>
+													<AudioFile>Drift2_Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="879127209"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drift2_Loop" ID="{EC9E8326-5CDF-41C4-8C55-3D0A4308C14F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Drift2_Begin" ID="{689EE935-CEEA-4C9C-B192-BE56CAB53659}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Drift2_Loop" ID="{A60173A1-AFEA-47C4-981E-2AB6A282EE87}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Playlist">
-									<Reference>
-										<ObjectRef Name="Drift_Begin" ID="{57DF7817-1976-455A-B880-02A2821A81F3}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
-									</Reference>
-									<Reference>
-										<ObjectRef Name="Drift_Loop" ID="{5EA4DEEF-71B0-471B-846B-70F286488E3F}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</RandomSequenceContainer>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="States" ID="{7CD56A55-168B-4823-BF6B-FA6E068954D8}" ShortID="470003094">
