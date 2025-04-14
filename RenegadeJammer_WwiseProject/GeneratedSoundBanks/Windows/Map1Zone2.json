@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D4BEAEB5-7940-4C90-8EB5-73DB035564CE}",
     "Language": "SFX",
-    "Hash": "{BC8616BA-9699-9153-C4FE-D904B4234B58}",
+    "Hash": "{B9E6FFCE-C5C2-C9B0-9298-554EAF6B0886}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Map1Zone2",
     "ShortName": "Map1Zone2",
     "Path": "Map1Zone2.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SHOT_Flamethrower2.wav",
-      "CachePath": "81/{814E3A1D-DBA9-6109-38D3-77BD30F10072}.wem"
+      "CachePath": "B2/{B2DCF278-2455-0342-72E2-44877F2AD577}.wem"
      },
      {
       "Id": "685709047",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SHOT_Flamethrower1.wav",
-      "CachePath": "21/{21820670-78C9-84E2-F70F-488B5A02F404}.wem"
+      "CachePath": "43/{4308A010-FADA-4113-220D-263E227213EC}.wem"
      }
     ],
     "Events": [
@@ -66,6 +66,6 @@
     ]
    }
   ],
-  "FileHash": "{6DA0C913-067C-25F0-1DCB-3AC9A129A090}"
+  "FileHash": "{8D97D320-56C6-2F17-E414-22B27CEE5CED}"
  }
 }

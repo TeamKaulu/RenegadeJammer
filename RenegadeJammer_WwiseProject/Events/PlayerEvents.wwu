@@ -25,6 +25,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{DDCE9D4F-A96E-4ECD-A8A2-C2C07FF44870}" ShortID="568390397">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drift_01" ID="{FF93707C-2553-4212-BE50-24EB3A4B018E}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Stop_Drift" ID="{0109E49A-11FE-489F-B665-AB4B0998F778}">
@@ -36,6 +43,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Drift" ID="{12798E63-C8C4-43ED-85F2-EBE166EE32F3}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3745E1AB-037D-400C-A8FE-57C88E7AF66E}" ShortID="985472532">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drift_01" ID="{FF93707C-2553-4212-BE50-24EB3A4B018E}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -112,6 +129,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SHOT_GreenObjectHit" ID="{3FD016BE-DD28-4E3C-87FB-DE8ECEF709F8}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D9789C3-BEB5-4737-9C7C-100EE990D605}" ShortID="778110758">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SHOT_Boom" ID="{44BC0A83-C97E-49E4-98F9-6839874DF84D}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A1AD046-9F90-444A-831D-307E384CB6C5}" ShortID="770699024">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SHOT_Glass" ID="{BC185EBE-63C5-419D-8C90-C677B9ACF5F8}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
