@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	4095769995	Play_SHOT_Flamethrower2			\Default Work Unit\ObjectsEvents\Map1Zone2\Play_SHOT_Flamethrower2	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	384189277	SHOT_Flamethrower2	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\81\{814E3A1D-DBA9-6109-38D3-77BD30F10072}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone2\SHOT_Flamethrower2		352896
-	685709047	SHOT_Flamethrower1	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\21\{21820670-78C9-84E2-F70F-488B5A02F404}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone2\SHOT_Flamethrower1		529296
+	384189277	SHOT_Flamethrower2	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\B2\{B2DCF278-2455-0342-72E2-44877F2AD577}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone2\SHOT_Flamethrower2		352896
+	685709047	SHOT_Flamethrower1	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\43\{4308A010-FADA-4113-220D-263E227213EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone2\SHOT_Flamethrower1		529296
 
