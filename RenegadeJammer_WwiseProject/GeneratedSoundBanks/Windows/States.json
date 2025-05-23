@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{333D2BDC-0318-4F49-8449-29B53C17D679}",
     "Language": "SFX",
-    "Hash": "{023F4CA6-21D6-594B-701C-521ED93D6A72}",
+    "Hash": "{A8EDC9F9-8552-F9D2-10F2-3AD5D7DFDB0C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\States",
     "ShortName": "States",
     "Path": "States.bnk",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SHOT_Boom.wav",
-      "CachePath": "65/{651C263C-459E-989E-3BA0-B59686683751}.wem"
+      "CachePath": "7A/{7AF31082-DEEE-4F17-38A5-C0E51338B5AF}.wem"
      },
      {
       "Id": "884177862",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SHOT_GreenObjectHit.wav",
-      "CachePath": "C6/{C69D9252-A437-7F71-24CA-C4B1CC0E6EF6}.wem"
+      "CachePath": "5B/{5B8413C9-0BE0-3382-F872-3B9E728842AB}.wem"
      }
     ],
     "Events": [
@@ -383,6 +383,6 @@
     ]
    }
   ],
-  "FileHash": "{8897928F-9D8E-A5D7-04EE-ED41792CDC83}"
+  "FileHash": "{CC82555A-CA77-6C57-A9FE-CAAC171EA9B9}"
  }
 }
