@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{209A0503-445E-491C-8B99-C6FFBED161F2}",
     "Language": "SFX",
-    "Hash": "{48137682-2EFA-F364-D358-2CAC6AA37D53}",
+    "Hash": "{E1257E44-B9EB-2CC3-A23C-A9C43807F7BA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\Hoverboard",
     "ShortName": "Hoverboard",
     "Path": "Hoverboard.bnk",
@@ -275,6 +275,6 @@
     ]
    }
   ],
-  "FileHash": "{86107FB1-B3C9-A6E2-3524-7C2D0E7AAD3F}"
+  "FileHash": "{AAB4AFEC-9EDF-3F72-7776-C3A6C572E474}"
  }
 }
