@@ -57,6 +57,18 @@
 		{
 			"Name": "CommonUI",
 			"Enabled": true
+		},
+		{
+			"Name": "HttpBlueprint",
+			"Enabled": true
+		},
+		{
+			"Name": "HTTPChunkInstaller",
+			"Enabled": true
+		},
+		{
+			"Name": "SerializationUtils",
+			"Enabled": true
 		}
 	]
 }
