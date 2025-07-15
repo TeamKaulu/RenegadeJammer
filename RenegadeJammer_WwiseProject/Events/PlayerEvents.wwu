@@ -8,9 +8,20 @@
 						<Event Name="Play_HoverboardEngine" ID="{08D5B0F1-B236-48A2-90F5-2AB08E14EBE5}">
 							<ChildrenList>
 								<Action Name="" ID="{EC755887-DE61-44FD-B584-6C2C09EDF07D}" ShortID="948340939">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="0"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2A85B247-AEE6-47F0-A49A-629E4BB14C4B}" ShortID="353582896">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Engine_lit" ID="{38348771-8FC0-4763-B41C-600DF727CF4F}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -63,10 +74,23 @@
 								<Action Name="" ID="{340B3456-01CB-4503-B0AA-B998A66C3F8E}" ShortID="26840016">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F586CF6-D07F-4D34-93E9-A1A07B10E3A4}" ShortID="870580632">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Engine_unlit" ID="{99E6C4F7-EEDB-4653-861F-B09B08CFB874}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
