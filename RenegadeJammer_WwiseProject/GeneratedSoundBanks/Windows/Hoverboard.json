@@ -10,27 +10,11 @@
     "Type": "User",
     "GUID": "{209A0503-445E-491C-8B99-C6FFBED161F2}",
     "Language": "SFX",
-    "Hash": "{E1257E44-B9EB-2CC3-A23C-A9C43807F7BA}",
+    "Hash": "{81A06356-6052-1018-076C-4FE6556648D0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\Hoverboard",
     "ShortName": "Hoverboard",
     "Path": "Hoverboard.bnk",
     "Media": [
-     {
-      "Id": "94877223",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-009.wav",
-      "CachePath": "18/{183A7CC9-38B7-2DA0-6C4A-E97D9B767AB9}.wem"
-     },
-     {
-      "Id": "96770222",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-005.wav",
-      "CachePath": "48/{486CE684-E0AA-7824-26CC-1AFD4CFA28E4}.wem"
-     },
      {
       "Id": "151344550",
       "Language": "SFX",
@@ -40,60 +24,20 @@
       "CachePath": "66/{66A494EE-47A9-8C59-7F17-0DE869E442DD}.wem"
      },
      {
-      "Id": "218789267",
+      "Id": "152275161",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Engine-003.wav",
-      "CachePath": "DE/{DED734BD-D66E-7E22-43B7-7060C6C7F67B}.wem"
+      "ShortName": "Engine_loop_8.wav",
+      "CachePath": "C4/{C4F76E22-3B2A-B3E0-238F-D2A726F26327}.wem"
      },
      {
-      "Id": "324177290",
+      "Id": "166941993",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Engine-000.wav",
-      "CachePath": "22/{22FFE4CC-2BE4-65B1-FF97-3E9A02FDD655}.wem"
-     },
-     {
-      "Id": "332525592",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-006.wav",
-      "CachePath": "BD/{BDF69631-DDEF-F281-93F8-E463C7165083}.wem"
-     },
-     {
-      "Id": "372955990",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-010.wav",
-      "CachePath": "1A/{1A5DE6C1-D023-5C0B-C368-CBCBA874E498}.wem"
-     },
-     {
-      "Id": "435802985",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-001.wav",
-      "CachePath": "FC/{FCFE7DDF-096C-DF17-B8C4-66F3CBF22F59}.wem"
-     },
-     {
-      "Id": "454305394",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-002.wav",
-      "CachePath": "B5/{B5402674-3A7B-A468-614D-042D4E48D43A}.wem"
-     },
-     {
-      "Id": "461154160",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Engine-008.wav",
-      "CachePath": "4B/{4B0E1DAB-D3A1-3970-08C4-440C19DD4251}.wem"
+      "ShortName": "Engine_loop_3.wav",
+      "CachePath": "C7/{C73767B8-C7AF-13A1-5F82-A75C473DDD61}.wem"
      },
      {
       "Id": "537531097",
@@ -120,12 +64,12 @@
       "CachePath": "BF/{BF0EA8AE-38D2-7028-0655-DDCC87054597}.wem"
      },
      {
-      "Id": "728176368",
+      "Id": "600814062",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Engine-007.wav",
-      "CachePath": "7B/{7BA645C2-EF7C-1CB5-A255-54321D6A4988}.wem"
+      "ShortName": "Engine_loop_-2.wav",
+      "CachePath": "41/{41EEBDA7-3862-D3FD-6CC1-584BE8103BE5}.wem"
      },
      {
       "Id": "821119433",
@@ -144,6 +88,22 @@
       "CachePath": "BC/{BC0AC3CF-73C2-A21D-F784-B8D638E2C52C}.wem"
      },
      {
+      "Id": "868987448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine_lit.wav",
+      "CachePath": "49/{49D4C638-7A0F-142D-7F8E-634EAAF29A56}.wem"
+     },
+     {
+      "Id": "896777443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine_loop_6.wav",
+      "CachePath": "83/{836B5F6B-7E51-BB52-C184-3C1E0D1F4782}.wem"
+     },
+     {
       "Id": "932733454",
       "Language": "SFX",
       "Streaming": "false",
@@ -152,12 +112,28 @@
       "CachePath": "16/{165002F0-6008-6B71-7BC8-9BB26C955B63}.wem"
      },
      {
-      "Id": "1022475561",
+      "Id": "984585143",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Engine-004.wav",
-      "CachePath": "FC/{FCC058CC-B827-6A42-2EE0-0F9D8137EA1B}.wem"
+      "ShortName": "Engine_loop_10.wav",
+      "CachePath": "E7/{E7B68F13-11CD-2D05-FEF8-808C3B49B17F}.wem"
+     },
+     {
+      "Id": "1020001689",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine_unlit.wav",
+      "CachePath": "8A/{8A2EFA2F-18D6-B3DC-AF18-FE7EE9241316}.wem"
+     },
+     {
+      "Id": "1026114308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine_loop_0.wav",
+      "CachePath": "92/{921C28EC-73D7-9C6D-F720-054DF3820E3A}.wem"
      },
      {
       "Id": "1044760240",
@@ -191,6 +167,27 @@
       ]
      },
      {
+      "Id": "935067172",
+      "Name": "Play_HoverboardAir",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Play_HoverboardAir",
+      "GUID": "{3A03566F-3D5C-40E7-8851-CA31C4AE070D}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "151344550"
+       },
+       {
+        "Id": "584589149"
+       },
+       {
+        "Id": "821119433"
+       },
+       {
+        "Id": "1044760240"
+       }
+      ]
+     },
+     {
       "Id": "2184182942",
       "Name": "Play_HoverboardEngine",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Play_HoverboardEngine",
@@ -198,49 +195,25 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "94877223"
+        "Id": "152275161"
        },
        {
-        "Id": "96770222"
+        "Id": "166941993"
        },
        {
-        "Id": "151344550"
+        "Id": "600814062"
        },
        {
-        "Id": "218789267"
+        "Id": "868987448"
        },
        {
-        "Id": "324177290"
+        "Id": "896777443"
        },
        {
-        "Id": "332525592"
+        "Id": "984585143"
        },
        {
-        "Id": "372955990"
-       },
-       {
-        "Id": "435802985"
-       },
-       {
-        "Id": "454305394"
-       },
-       {
-        "Id": "461154160"
-       },
-       {
-        "Id": "584589149"
-       },
-       {
-        "Id": "728176368"
-       },
-       {
-        "Id": "821119433"
-       },
-       {
-        "Id": "1022475561"
-       },
-       {
-        "Id": "1044760240"
+        "Id": "1026114308"
        }
       ]
      },
@@ -255,14 +228,28 @@
       "DurationMax": "0"
      },
      {
-      "Id": "995328048",
-      "Name": "Stop_HoverboardEngine",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Stop_HoverboardEngine",
-      "GUID": "{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}",
+      "Id": "3007827002",
+      "Name": "Stop_HoverboardAir",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Stop_HoverboardAir",
+      "GUID": "{6DEE7A9B-6807-4DDD-A033-C0A32B237FFB}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "995328048",
+      "Name": "Stop_HoverboardEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Stop_HoverboardEngine",
+      "GUID": "{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1504989",
+      "DurationMax": "1.1504989",
+      "MediaRefs": [
+       {
+        "Id": "1020001689"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -275,6 +262,6 @@
     ]
    }
   ],
-  "FileHash": "{AAB4AFEC-9EDF-3F72-7776-C3A6C572E474}"
+  "FileHash": "{4B035D84-2097-75B9-D5A5-2261272B1001}"
  }
 }
