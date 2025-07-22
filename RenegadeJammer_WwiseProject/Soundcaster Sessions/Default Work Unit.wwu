@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{735F2AFD-4038-47EA-A532-A5C63DA038F0}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{735F2AFD-4038-47EA-A532-A5C63DA038F0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{735F2AFD-4038-47EA-A532-A5C63DA038F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="HoverboardTest" ID="{2BF207D9-6C4A-4FE6-866D-94670D2B7170}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="HoverboardAir" ID="{10505951-F986-49D1-AF8B-31BE396F09AA}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HoverboardEngine" ID="{08D5B0F1-B236-48A2-90F5-2AB08E14EBE5}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_HoverboardEngine" ID="{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Drift" ID="{046E5E13-E673-47D0-91BE-F25BD01EFCC1}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Drift" ID="{0109E49A-11FE-489F-B665-AB4B0998F778}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}"/>
+							<Value>276</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
