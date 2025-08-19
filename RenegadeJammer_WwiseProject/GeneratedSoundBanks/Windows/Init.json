@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{794D344E-0B18-01C1-9F79-5ECC55BACBD5}",
+    "Hash": "{6F40CFFA-A481-D667-375B-9DA243A0428E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -61,9 +61,99 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Spatial\\Map1Zone3\\DistanceFromFan",
       "GUID": "{2C62AB0E-938B-4782-8250-8DB75A9C663E}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3706475411",
+      "Name": "PlayerGameState",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState",
+      "GUID": "{83AD8F4F-8738-4F26-851D-D84CDC7D958B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\None",
+        "GUID": "{DF97960D-76D2-4FD4-A0D1-C401E2B6C186}"
+       },
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\Default",
+        "GUID": "{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"
+       },
+       {
+        "Id": "1859838552",
+        "Name": "LeftGreenBoost",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\LeftGreenBoost",
+        "GUID": "{72C4DB47-FF96-47E7-9961-172A4E001D82}"
+       },
+       {
+        "Id": "2170406393",
+        "Name": "UsingGreenBoost",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\UsingGreenBoost",
+        "GUID": "{2BD8AD96-7F92-4960-87D1-0CEC07EA5949}"
+       },
+       {
+        "Id": "2197986718",
+        "Name": "GameEnd",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\GameEnd",
+        "GUID": "{258AD771-05D4-4DFC-A72F-6809D6609432}"
+       },
+       {
+        "Id": "3482249177",
+        "Name": "GreenEnergyAchieved",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\GreenEnergyAchieved",
+        "GUID": "{087436B5-82E1-426B-9A8D-19FCE4A10650}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "149886247",
+      "Name": "ExitGreenBoost",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Polystratus\\ExitGreenBoost",
+      "GUID": "{16D2C8D8-B143-4B89-82E5-B67337792D3D}",
+      "Switches": []
+     },
+     {
+      "Id": "782826392",
+      "Name": "Default",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Polystratus\\Default",
+      "GUID": "{1F5FBA98-F88E-4A3F-8D4D-09674370DAE0}",
+      "Switches": []
+     },
+     {
+      "Id": "1142827054",
+      "Name": "BackToMainLoop",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Polystratus\\BackToMainLoop",
+      "GUID": "{BCA71F97-3B66-4ADF-B092-4E314C86ECDA}",
+      "Switches": []
+     },
+     {
+      "Id": "1257464028",
+      "Name": "MainLoop",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Polystratus\\MainLoop",
+      "GUID": "{F865B084-7B36-4739-B04F-ADD17C58DD3C}",
+      "Switches": []
+     },
+     {
+      "Id": "1575706535",
+      "Name": "GreenBoost",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Polystratus\\GreenBoost",
+      "GUID": "{48412952-4CCB-4F62-987A-D4182FEAEDC9}",
+      "Switches": []
+     },
+     {
+      "Id": "1807048538",
+      "Name": "GreenEnergy",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Polystratus\\GreenEnergy",
+      "GUID": "{D3F77AAE-506A-4C84-973B-12BA8B822A5D}",
+      "Switches": []
+     }
     ]
    }
   ],
-  "FileHash": "{E8BA73A9-45F3-AF88-091D-A2A68A58845F}"
+  "FileHash": "{9749441A-AB12-7792-1005-169A4F90F941}"
  }
 }

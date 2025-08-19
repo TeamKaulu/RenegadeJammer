@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3706475411	PlayerGameState			\Default Work Unit\PlayerGameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	PlayerGameState			
+	782826392	Default	PlayerGameState			
+	1859838552	LeftGreenBoost	PlayerGameState			
+	2170406393	UsingGreenBoost	PlayerGameState			
+	2197986718	GameEnd	PlayerGameState			
+	3482249177	GreenEnergyAchieved	PlayerGameState			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

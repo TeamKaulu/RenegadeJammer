@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5FEC579A-307C-431B-BF65-28F440CFE99F}",
     "Language": "SFX",
-    "Hash": "{5957A6CA-9033-1C53-90B9-34269B5F7786}",
+    "Hash": "{EA29252A-4E24-40D8-187C-B983A5557C06}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB\\Level1",
     "ShortName": "Level1",
     "Path": "Level1.bnk",
@@ -24,15 +24,113 @@
       "CachePath": "E2/{E252EF25-2759-37E3-D256-D284F07C25E2}.wem"
      },
      {
+      "Id": "310183909",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_MainLoop.wav",
+      "CachePath": "2F/{2F59EE3F-DF47-8C20-7138-D1ADB06BD93D}.wem"
+     },
+     {
+      "Id": "376594082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GreenEnergyLoop.wav",
+      "CachePath": "E2/{E2DECC80-3C50-0718-7C9A-C40024EA790B}.wem"
+     },
+     {
+      "Id": "418306016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_BackToMainLoop.wav",
+      "CachePath": "A7/{A7CDBB6C-9FA9-FBA7-55B3-118E5CD024D7}.wem"
+     },
+     {
+      "Id": "456771501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_TransitionToDrumLoop.wav",
+      "CachePath": "72/{724A6564-E4D5-DE2B-048A-86487BAB8B72}.wem"
+     },
+     {
+      "Id": "458253040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GreenEnergyCrash.wav",
+      "CachePath": "C3/{C37DA968-EFFA-4B8B-3422-37D3F729A0AE}.wem"
+     },
+     {
+      "Id": "513893476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_DrumSolo.wav",
+      "CachePath": "56/{56CA84E8-2DB9-31C3-378C-7F81422E67EF}.wem"
+     },
+     {
+      "Id": "567316227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_TransitionToGreenBoost.wav",
+      "CachePath": "CC/{CCF26299-640D-99BB-4E27-CEF5F12213D5}.wem"
+     },
+     {
+      "Id": "748866671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GreenBoost.wav",
+      "CachePath": "84/{849585FF-65FE-FD35-982B-0453B45F98B4}.wem"
+     },
+     {
       "Id": "774268289",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "RJMusicLevel1_Loop.wav",
       "CachePath": "7B/{7B08CA34-62FD-2D3E-4CA1-6DEC7CCC56A2}.wem"
+     },
+     {
+      "Id": "854735600",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_Intro.wav",
+      "CachePath": "78/{78F968FC-3BDF-7ED1-763C-8BDBE61DF067}.wem"
+     },
+     {
+      "Id": "906672076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_ToGreenEnergy_TransitionDefault.wav",
+      "CachePath": "1C/{1C7B0829-F6F0-FDFE-ADE2-187B300E4089}.wem"
+     },
+     {
+      "Id": "1027540700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GreenEnergyIntro.wav",
+      "CachePath": "76/{76720D6D-DBD2-AF41-31CA-81985B411C69}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "2286668937",
+      "Name": "Pause_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Pause_PolystratusSwitchContainer",
+      "GUID": "{B8B0078B-3374-43E3-800C-F712B7694E05}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
      {
       "Id": "3605952550",
       "Name": "Play_Level1Music",
@@ -49,6 +147,147 @@
       ]
      },
      {
+      "Id": "3147359859",
+      "Name": "Play_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Play_PolystratusSwitchContainer",
+      "GUID": "{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "456771501"
+       },
+       {
+        "Id": "458253040"
+       },
+       {
+        "Id": "567316227"
+       },
+       {
+        "Id": "906672076"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3706475411",
+         "Id": "782826392",
+         "GUID": "{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "310183909"
+         },
+         {
+          "Id": "418306016"
+         },
+         {
+          "Id": "513893476"
+         },
+         {
+          "Id": "854735600"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3706475411",
+         "Id": "3482249177",
+         "GUID": "{087436B5-82E1-426B-9A8D-19FCE4A10650}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "376594082"
+         },
+         {
+          "Id": "1027540700"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3706475411",
+         "Id": "2170406393",
+         "GUID": "{2BD8AD96-7F92-4960-87D1-0CEC07EA5949}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "748866671"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3706475411",
+         "Id": "1859838552",
+         "GUID": "{72C4DB47-FF96-47E7-9961-172A4E001D82}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "310183909"
+         },
+         {
+          "Id": "418306016"
+         },
+         {
+          "Id": "513893476"
+         },
+         {
+          "Id": "854735600"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3706475411",
+         "Id": "2197986718",
+         "GUID": "{258AD771-05D4-4DFC-A72F-6809D6609432}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "513893476"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3706475411",
+         "Id": "748895195",
+         "GUID": "{DF97960D-76D2-4FD4-A0D1-C401E2B6C186}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "310183909"
+         },
+         {
+          "Id": "418306016"
+         },
+         {
+          "Id": "513893476"
+         },
+         {
+          "Id": "854735600"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1470443830",
+      "Name": "Resume_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Resume_PolystratusSwitchContainer",
+      "GUID": "{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "698863348",
       "Name": "Stop_Level1Music",
       "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Level1\\Stop_Level1Music",
@@ -57,10 +296,66 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "2649698833",
+      "Name": "Stop_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Stop_PolystratusSwitchContainer",
+      "GUID": "{C22B078C-348E-4D8D-AA64-65AB3CCBB284}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3706475411",
+      "Name": "PlayerGameState",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState",
+      "GUID": "{83AD8F4F-8738-4F26-851D-D84CDC7D958B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\None",
+        "GUID": "{DF97960D-76D2-4FD4-A0D1-C401E2B6C186}"
+       },
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\Default",
+        "GUID": "{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"
+       },
+       {
+        "Id": "1859838552",
+        "Name": "LeftGreenBoost",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\LeftGreenBoost",
+        "GUID": "{72C4DB47-FF96-47E7-9961-172A4E001D82}"
+       },
+       {
+        "Id": "2170406393",
+        "Name": "UsingGreenBoost",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\UsingGreenBoost",
+        "GUID": "{2BD8AD96-7F92-4960-87D1-0CEC07EA5949}"
+       },
+       {
+        "Id": "2197986718",
+        "Name": "GameEnd",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\GameEnd",
+        "GUID": "{258AD771-05D4-4DFC-A72F-6809D6609432}"
+       },
+       {
+        "Id": "3482249177",
+        "Name": "GreenEnergyAchieved",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerGameState\\GreenEnergyAchieved",
+        "GUID": "{087436B5-82E1-426B-9A8D-19FCE4A10650}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{5E6105FE-A61B-4A69-E8D3-FEF78AE65CB9}"
+  "FileHash": "{5D9B6239-D3AA-A7F8-4808-32C618E00198}"
  }
 }

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{10811BA3-CAD0-4F68-8D18-F02A1A4ED5CC}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{10811BA3-CAD0-4F68-8D18-F02A1A4ED5CC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{10811BA3-CAD0-4F68-8D18-F02A1A4ED5CC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerGameState" ID="{83AD8F4F-8738-4F26-851D-D84CDC7D958B}">
+					<ChildrenList>
+						<State Name="None" ID="{DF97960D-76D2-4FD4-A0D1-C401E2B6C186}"/>
+						<State Name="Default" ID="{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"/>
+						<State Name="GreenEnergyAchieved" ID="{087436B5-82E1-426B-9A8D-19FCE4A10650}"/>
+						<State Name="UsingGreenBoost" ID="{2BD8AD96-7F92-4960-87D1-0CEC07EA5949}"/>
+						<State Name="LeftGreenBoost" ID="{72C4DB47-FF96-47E7-9961-172A4E001D82}"/>
+						<State Name="GameEnd" ID="{258AD771-05D4-4DFC-A72F-6809D6609432}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

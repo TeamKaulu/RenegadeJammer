@@ -32,7 +32,9 @@
 							<Value>99.7368421052631</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Default" ID="{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

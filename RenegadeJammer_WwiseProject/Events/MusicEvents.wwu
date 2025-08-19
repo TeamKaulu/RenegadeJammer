@@ -32,6 +32,59 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Pause_PolystratusSwitchContainer" ID="{B8B0078B-3374-43E3-800C-F712B7694E05}">
+					<ChildrenList>
+						<Action Name="" ID="{EAA23831-7A37-49EC-965E-1E4FA4479719}" ShortID="636894282">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PolystratusSwitchContainer" ID="{C22B078C-348E-4D8D-AA64-65AB3CCBB284}">
+					<ChildrenList>
+						<Action Name="" ID="{66ABCD27-3D2E-47BB-ACCF-8C3AEEBAD374}" ShortID="183333558">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_PolystratusSwitchContainer" ID="{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}">
+					<ChildrenList>
+						<Action Name="" ID="{4CA288E8-04DA-4D7F-91EA-0C9303D83CE8}" ShortID="670511950">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PolystratusSwitchContainer" ID="{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}">
+					<ChildrenList>
+						<Action Name="" ID="{0F1F63A1-C2DD-4071-8EE2-77BF91CA2563}" ShortID="769037348">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

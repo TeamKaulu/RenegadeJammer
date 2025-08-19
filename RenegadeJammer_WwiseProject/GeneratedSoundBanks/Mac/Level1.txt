@@ -1,8 +1,34 @@
 Event	ID	Name			Wwise Object Path	Notes
 	698863348	Stop_Level1Music			\Default Work Unit\MusicEvents\Level1\Stop_Level1Music	
+	1470443830	Resume_PolystratusSwitchContainer			\Default Work Unit\MusicEvents\Resume_PolystratusSwitchContainer	
+	2286668937	Pause_PolystratusSwitchContainer			\Default Work Unit\MusicEvents\Pause_PolystratusSwitchContainer	
+	2649698833	Stop_PolystratusSwitchContainer			\Default Work Unit\MusicEvents\Stop_PolystratusSwitchContainer	
+	3147359859	Play_PolystratusSwitchContainer			\Default Work Unit\MusicEvents\Play_PolystratusSwitchContainer	
 	3605952550	Play_Level1Music			\Default Work Unit\MusicEvents\Level1\Play_Level1Music	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3706475411	PlayerGameState			\Default Work Unit\PlayerGameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	PlayerGameState			
+	782826392	Default	PlayerGameState			
+	1859838552	LeftGreenBoost	PlayerGameState			
+	2170406393	UsingGreenBoost	PlayerGameState			
+	2197986718	GameEnd	PlayerGameState			
+	3482249177	GreenEnergyAchieved	PlayerGameState			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	6757402	RJMusicLevel1_Intro	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\E2\{E252EF25-2759-37E3-D256-D284F07C25E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Intro		3893068
-	774268289	RJMusicLevel1_Loop	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\7B\{7B08CA34-62FD-2D3E-4CA1-6DEC7CCC56A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Loop		15572044
+	6757402	RJMusicLevel1_Intro	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\E2\{E252EF25-2759-37E3-D256-D284F07C25E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Intro		3893068
+	310183909	Polystratus_MainLoop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\2F\{2F59EE3F-DF47-8C20-7138-D1ADB06BD93D}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Default\Polystratus_MainLoop\Polystratus_MainLoop		15571960
+	376594082	Polystratus_GreenEnergyLoop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\E2\{E2DECC80-3C50-0718-7C9A-C40024EA790B}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\GreenEnergy\Polystratus_GreenEnergyLoop\Polystratus_GreenEnergyLoop		1946580
+	418306016	Polystratus_BackToMainLoop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\A7\{A7CDBB6C-9FA9-FBA7-55B3-118E5CD024D7}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Default\Polystratus_BackToMainLoop\Polystratus_BackToMainLoop		1946580
+	456771501	Polystratus_TransitionToDrumLoop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\72\{724A6564-E4D5-DE2B-048A-86487BAB8B72}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Polystratus_TransitionToDrumLoop\Polystratus_TransitionToDrumLoop		989596
+	458253040	Crash	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\C3\{C37DA968-EFFA-4B8B-3422-37D3F729A0AE}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Polystratus_ToGreenEnergy_TransitionOne\Crash		1459960
+	513893476	Polystratus_DrumSolo	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\56\{56CA84E8-2DB9-31C3-378C-7F81422E67EF}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Default\Polystratus_DrumSolo\Polystratus_DrumSolo		3893060
+	567316227	Polystratus_TransitionToGreenBoost	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\CC\{CCF26299-640D-99BB-4E27-CEF5F12213D5}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Polystratus_TransitionToGreenBoost\Polystratus_TransitionToGreenBoost		1946580
+	748866671	Polystratus_GreenBoost	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\84\{849585FF-65FE-FD35-982B-0453B45F98B4}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Polystratus_GreenBoost\Polystratus_GreenBoost		3893060
+	774268289	RJMusicLevel1_Loop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\7B\{7B08CA34-62FD-2D3E-4CA1-6DEC7CCC56A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Levels\Level1Music\RJMusicLevel1_Loop		15572044
+	854735600	Polystratus_Intro	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\78\{78F968FC-3BDF-7ED1-763C-8BDBE61DF067}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Default\Polystratus_Intro\Polystratus_Intro		3893060
+	906672076	Crash	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\1C\{1C7B0829-F6F0-FDFE-ADE2-187B300E4089}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\Polystratus_ToGreenEnergy_TransitionOne\Crash		365060
+	1027540700	Polystratus_GreenEnergyIntro	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\76\{76720D6D-DBD2-AF41-31CA-81985B411C69}.wem		\Interactive Music Hierarchy\Default Work Unit\PolystratusMusic\PolystratusSwitchContainer\GreenEnergy\Polystratus_GreenEnergyIntro\Polystratus_GreenEnergyIntro		1946580
 
