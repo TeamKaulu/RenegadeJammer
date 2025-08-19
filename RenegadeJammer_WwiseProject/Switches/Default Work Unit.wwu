@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{79A19694-FC9B-47E0-9599-CF39B3FB5057}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{79A19694-FC9B-47E0-9599-CF39B3FB5057}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{79A19694-FC9B-47E0-9599-CF39B3FB5057}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Polystratus" ID="{5DEB64CA-97FE-484A-953A-CF62163FA126}" ShortID="604184422">
+					<ChildrenList>
+						<SwitchGroup Name="Default" ID="{1F5FBA98-F88E-4A3F-8D4D-09674370DAE0}"/>
+						<SwitchGroup Name="GreenEnergy" ID="{D3F77AAE-506A-4C84-973B-12BA8B822A5D}"/>
+						<SwitchGroup Name="GreenBoost" ID="{48412952-4CCB-4F62-987A-D4182FEAEDC9}"/>
+						<SwitchGroup Name="ExitGreenBoost" ID="{16D2C8D8-B143-4B89-82E5-B67337792D3D}"/>
+						<SwitchGroup Name="MainLoop" ID="{F865B084-7B36-4739-B04F-ADD17C58DD3C}"/>
+						<SwitchGroup Name="BackToMainLoop" ID="{BCA71F97-3B66-4ADF-B092-4E314C86ECDA}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
