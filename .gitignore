@@ -16,6 +16,7 @@
 
 !/Content/RenegadeJammer/**
 !/Content/WwiseAudio/**
+!/Content/Movies/**
 !/RenegadeJammer.png
 
 # Allow any files from /RawContent dir.
