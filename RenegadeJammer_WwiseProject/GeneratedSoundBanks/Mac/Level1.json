@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5FEC579A-307C-431B-BF65-28F440CFE99F}",
     "Language": "SFX",
-    "Hash": "{EA29252A-4E24-40D8-187C-B983A5557C06}",
+    "Hash": "{31BAAF5A-321E-C71B-A661-A8B6B66AAB22}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB\\Level1",
     "ShortName": "Level1",
     "Path": "Level1.bnk",
@@ -32,6 +32,22 @@
       "CachePath": "2F/{2F59EE3F-DF47-8C20-7138-D1ADB06BD93D}.wem"
      },
      {
+      "Id": "330832106",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JammerLoadingTune_Loop.wav",
+      "CachePath": "2F/{2FC8481D-2094-2A29-F717-6B1377FDC197}.wem"
+     },
+     {
+      "Id": "354587470",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JammerLobbyTune-Prelude.wav",
+      "CachePath": "60/{6095A14E-F5D0-1921-97B6-4908A57926AE}.wem"
+     },
+     {
       "Id": "376594082",
       "Language": "SFX",
       "Streaming": "false",
@@ -46,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Polystratus_BackToMainLoop.wav",
       "CachePath": "A7/{A7CDBB6C-9FA9-FBA7-55B3-118E5CD024D7}.wem"
+     },
+     {
+      "Id": "446467944",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JammerLobbyTune-Loop.wav",
+      "CachePath": "5B/{5B645A89-E9F4-BDAA-098E-F2AAF65237CD}.wem"
      },
      {
       "Id": "456771501",
@@ -96,6 +120,14 @@
       "CachePath": "7B/{7B08CA34-62FD-2D3E-4CA1-6DEC7CCC56A2}.wem"
      },
      {
+      "Id": "827742284",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JammerLobbyTune-Intro.wav",
+      "CachePath": "34/{3412AECF-5B75-6125-BECF-55786585D3DB}.wem"
+     },
+     {
       "Id": "854735600",
       "Language": "SFX",
       "Streaming": "false",
@@ -118,13 +150,31 @@
       "Location": "Memory",
       "ShortName": "Polystratus_GreenEnergyIntro.wav",
       "CachePath": "76/{76720D6D-DBD2-AF41-31CA-81985B411C69}.wem"
+     },
+     {
+      "Id": "1066115832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JammerLoadingTune_Intro.wav",
+      "CachePath": "FC/{FC6F807D-3F5A-8476-9FCD-9695B6673B08}.wem"
      }
     ],
     "Events": [
      {
+      "Id": "3496193352",
+      "Name": "Pause_Lobby",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Lobby\\Pause_Lobby",
+      "GUID": "{70C0C893-8B61-4B49-A455-FAEA2B3C0684}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2286668937",
       "Name": "Pause_PolystratusSwitchContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Pause_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\PolyStratus\\Pause_PolystratusSwitchContainer",
       "GUID": "{B8B0078B-3374-43E3-800C-F712B7694E05}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -147,9 +197,27 @@
       ]
      },
      {
+      "Id": "2111096682",
+      "Name": "Play_Lobby",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Lobby\\Play_Lobby",
+      "GUID": "{C9174FA5-F967-4858-898F-B26FD90B6F71}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "354587470"
+       },
+       {
+        "Id": "446467944"
+       },
+       {
+        "Id": "827742284"
+       }
+      ]
+     },
+     {
       "Id": "3147359859",
       "Name": "Play_PolystratusSwitchContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Play_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\PolyStratus\\Play_PolystratusSwitchContainer",
       "GUID": "{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -278,9 +346,34 @@
       ]
      },
      {
+      "Id": "4941877",
+      "Name": "PlayLoading",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\LoadingScreen\\PlayLoading",
+      "GUID": "{26563861-A7E4-4F6A-A479-940A9896CD99}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "330832106"
+       },
+       {
+        "Id": "1066115832"
+       }
+      ]
+     },
+     {
+      "Id": "1602227949",
+      "Name": "Resume_Lobby",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Lobby\\Resume_Lobby",
+      "GUID": "{1E3CA664-A9D6-4A33-9425-2E4244324299}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1470443830",
       "Name": "Resume_PolystratusSwitchContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Resume_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\PolyStratus\\Resume_PolystratusSwitchContainer",
       "GUID": "{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -298,10 +391,30 @@
       "DurationMax": "0"
      },
      {
+      "Id": "3639729344",
+      "Name": "Stop_Lobby",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Lobby\\Stop_Lobby",
+      "GUID": "{695186CB-F462-413D-B90B-3D18A8C1E348}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "2649698833",
       "Name": "Stop_PolystratusSwitchContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\Stop_PolystratusSwitchContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\PolyStratus\\Stop_PolystratusSwitchContainer",
       "GUID": "{C22B078C-348E-4D8D-AA64-65AB3CCBB284}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "216059171",
+      "Name": "StopLoading",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicEvents\\LoadingScreen\\StopLoading",
+      "GUID": "{1C7778B4-8FB6-4C9C-BB27-FFD6B538F186}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -356,6 +469,6 @@
     ]
    }
   ],
-  "FileHash": "{19164906-952D-7CEC-F4E8-A729B7E2E20D}"
+  "FileHash": "{78F41903-F16F-53EB-9CE3-317AEADB9838}"
  }
 }

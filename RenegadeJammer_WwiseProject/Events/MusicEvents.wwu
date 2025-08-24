@@ -32,59 +32,150 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Pause_PolystratusSwitchContainer" ID="{B8B0078B-3374-43E3-800C-F712B7694E05}">
+				<Folder Name="PolyStratus" ID="{609FD8C9-C3AE-46DE-BA0C-BF5D03ED5AF1}" ShortID="729906651">
 					<ChildrenList>
-						<Action Name="" ID="{EAA23831-7A37-49EC-965E-1E4FA4479719}" ShortID="636894282">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="7"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Pause_PolystratusSwitchContainer" ID="{B8B0078B-3374-43E3-800C-F712B7694E05}">
+							<ChildrenList>
+								<Action Name="" ID="{EAA23831-7A37-49EC-965E-1E4FA4479719}" ShortID="636894282">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_PolystratusSwitchContainer" ID="{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}">
+							<ChildrenList>
+								<Action Name="" ID="{4CA288E8-04DA-4D7F-91EA-0C9303D83CE8}" ShortID="670511950">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_PolystratusSwitchContainer" ID="{C22B078C-348E-4D8D-AA64-65AB3CCBB284}">
+							<ChildrenList>
+								<Action Name="" ID="{66ABCD27-3D2E-47BB-ACCF-8C3AEEBAD374}" ShortID="183333558">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PolystratusSwitchContainer" ID="{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}">
+							<ChildrenList>
+								<Action Name="" ID="{0F1F63A1-C2DD-4071-8EE2-77BF91CA2563}" ShortID="769037348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_PolystratusSwitchContainer" ID="{C22B078C-348E-4D8D-AA64-65AB3CCBB284}">
+				</Folder>
+				<Folder Name="LoadingScreen" ID="{80A4E312-366D-43D1-97F2-1D4B8B1D639B}" ShortID="694554486">
 					<ChildrenList>
-						<Action Name="" ID="{66ABCD27-3D2E-47BB-ACCF-8C3AEEBAD374}" ShortID="183333558">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="PlayLoading" ID="{26563861-A7E4-4F6A-A479-940A9896CD99}">
+							<ChildrenList>
+								<Action Name="" ID="{CC9EF40E-5287-4B7A-BD55-BB0A24A7DDBA}" ShortID="960263407">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LoadingSequence" ID="{C5DEF788-576D-4002-B93D-F041FCBB01F2}" WorkUnitID="{D5F7E2A5-587A-4A6A-922D-56B9ED5FCB70}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopLoading" ID="{1C7778B4-8FB6-4C9C-BB27-FFD6B538F186}">
+							<ChildrenList>
+								<Action Name="" ID="{8A1C34DB-54C7-4E29-BE98-BF8EC9528B1F}" ShortID="729064444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LoadingSequence" ID="{C5DEF788-576D-4002-B93D-F041FCBB01F2}" WorkUnitID="{D5F7E2A5-587A-4A6A-922D-56B9ED5FCB70}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Resume_PolystratusSwitchContainer" ID="{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}">
+				</Folder>
+				<Folder Name="Lobby" ID="{8CD65F3D-4BFE-43BC-9A0A-082805F01BAD}" ShortID="1200745">
 					<ChildrenList>
-						<Action Name="" ID="{4CA288E8-04DA-4D7F-91EA-0C9303D83CE8}" ShortID="670511950">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="9"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Resume_Lobby" ID="{1E3CA664-A9D6-4A33-9425-2E4244324299}">
+							<ChildrenList>
+								<Action Name="" ID="{D6D9E607-AEA1-4862-AB84-4B7923D90225}" ShortID="1039478359">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbySequence" ID="{CD3EE0FA-36FB-46FB-AEA8-49C5935A3FAD}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lobby" ID="{C9174FA5-F967-4858-898F-B26FD90B6F71}">
+							<ChildrenList>
+								<Action Name="" ID="{3DB321A4-2A62-4D64-B3A0-3E24389EC7D9}" ShortID="489758390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbySequence" ID="{CD3EE0FA-36FB-46FB-AEA8-49C5935A3FAD}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Lobby" ID="{70C0C893-8B61-4B49-A455-FAEA2B3C0684}">
+							<ChildrenList>
+								<Action Name="" ID="{13C5EF3A-0712-4F63-B811-BE65F663E4EE}" ShortID="235436648">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbySequence" ID="{CD3EE0FA-36FB-46FB-AEA8-49C5935A3FAD}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Lobby" ID="{695186CB-F462-413D-B90B-3D18A8C1E348}">
+							<ChildrenList>
+								<Action Name="" ID="{11CC4DB6-92F9-4EE5-B426-F1999EE575A9}" ShortID="170535276">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbySequence" ID="{CD3EE0FA-36FB-46FB-AEA8-49C5935A3FAD}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_PolystratusSwitchContainer" ID="{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}">
-					<ChildrenList>
-						<Action Name="" ID="{0F1F63A1-C2DD-4071-8EE2-77BF91CA2563}" ShortID="769037348">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5,10 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="Level1" ID="{5FEC579A-307C-431B-BF65-28F440CFE99F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Lobby" ID="{695186CB-F462-413D-B90B-3D18A8C1E348}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Level1Music" ID="{6519EBD6-84DE-4151-9948-A480196D7CCF}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_PolystratusSwitchContainer" ID="{B8B0078B-3374-43E3-800C-F712B7694E05}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PolystratusSwitchContainer" ID="{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lobby" ID="{C9174FA5-F967-4858-898F-B26FD90B6F71}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_Lobby" ID="{1E3CA664-A9D6-4A33-9425-2E4244324299}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Lobby" ID="{70C0C893-8B61-4B49-A455-FAEA2B3C0684}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopLoading" ID="{1C7778B4-8FB6-4C9C-BB27-FFD6B538F186}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_PolystratusSwitchContainer" ID="{C22B078C-348E-4D8D-AA64-65AB3CCBB284}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayLoading" ID="{26563861-A7E4-4F6A-A479-940A9896CD99}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Resume_PolystratusSwitchContainer" ID="{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level1Music" ID="{170F632A-5CB6-4FAD-89FB-88AF7E75CC85}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

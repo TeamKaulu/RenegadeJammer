@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{74E69577-096C-0320-862F-65C29B60DD13}",
+    "Hash": "{3F9A3D4D-1F0D-438D-6E5B-DCB8949B4926}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -36,13 +36,73 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\SFX",
+      "GUID": "{BA085695-73EF-4289-8F82-9D868407A69A}"
+     },
+     {
+      "Id": "480770934",
+      "Name": "SFXMixBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\SFX\\SFXDesignBus\\SFXMixBus",
+      "GUID": "{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}"
+     },
+     {
+      "Id": "1205223454",
+      "Name": "MainMixVolume",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume",
+      "GUID": "{AB131C1E-E980-4060-BD44-3A22FA88AF5F}"
+     },
+     {
+      "Id": "1394054918",
+      "Name": "MusicDesignBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\Music\\MusicDesignBus",
+      "GUID": "{1FBA6D28-B0DA-464A-9E4C-2AD0A9A2BD4B}"
+     },
+     {
+      "Id": "1493748214",
+      "Name": "MainDesignVolume",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume",
+      "GUID": "{92D6FD5F-5264-45AB-A664-B6299E02603C}"
+     },
+     {
+      "Id": "1843561328",
+      "Name": "MainVolume",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume",
+      "GUID": "{84B66363-51C0-406E-B1E0-6CCEF8E82A5B}"
+     },
+     {
+      "Id": "2556636446",
+      "Name": "MusicMixBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\Music\\MusicDesignBus\\MusicMixBus",
+      "GUID": "{D864B653-4496-476B-A152-7069A2E3090A}"
+     },
+     {
+      "Id": "2930660894",
+      "Name": "SFXDesignBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\SFX\\SFXDesignBus",
+      "GUID": "{4EF6C633-BEA7-4EDA-B234-EFA944548971}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\Music",
+      "GUID": "{FF368A98-F1FC-462D-9688-AAE641D8B400}"
      }
     ],
     "GameParameters": [
+     {
+      "Id": "421429125",
+      "Name": "GeneralVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerControlled\\Volumes\\GeneralVolume",
+      "GUID": "{95E87083-A6C0-4789-9D3B-75B0D34E295D}"
+     },
      {
       "Id": "640949982",
       "Name": "Speed",
@@ -56,10 +116,22 @@
       "GUID": "{055E3708-B015-43D1-89A4-DF1A2CA77708}"
      },
      {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerControlled\\Volumes\\SFXVolume",
+      "GUID": "{BDF0E331-6F5C-4C5D-8C78-AB981BFDE66C}"
+     },
+     {
       "Id": "1780787007",
       "Name": "DistanceFromFan",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Spatial\\Map1Zone3\\DistanceFromFan",
       "GUID": "{2C62AB0E-938B-4782-8250-8DB75A9C663E}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\PlayerControlled\\Volumes\\MusicVolume",
+      "GUID": "{B0AA10F6-40FC-4700-B98F-0FA4A153806A}"
      }
     ],
     "StateGroups": [
@@ -154,6 +226,6 @@
     ]
    }
   ],
-  "FileHash": "{39148BB6-DB42-CC21-0366-6670C3EC8C38}"
+  "FileHash": "{F2714AEA-DE3E-82B5-8226-17871E753B64}"
  }
 }

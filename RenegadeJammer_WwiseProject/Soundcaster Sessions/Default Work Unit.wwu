@@ -28,13 +28,82 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{B0AA10F6-40FC-4700-B98F-0FA4A153806A}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{95E87083-A6C0-4789-9D3B-75B0D34E295D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}"/>
-							<Value>99.7368421052631</Value>
+							<Value>110.77694235589</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{BDF0E331-6F5C-4C5D-8C78-AB981BFDE66C}"/>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Default" ID="{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"/>
 					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="DynamicMusicTest" ID="{83398BEA-ADD6-4BC8-A4F5-8D3D473A6928}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_PolystratusSwitchContainer" ID="{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_PolystratusSwitchContainer" ID="{C22B078C-348E-4D8D-AA64-65AB3CCBB284}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause_PolystratusSwitchContainer" ID="{B8B0078B-3374-43E3-800C-F712B7694E05}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume_PolystratusSwitchContainer" ID="{7BF5DBF0-5225-4FA5-B9FB-10CBF73D6BC7}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{B0AA10F6-40FC-4700-B98F-0FA4A153806A}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{95E87083-A6C0-4789-9D3B-75B0D34E295D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{3C595A1C-75E3-490E-AF4F-4A8AC0101B10}"/>
+							<Value>110.77694235589</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{BDF0E331-6F5C-4C5D-8C78-AB981BFDE66C}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Default" ID="{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="GeneralMusicTest" ID="{44B57668-8D3E-4C1B-9D3F-8FB8AE24C9B0}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayLoading" ID="{26563861-A7E4-4F6A-A479-940A9896CD99}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopLoading" ID="{1C7778B4-8FB6-4C9C-BB27-FFD6B538F186}" WorkUnitID="{4E1638A2-17CE-43CB-8765-807B901B85B6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

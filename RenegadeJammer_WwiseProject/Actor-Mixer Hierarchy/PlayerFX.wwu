@@ -18,13 +18,18 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -362,7 +367,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -371,7 +376,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -459,7 +464,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -468,7 +473,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -544,7 +549,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1270,11 +1275,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Engine_lit" ID="{6AE0691C-E9D6-4073-9DF1-2D4B774838DD}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Engine_lit.wav</AudioFile>
 									<MediaIDList>
@@ -1299,11 +1311,18 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Engine_unlit" ID="{EC6E05F3-655A-4700-942E-99A74516D778}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Engine_unlit.wav</AudioFile>
 									<MediaIDList>
@@ -1344,7 +1363,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1431,7 +1450,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+									<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1577,7 +1596,7 @@
 																			</Point>
 																			<Point>
 																				<XPos>340</XPos>
-																				<YPos>0.58167</YPos>
+																				<YPos>-1.86566</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1616,18 +1635,18 @@
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>215.83743</XPos>
-																				<YPos>-1342</YPos>
+																				<XPos>210.72465</XPos>
+																				<YPos>-2580</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>289.55914</XPos>
-																				<YPos>-494</YPos>
+																				<XPos>295.52405</XPos>
+																				<YPos>-1809</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>340</XPos>
-																				<YPos>-341</YPos>
+																				<YPos>-1579</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

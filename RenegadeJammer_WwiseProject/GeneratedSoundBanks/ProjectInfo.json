@@ -3,7 +3,7 @@
   "Project": {
    "Name": "RenegadeJammer_WwiseProject",
    "GUID": "{7CBE1BCC-9D3D-45A6-B103-D86A7619BC88}",
-   "Generator": "2024.1.6.8842"
+   "Generator": "2024.1.2.8726"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{D40E2ABA-5BFC-B6E8-35E7-43B0D4B099DA}"
+  "FileHash": "{E1DA55CC-BAF4-359F-EBD6-AB803E32492D}"
  }
 }
