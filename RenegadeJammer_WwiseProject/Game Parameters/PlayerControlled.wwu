@@ -13,6 +13,28 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Volumes" ID="{98F6D173-6DC4-4074-B528-0BCACE206671}" ShortID="996908060">
+					<ChildrenList>
+						<GameParameter Name="GeneralVolume" ID="{95E87083-A6C0-4789-9D3B-75B0D34E295D}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="MusicVolume" ID="{B0AA10F6-40FC-4700-B98F-0FA4A153806A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="SFXVolume" ID="{BDF0E331-6F5C-4C5D-8C78-AB981BFDE66C}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

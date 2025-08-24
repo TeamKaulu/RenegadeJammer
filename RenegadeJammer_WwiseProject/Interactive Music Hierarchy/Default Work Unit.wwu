@@ -4,6 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{5B868B10-0BA9-4361-A84D-56923811A469}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PolystratusMusic" ID="{2BE7672C-2846-45EC-9D8F-E99556013D57}" PersistMode="Reference"/>
+				<WorkUnit Name="LobbyMusic" ID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}" PersistMode="Reference"/>
+				<WorkUnit Name="LoadingMusic" ID="{D5F7E2A5-587A-4A6A-922D-56B9ED5FCB70}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

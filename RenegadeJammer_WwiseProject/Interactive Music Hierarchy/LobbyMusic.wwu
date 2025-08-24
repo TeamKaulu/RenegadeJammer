@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}" SchemaVersion="123" RootDocumentID="{5B868B10-0BA9-4361-A84D-56923811A469}" ParentDocumentID="{5B868B10-0BA9-4361-A84D-56923811A469}">
+	<InteractiveMusic>
+		<WorkUnit Name="LobbyMusic" ID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}" OwnerID="{5B868B10-0BA9-4361-A84D-56923811A469}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="LobbySequence" ID="{CD3EE0FA-36FB-46FB-AEA8-49C5935A3FAD}" ShortID="117293973">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{DCDA97FA-9934-4D5F-8CA2-06EE36E1D997}" ShortID="1015928313">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{DD502452-BA5A-469E-BC58-6BC70933FD7D}" ShortID="808841112">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="JammerLobbyTune-Prelude" ID="{0F3EED93-D661-4786-A5D1-B6103806C2C6}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{900685BC-8076-43B1-88BA-4447E3F41FE7}" ShortID="128606609">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="JammerLobbyTune-Intro" ID="{4C0C88C0-C81D-4D98-A967-683B943AB1B8}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1965506C-69B3-4D43-883C-F7C3CD71C1B8}" ShortID="387122241">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="JammerLobbyTune-Loop" ID="{3AEEF496-CCFF-473E-9F34-E5FF34273328}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{9E4BD7B7-8378-4253-91D4-370058B7AB98}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5498BCEC-45FE-47E6-A95C-563A1950EC63}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="JammerLobbyTune-Intro" ID="{4C0C88C0-C81D-4D98-A967-683B943AB1B8}" ShortID="1032504766">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="23132.5396825397"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="JammerLobbyTune-Intro" ID="{C3D6EC75-9824-439E-A255-E02E8B057FC5}" ShortID="1019959872">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{E8904393-4E14-4BD3-BA88-5B8B1E40A468}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JammerLobbyTune-Intro" ID="{A839E572-E27C-42B8-B102-73ED89ABD98E}">
+											<Language>SFX</Language>
+											<AudioFile>JammerLobbyTune-Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="827742284"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B34AAFB4-25EF-483A-A100-3108C7D2AF58}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="JammerLobbyTune-Intro" ID="{C5CD7E13-4B27-4DC1-A711-541D58162E0F}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="23132.5396825397"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="JammerLobbyTune-Intro" ID="{A839E572-E27C-42B8-B102-73ED89ABD98E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{17D58557-654F-47E1-9C44-13F346E60E41}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{824E8BF3-E811-4828-BF72-15EC388167E2}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="23132.5396825397"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="JammerLobbyTune-Loop" ID="{3AEEF496-CCFF-473E-9F34-E5FF34273328}" ShortID="266205033">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="23132.5396825397"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="JammerLobbyTune-Loop" ID="{9071CCAD-0599-4B8D-864A-4C4557854542}" ShortID="472492865">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4F89D9C1-EE38-462C-84D2-565314B5C4E1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JammerLobbyTune-Loop" ID="{AE3E949F-A253-4E69-B15A-5C4F72C3F59F}">
+											<Language>SFX</Language>
+											<AudioFile>JammerLobbyTune-Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446467944"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E93C0A18-FA45-44AE-84F2-05C6F64C1842}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="JammerLobbyTune-Loop" ID="{F98F42A4-7A71-412A-9C53-130502AA57B9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="23132.5396825397"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="JammerLobbyTune-Loop" ID="{AE3E949F-A253-4E69-B15A-5C4F72C3F59F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{5A908A45-484C-407A-85DB-2BC8D7DB3ACB}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D446E517-3649-42F7-9BE8-9EA260400E78}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="23132.5396825397"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="JammerLobbyTune-Prelude" ID="{0F3EED93-D661-4786-A5D1-B6103806C2C6}" ShortID="217163085">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="5783.12925170068"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="JammerLobbyTune-Prelude" ID="{A9F2358C-29F9-41B9-BF22-5CA242320699}" ShortID="209637836">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{8787BB2F-5D59-488B-9D04-16AE70802A5A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JammerLobbyTune-Prelude" ID="{A194F72B-EDFF-4F1B-86A9-20ED7BCE13DA}">
+											<Language>SFX</Language>
+											<AudioFile>JammerLobbyTune-Prelude.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="354587470"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{DAC3CA29-4695-465D-B0C7-EC5DF596FADD}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="JammerLobbyTune-Prelude" ID="{98FA5871-3762-4251-B5BA-DA3EE825DDCE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="5783.12925170068"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="JammerLobbyTune-Prelude" ID="{A194F72B-EDFF-4F1B-86A9-20ED7BCE13DA}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{EA5BFB6D-625B-408E-981E-C2AB48FEA51A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D6FEBEF2-9898-46E9-AEE8-DE21123D2B18}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="5783.12925170068"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
