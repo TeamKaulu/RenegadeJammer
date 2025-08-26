@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5FEC579A-307C-431B-BF65-28F440CFE99F}",
     "Language": "SFX",
-    "Hash": "{31BAAF5A-321E-C71B-A661-A8B6B66AAB22}",
+    "Hash": "{5282B5FD-E066-7E49-E182-72CDDBA7F93E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB\\Level1",
     "ShortName": "Level1",
     "Path": "Level1.bnk",
@@ -469,6 +469,6 @@
     ]
    }
   ],
-  "FileHash": "{78F41903-F16F-53EB-9CE3-317AEADB9838}"
+  "FileHash": "{B323E5C5-B57C-047B-474E-727C52AA7B8C}"
  }
 }
