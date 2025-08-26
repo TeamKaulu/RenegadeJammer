@@ -6,6 +6,7 @@
 				<SoundBank Name="Hoverboard" ID="{209A0503-445E-491C-8B99-C6FFBED161F2}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_HoverboardAir" ID="{3A03566F-3D5C-40E7-8851-CA31C4AE070D}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SilentlyStop_HoverboardEngine" ID="{5966E92D-C554-4311-9CAA-E46D599E81C8}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_HoverboardEngine" ID="{66F4BD5B-CBA8-43F7-94A7-6E4A3162C8F5}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drift" ID="{046E5E13-E673-47D0-91BE-F25BD01EFCC1}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Drift" ID="{0109E49A-11FE-489F-B665-AB4B0998F778}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>

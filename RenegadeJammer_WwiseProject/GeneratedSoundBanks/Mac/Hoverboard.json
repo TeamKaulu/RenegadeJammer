@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{209A0503-445E-491C-8B99-C6FFBED161F2}",
     "Language": "SFX",
-    "Hash": "{4DB2393D-1011-C35A-F671-E3505774C829}",
+    "Hash": "{68160D18-3D74-6598-96C7-B64E714FD9CB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\Hoverboard",
     "ShortName": "Hoverboard",
     "Path": "Hoverboard.bnk",
@@ -218,6 +218,16 @@
       ]
      },
      {
+      "Id": "829410166",
+      "Name": "SilentlyStop_HoverboardEngine",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\SilentlyStop_HoverboardEngine",
+      "GUID": "{5966E92D-C554-4311-9CAA-E46D599E81C8}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "275715425",
       "Name": "Stop_Drift",
       "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PlayerControlled\\Stop_Drift",
@@ -262,6 +272,6 @@
     ]
    }
   ],
-  "FileHash": "{49275FAF-FCC6-CEDA-34EC-505692C01E9A}"
+  "FileHash": "{69822F70-55A5-E2E1-4B86-D82A5AD7FFA2}"
  }
 }

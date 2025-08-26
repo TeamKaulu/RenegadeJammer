@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	275715425	Stop_Drift			\Default Work Unit\PlayerEvents\PlayerControlled\Stop_Drift	
+	829410166	SilentlyStop_HoverboardEngine			\Default Work Unit\PlayerEvents\PlayerControlled\SilentlyStop_HoverboardEngine	
 	935067172	Play_HoverboardAir			\Default Work Unit\PlayerEvents\PlayerControlled\Play_HoverboardAir	
 	995328048	Stop_HoverboardEngine			\Default Work Unit\PlayerEvents\PlayerControlled\Stop_HoverboardEngine	
 	2184182942	Play_HoverboardEngine			\Default Work Unit\PlayerEvents\PlayerControlled\Play_HoverboardEngine	

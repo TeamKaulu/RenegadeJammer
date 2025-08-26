@@ -121,6 +121,22 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SilentlyStop_HoverboardEngine" ID="{5966E92D-C554-4311-9CAA-E46D599E81C8}">
+							<ChildrenList>
+								<Action Name="" ID="{9215A955-5270-4821-8507-2B6B256E242F}" ShortID="620475843">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HoverboardEngine" ID="{D874D235-8305-4935-BA12-9A9DF2FAFFBC}" WorkUnitID="{D487E6EB-9DAA-415F-9438-B362017197F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="States" ID="{B0CFF661-5536-4825-9372-FCCEC1D0A068}" ShortID="233681145">
