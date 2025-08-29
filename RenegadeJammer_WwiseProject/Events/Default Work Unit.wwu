@@ -6,6 +6,28 @@
 				<WorkUnit Name="PlayerEvents" ID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" PersistMode="Reference"/>
 				<WorkUnit Name="ObjectsEvents" ID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" PersistMode="Reference"/>
 				<WorkUnit Name="MusicEvents" ID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" PersistMode="Reference"/>
+				<Event Name="Play_music_example" ID="{81602181-FC91-44D2-B8D8-B1816944E0F1}">
+					<ChildrenList>
+						<Action Name="" ID="{CD13DE33-C435-4DD1-B7EC-4DC50C466A37}" ShortID="871473223">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_example" ID="{A2842936-1B67-4506-9534-3F120E896FD5}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_main_example" ID="{B6F50C17-954B-45FE-8407-26611EF75438}">
+					<ChildrenList>
+						<Action Name="" ID="{AC6881E7-662F-4BC2-B169-9B00E30A6F9E}" ShortID="243935534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_example" ID="{4B0AC0BD-1C97-448C-AB28-5634C21ED179}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
