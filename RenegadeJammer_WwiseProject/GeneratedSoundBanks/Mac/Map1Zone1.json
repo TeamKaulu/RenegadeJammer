@@ -10,12 +10,92 @@
     "Type": "User",
     "GUID": "{54429D62-D3DE-4F0F-AAD6-ECCF9AFBC7D3}",
     "Language": "SFX",
-    "Hash": "{571967CC-4595-13E9-C464-F8A80D7E8CDF}",
+    "Hash": "{B20CC811-303D-55D9-9DB5-C4241F6A09DE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Map1Zone1",
     "ShortName": "Map1Zone1",
-    "Path": "Map1Zone1.bnk"
+    "Path": "Map1Zone1.bnk",
+    "Media": [
+     {
+      "Id": "46140559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "punch-gears-02.wav",
+      "CachePath": "39/{39EB4FA5-DD52-3C3C-42C0-526B99034B4E}.wem"
+     },
+     {
+      "Id": "101781733",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "punch-gears-03.wav",
+      "CachePath": "83/{8391E2BF-FDE8-36CB-206B-69F37D928C6A}.wem"
+     },
+     {
+      "Id": "516937777",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "punch-gears-01.wav",
+      "CachePath": "86/{86D0C66E-C807-F8CE-92C6-AE277F4CB0F5}.wem"
+     },
+     {
+      "Id": "693762263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "rotating-machine-loop.wav",
+      "CachePath": "16/{16352379-487B-7B9C-8180-E81D531E5BF4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3721628547",
+      "Name": "Play_punch_gears",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone1\\Play_punch_gears",
+      "GUID": "{2A4B27E6-F961-4D1A-9F2D-2E7C9A42D7CB}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.35",
+      "DurationMax": "0.37",
+      "MediaRefs": [
+       {
+        "Id": "46140559"
+       },
+       {
+        "Id": "101781733"
+       },
+       {
+        "Id": "516937777"
+       }
+      ]
+     },
+     {
+      "Id": "3031375521",
+      "Name": "Play_rotating_machine_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone1\\Play_rotating_machine_loop",
+      "GUID": "{6444375E-4C53-4648-8B95-23C93155996F}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "693762263"
+       }
+      ]
+     },
+     {
+      "Id": "77669475",
+      "Name": "Stop_rotating_machine_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone1\\Stop_rotating_machine_loop",
+      "GUID": "{6A9EB0E2-57BE-433D-8A91-4F74C3EF05AD}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
    }
   ],
-  "FileHash": "{5009D889-174B-1DC7-D6E5-D14A5A840BBE}"
+  "FileHash": "{5E5E451E-7343-B581-CAA5-7EEF08D00770}"
  }
 }

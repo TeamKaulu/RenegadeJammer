@@ -6,6 +6,7 @@
 				<WorkUnit Name="PlayerFX" ID="{D487E6EB-9DAA-415F-9438-B362017197F5}" PersistMode="Reference"/>
 				<WorkUnit Name="ObjectsFX" ID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}" PersistMode="Reference"/>
 				<WorkUnit Name="Music" ID="{28387217-D6D4-4F75-BB9F-8E7F372ACE33}" PersistMode="Reference"/>
+				<WorkUnit Name="UserInterface" ID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

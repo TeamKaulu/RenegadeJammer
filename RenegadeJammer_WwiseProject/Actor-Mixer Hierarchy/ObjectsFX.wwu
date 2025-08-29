@@ -3,7 +3,140 @@
 	<AudioObjects>
 		<WorkUnit Name="ObjectsFX" ID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}" OwnerID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}" PersistMode="Nested">
 			<ChildrenList>
-				<Folder Name="Map1Zone1" ID="{5624E995-72A3-4902-B829-BE8974C61A8D}" ShortID="367590726"/>
+				<Folder Name="Map1Zone1" ID="{5624E995-72A3-4902-B829-BE8974C61A8D}" ShortID="367590726">
+					<ChildrenList>
+						<RandomSequenceContainer Name="punch-gears" ID="{8FE1257F-F715-4FA7-A923-AEEFC54A3CC0}" ShortID="384252382">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="PunchAttenuation" ID="{A9D71786-0F1B-44D3-9588-2CE7A05780F4}" WorkUnitID="{21B11B15-70CF-4E89-A4DD-6AE2140B6FF8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="punch-gears-01" ID="{75140FD4-FAFE-465E-AA69-06BD2E82DA83}" ShortID="478451904">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="punch-gears-01" ID="{29E3C9C7-ADE4-4B89-839D-139352CF4BEA}">
+											<Language>SFX</Language>
+											<AudioFile>punch-gears-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="516937777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="punch-gears-01" ID="{29E3C9C7-ADE4-4B89-839D-139352CF4BEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="punch-gears-02" ID="{695433B4-E83E-4080-8F3E-28B8AE2642CE}" ShortID="842008229">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="punch-gears-02" ID="{855ED039-E748-4708-AF37-4616B3B9481D}">
+											<Language>SFX</Language>
+											<AudioFile>punch-gears-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46140559"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="punch-gears-02" ID="{855ED039-E748-4708-AF37-4616B3B9481D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="punch-gears-03" ID="{340E47B7-4F7A-428A-8E1C-B645A0506055}" ShortID="211487771">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="punch-gears-03" ID="{676475C2-528C-45A9-AE81-198AF094597A}">
+											<Language>SFX</Language>
+											<AudioFile>punch-gears-03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101781733"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="punch-gears-03" ID="{676475C2-528C-45A9-AE81-198AF094597A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="rotating-machine-loop" ID="{0F416C0F-A4FE-4114-83A0-672A5BA41A27}" ShortID="333302387">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="MachineAttenuation" ID="{B4D91F74-5170-4759-8CE6-DDE44AAD6006}" WorkUnitID="{21B11B15-70CF-4E89-A4DD-6AE2140B6FF8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rotating-machine-loop" ID="{DC755207-6889-4DC0-A8FF-356912E8FBCC}">
+									<Language>SFX</Language>
+									<AudioFile>rotating-machine-loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="693762263"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rotating-machine-loop" ID="{DC755207-6889-4DC0-A8FF-356912E8FBCC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Map1Zone2" ID="{116CE071-34AF-44F6-8D1C-B55A94B6D0DE}" ShortID="498644166">
 					<ChildrenList>
 						<Sound Name="SHOT_Flamethrower1" ID="{4AD6872C-F127-4CE4-A3E7-4026734CF261}" ShortID="294481370">
@@ -369,6 +502,390 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="LOOP_Fan" ID="{743A2E3F-51B8-4FBC-BE4D-A1CCA01D0768}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="FanBladesSmall" ID="{9E00EDD9-2552-4C8D-9D5E-1C9DA6B61CAB}" ShortID="906723019">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="FanAttenuation" ID="{38D6936A-768E-4D39-895B-B35E7C94F399}" WorkUnitID="{21B11B15-70CF-4E89-A4DD-6AE2140B6FF8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fan-blades-slow-001" ID="{4594A337-7C2D-44D4-BD61-65A9C4A4D264}" ShortID="332372717">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-slow-001" ID="{D52B1F40-273E-456B-A119-F187A137C8B1}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-slow-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="75985460"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-slow-001" ID="{D52B1F40-273E-456B-A119-F187A137C8B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-slow-002" ID="{2A146167-3974-424D-B58F-92D94BEE9B37}" ShortID="808219454">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-slow-002" ID="{F6826A28-2DCA-4DCC-8F03-6F603E48DC02}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-slow-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492348246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-slow-002" ID="{F6826A28-2DCA-4DCC-8F03-6F603E48DC02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-slow-003" ID="{85DB88AD-D28A-47E4-8E7F-E61BB41D68FA}" ShortID="1069382512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-slow-003" ID="{C2C1E39C-CA3D-4223-A78F-AC7BAED37770}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-slow-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972293396"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-slow-003" ID="{C2C1E39C-CA3D-4223-A78F-AC7BAED37770}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-slow-004" ID="{73A24896-B68F-4E55-B4D6-80B4852C9ADC}" ShortID="21894364">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-slow-004" ID="{34D37FF3-D74E-40FE-ADD3-A537E75D7B6F}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-slow-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210207377"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-slow-004" ID="{34D37FF3-D74E-40FE-ADD3-A537E75D7B6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-slow-005" ID="{3F405B01-EDD9-4348-8291-88D7F341AE72}" ShortID="518541985">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-slow-005" ID="{FCF7CC32-C746-4628-8DD1-9241C7BD3F15}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-slow-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="766284788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-slow-005" ID="{FCF7CC32-C746-4628-8DD1-9241C7BD3F15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FanBladesBig" ID="{EE0453BF-7010-4B7F-887B-FA53C5837D20}" ShortID="208944842">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="FanAttenuation" ID="{38D6936A-768E-4D39-895B-B35E7C94F399}" WorkUnitID="{21B11B15-70CF-4E89-A4DD-6AE2140B6FF8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="fan-blades-fast-001" ID="{BAE93788-920E-4EFF-981C-FF30660B9DE5}" ShortID="567266001">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-fast-001" ID="{0FF6A7E4-8422-49B6-98B1-DBB59D734C42}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-fast-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="743650651"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-fast-001" ID="{0FF6A7E4-8422-49B6-98B1-DBB59D734C42}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-fast-002" ID="{7FAA0244-37D5-46EA-A8A5-8ABD901AC628}" ShortID="944372329">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-fast-002" ID="{B0892BD9-E148-4C20-8FDF-EC2084433EA7}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-fast-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="824057416"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-fast-002" ID="{B0892BD9-E148-4C20-8FDF-EC2084433EA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-fast-003" ID="{2F1C5C86-AB61-4EFE-9CCD-C542FBCEC710}" ShortID="202401814">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-fast-003" ID="{E4063E10-2927-4BB8-907E-A3EC52FE1BA6}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-fast-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019748764"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-fast-003" ID="{E4063E10-2927-4BB8-907E-A3EC52FE1BA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-fast-004" ID="{31320272-B70B-4538-8176-D5082FB80B9F}" ShortID="312015719">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-fast-004" ID="{F33E1AA1-8646-4D73-8AAD-0CD2AF6A525F}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-fast-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974598765"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-fast-004" ID="{F33E1AA1-8646-4D73-8AAD-0CD2AF6A525F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fan-blades-fast-005" ID="{E901B0B1-0DB1-4CB8-8741-30D25140CE86}" ShortID="656728149">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fan-blades-fast-005" ID="{0C1720F3-2F84-4BC5-9F4C-4E31B95716B6}">
+											<Language>SFX</Language>
+											<AudioFile>fan-blades-fast-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055902431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fan-blades-fast-005" ID="{0C1720F3-2F84-4BC5-9F4C-4E31B95716B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="fan-big-loop" ID="{26CB838E-770B-48A8-A3A4-2E4C285EA13C}" ShortID="44090894">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="30"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="FanAttenuation" ID="{38D6936A-768E-4D39-895B-B35E7C94F399}" WorkUnitID="{21B11B15-70CF-4E89-A4DD-6AE2140B6FF8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="fan-big-loop" ID="{3FD79A78-49E4-446F-9BFE-288E906E9CC3}">
+									<Language>SFX</Language>
+									<AudioFile>fan-big-loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="63620182"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{4B87563B-0256-4455-82E1-E586E1632BCA}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-0.209424083769632"/>
+										<Property Name="PanY" Type="Real64" Value="-0.223463687150838"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{53D3B488-264C-44F1-949A-A7ACCADBC7FE}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="fan-big-loop" ID="{3FD79A78-49E4-446F-9BFE-288E906E9CC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="fan-small-loop" ID="{BA76CAA4-4361-4DF1-A785-8C40BDC8F7DC}" ShortID="946862971">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="FanAttenuation" ID="{38D6936A-768E-4D39-895B-B35E7C94F399}" WorkUnitID="{21B11B15-70CF-4E89-A4DD-6AE2140B6FF8}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="fan-small-loop" ID="{94D5AE00-DA00-46CD-8659-927A3542C5B2}">
+									<Language>SFX</Language>
+									<AudioFile>fan-small-loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="354977944"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{47B0EF98-026D-4174-9890-FDB1C093B91F}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="fan-small-loop" ID="{94D5AE00-DA00-46CD-8659-927A3542C5B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wind-impulse" ID="{5A2133D2-07DB-4E8C-B7B7-3B52D2415DD6}" ShortID="896071370">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wind-impulse" ID="{68F4B624-87B2-4D75-A6F8-FD479ED026E9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.74885993485342"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0344869706840388"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.16837090183683"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.24873778501629"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>wind-impulse.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="763000700"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wind-impulse" ID="{68F4B624-87B2-4D75-A6F8-FD479ED026E9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

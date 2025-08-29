@@ -3,7 +3,46 @@
 	<Events>
 		<WorkUnit Name="ObjectsEvents" ID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" OwnerID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" PersistMode="Nested">
 			<ChildrenList>
-				<Folder Name="Map1Zone1" ID="{42EBD1A6-4C8C-4ACD-9CB4-6E5E74876C66}" ShortID="810149144"/>
+				<Folder Name="Map1Zone1" ID="{42EBD1A6-4C8C-4ACD-9CB4-6E5E74876C66}" ShortID="810149144">
+					<ChildrenList>
+						<Event Name="Play_rotating_machine_loop" ID="{6444375E-4C53-4648-8B95-23C93155996F}">
+							<ChildrenList>
+								<Action Name="" ID="{1652F0D5-4A93-4A13-B935-6D544BF3FF32}" ShortID="386171074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rotating-machine-loop" ID="{0F416C0F-A4FE-4114-83A0-672A5BA41A27}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_rotating_machine_loop" ID="{6A9EB0E2-57BE-433D-8A91-4F74C3EF05AD}">
+							<ChildrenList>
+								<Action Name="" ID="{0B7D5D72-E49F-4CFF-9F82-9817FE88CBE4}" ShortID="725094122">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rotating-machine-loop" ID="{0F416C0F-A4FE-4114-83A0-672A5BA41A27}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_punch_gears" ID="{2A4B27E6-F961-4D1A-9F2D-2E7C9A42D7CB}">
+							<ChildrenList>
+								<Action Name="" ID="{C56ACACB-550C-4AAD-9322-B3AA913F08F4}" ShortID="368868793">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="punch-gears" ID="{8FE1257F-F715-4FA7-A923-AEEFC54A3CC0}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Map1Zone2" ID="{80927CA3-8764-4686-A164-97BB3E44AA5B}" ShortID="1050113972">
 					<ChildrenList>
 						<Event Name="Play_SHOT_Flamethrower1" ID="{4E394255-AB17-4B51-A89A-250D92CE7CF2}">
@@ -38,6 +77,115 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="LOOP_Fan" ID="{E534678F-4A4C-407B-8915-7655B15212AD}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_FanBladesBig" ID="{CD3B8DDF-F6D1-402C-BFA2-A3DE0AFE43F9}">
+							<ChildrenList>
+								<Action Name="" ID="{FF7C3F28-596C-4925-AC23-E865AE1C0E68}" ShortID="634863165">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FanBladesBig" ID="{EE0453BF-7010-4B7F-887B-FA53C5837D20}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_FanBladesSmall" ID="{F8F6BAD5-FEE3-4FBB-902F-F3455991E1D3}">
+							<ChildrenList>
+								<Action Name="" ID="{0F7EF78A-A55A-430A-BC00-673778C57991}" ShortID="531581177">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FanBladesSmall" ID="{9E00EDD9-2552-4C8D-9D5E-1C9DA6B61CAB}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_fan_small_loop" ID="{E63DE760-598F-4D8A-9176-A56161D14EF5}">
+							<ChildrenList>
+								<Action Name="" ID="{C288D8ED-1B43-4152-8701-526529EBD904}" ShortID="614654943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan-small-loop" ID="{BA76CAA4-4361-4DF1-A785-8C40BDC8F7DC}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_fan_big_loop" ID="{5409A3C9-A880-441F-90F0-66A4D23E687C}">
+							<ChildrenList>
+								<Action Name="" ID="{346C3B2B-6208-4728-AC13-0E01B5CE55D6}" ShortID="399378358">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan-big-loop" ID="{26CB838E-770B-48A8-A3A4-2E4C285EA13C}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_fan_big_loop" ID="{730D1EA5-81E9-4EC0-82B4-AB4A39933A95}">
+							<ChildrenList>
+								<Action Name="" ID="{A72CADAB-B041-4696-9E75-1D54BE0D4258}" ShortID="466980548">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan-big-loop" ID="{26CB838E-770B-48A8-A3A4-2E4C285EA13C}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_fan_small_loop" ID="{F9B64803-814F-4C3E-A2F4-7061BFC3CFB0}">
+							<ChildrenList>
+								<Action Name="" ID="{F914F6F9-B895-4081-B712-1675F2B4A803}" ShortID="215875459">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan-small-loop" ID="{BA76CAA4-4361-4DF1-A785-8C40BDC8F7DC}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_wind_impulse" ID="{7FA738BA-3DB2-4522-8F6F-497A9BAAFA8B}">
+							<ChildrenList>
+								<Action Name="" ID="{909FFD11-A1D9-45EC-81DB-87C55ACB4766}" ShortID="783779389">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wind-impulse" ID="{5A2133D2-07DB-4E8C-B7B7-3B52D2415DD6}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Generic" ID="{5DA54F91-662E-4002-93C5-0A8DA3B49B29}" ShortID="956710967">
+					<ChildrenList>
+						<Event Name="Play_select" ID="{A654C3A6-192D-48C0-963E-AAC6348E8327}">
+							<ChildrenList>
+								<Action Name="" ID="{40CD55FC-1637-4B11-80EA-BC7E1BAF1858}" ShortID="948649930">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="select" ID="{58FC080D-028E-43F0-9DF6-9FBD3D0DBB6E}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_success" ID="{E87AD592-B9BA-4B59-932E-69F959724F94}">
+							<ChildrenList>
+								<Action Name="" ID="{93A41834-248E-4791-A32A-421B8E12977E}" ShortID="368638738">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="success" ID="{725C5B38-F2B1-4DF3-81C8-2E3F819B35B0}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

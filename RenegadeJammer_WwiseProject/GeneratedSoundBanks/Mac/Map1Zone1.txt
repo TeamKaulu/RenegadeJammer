@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	77669475	Stop_rotating_machine_loop			\Default Work Unit\ObjectsEvents\Map1Zone1\Stop_rotating_machine_loop	
+	3031375521	Play_rotating_machine_loop			\Default Work Unit\ObjectsEvents\Map1Zone1\Play_rotating_machine_loop	
+	3721628547	Play_punch_gears			\Default Work Unit\ObjectsEvents\Map1Zone1\Play_punch_gears	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46140559	punch-gears-02	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\39\{39EB4FA5-DD52-3C3C-42C0-526B99034B4E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone1\punch-gears\punch-gears-02		61836
+	101781733	punch-gears-03	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\83\{8391E2BF-FDE8-36CB-206B-69F37D928C6A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone1\punch-gears\punch-gears-03		63600
+	516937777	punch-gears-01	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\86\{86D0C66E-C807-F8CE-92C6-AE277F4CB0F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone1\punch-gears\punch-gears-01		65364
+	693762263	rotating-machine-loop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\16\{16352379-487B-7B9C-8180-E81D531E5BF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone1\rotating-machine-loop		2116896
+

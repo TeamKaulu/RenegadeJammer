@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1042987450	Play_select			\Default Work Unit\ObjectsEvents\Generic\Play_select	
+	3943614907	Play_success			\Default Work Unit\ObjectsEvents\Generic\Play_success	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39640563	select	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\18\{18356FDC-4ECD-8A8D-42FC-BCB2F729BB62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UserInterface\select		14634
+	177832835	success	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\D1\{D1B472AF-0DD2-69A3-AE43-AB004C74C620}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UserInterface\success		768096
+
