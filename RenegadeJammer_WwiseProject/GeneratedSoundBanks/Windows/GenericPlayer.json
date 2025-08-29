@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2395314679",
+    "Type": "User",
+    "GUID": "{1B8009D5-5496-410B-BBD5-A6E32F5EE31B}",
+    "Language": "SFX",
+    "Hash": "{B55A029A-5D10-91B5-54C4-E7813CC17632}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\GenericPlayer",
+    "ShortName": "GenericPlayer",
+    "Path": "GenericPlayer.bnk",
+    "Events": [
+     {
+      "Id": "4091047182",
+      "Name": "PauseAll",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PauseAll",
+      "GUID": "{CAA3E5D1-869D-40C9-AFCF-5CBB030DBF21}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3240900869",
+      "Name": "ResumeAll",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\ResumeAll",
+      "GUID": "{C6632815-05A7-4314-9233-F8DA75CC50F7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{519615F2-4DD3-971F-5575-62BEB4512F8B}"
+ }
+}

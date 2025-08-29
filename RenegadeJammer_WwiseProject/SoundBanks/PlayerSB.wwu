@@ -30,6 +30,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="GenericPlayer" ID="{1B8009D5-5496-410B-BBD5-A6E32F5EE31B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PauseAll" ID="{CAA3E5D1-869D-40C9-AFCF-5CBB030DBF21}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ResumeAll" ID="{C6632815-05A7-4314-9233-F8DA75CC50F7}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
