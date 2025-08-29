@@ -45,7 +45,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Default" ID="{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"/>
+						<CurrentStateRef Name="LeftGreenBoost" ID="{72C4DB47-FF96-47E7-9961-172A4E001D82}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
@@ -87,7 +87,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Default" ID="{EC9C025F-8193-4EB4-8573-3A9AC34ABD61}"/>
+						<CurrentStateRef Name="LeftGreenBoost" ID="{72C4DB47-FF96-47E7-9961-172A4E001D82}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

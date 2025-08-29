@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}" SchemaVersion="123" RootDocumentID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}" ParentDocumentID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}">
+	<AudioObjects>
+		<WorkUnit Name="UserInterface" ID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}" OwnerID="{C18CF8C4-20F4-48E4-9930-1D43272AD6BC}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="select" ID="{58FC080D-028E-43F0-9DF6-9FBD3D0DBB6E}" ShortID="768868390">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="select" ID="{92D24A62-83E3-4F69-B484-22990B3C1254}">
+							<Language>SFX</Language>
+							<AudioFile>select.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="39640563"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="select" ID="{92D24A62-83E3-4F69-B484-22990B3C1254}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="success" ID="{725C5B38-F2B1-4DF3-81C8-2E3F819B35B0}" ShortID="466055193">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="success" ID="{01E04762-DE6D-471C-B96D-B309CF31EA4E}">
+							<Language>SFX</Language>
+							<AudioFile>success.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="177832835"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="success" ID="{01E04762-DE6D-471C-B96D-B309CF31EA4E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

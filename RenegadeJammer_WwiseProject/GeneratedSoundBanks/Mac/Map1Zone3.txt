@@ -1,6 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	139810029	Play_FanBladesSmall			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_FanBladesSmall	
+	515631738	Play_fan_small_loop			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_fan_small_loop	
+	721009059	Play_fan_big_loop			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_fan_big_loop	
+	955114348	Stop_fan_small_loop			\Default Work Unit\ObjectsEvents\Map1Zone3\Stop_fan_small_loop	
+	1219303552	Play_wind_impulse			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_wind_impulse	
+	1629637513	Stop_fan_big_loop			\Default Work Unit\ObjectsEvents\Map1Zone3\Stop_fan_big_loop	
+	2069604762	Play_FanBladesBig			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_FanBladesBig	
 	3419961242	Play_LOOP_Fan			\Default Work Unit\ObjectsEvents\Map1Zone3\Play_LOOP_Fan	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	880682140	LOOP_Fan	C:\Users\gaela\Documents\GitHub\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\60\{60F15E49-7672-BEA9-8584-A459A08BD7F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\LOOP_Fan		1056764
+	63620182	fan-big-loop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\9F\{9F2AE4EA-41BB-993D-958E-3A07BA66A310}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\fan-big-loop		5733096
+	75985460	fan-blades-slow-001	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\70\{70A29DD3-9382-6BD0-3E94-4D9E9B7A528E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesSmall\fan-blades-slow-001		1058496
+	210207377	fan-blades-slow-004	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\B5\{B57D8322-25CC-4B90-67DA-E59572840604}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesSmall\fan-blades-slow-004		1058496
+	354977944	fan-small-loop	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\75\{75FC23A5-E533-8F20-2440-9F3B5F157872}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\fan-small-loop		5292096
+	492348246	fan-blades-slow-002	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\51\{518FCF06-4E7E-C4DC-AD71-B63C27176F97}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesSmall\fan-blades-slow-002		970296
+	743650651	fan-blades-fast-001	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\CB\{CB35F8C8-1742-D1CC-73F9-B2E2CE6A3016}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesBig\fan-blades-fast-001		1058496
+	763000700	wind-impulse	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\05\{05934DE6-F6FA-A0E0-DC9F-A5BE1D4DD5DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\wind-impulse		190672
+	766284788	fan-blades-slow-005	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\C2\{C2D33DCC-BA6C-93E3-1E91-67F880340D6A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesSmall\fan-blades-slow-005		1234896
+	824057416	fan-blades-fast-002	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\0A\{0AE4BC6F-ACFD-718F-17E8-E180F3315E61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesBig\fan-blades-fast-002		970296
+	880682140	LOOP_Fan	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\60\{60F15E49-7672-BEA9-8584-A459A08BD7F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\LOOP_Fan		1056764
+	972293396	fan-blades-slow-003	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\BB\{BBBF4D7D-2942-230F-24E7-563041D6BC4F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesSmall\fan-blades-slow-003		1146696
+	974598765	fan-blades-fast-004	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\B4\{B4B24A46-5F33-4B9C-F0F7-331524404684}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesBig\fan-blades-fast-004		1058496
+	1019748764	fan-blades-fast-003	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\5E\{5E908BF6-E151-A20D-706A-EE507D102A25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesBig\fan-blades-fast-003		1146696
+	1055902431	fan-blades-fast-005	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\21\{212C1111-88F2-A325-67DB-D91CA5BCEFC9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\ObjectsFX\Map1Zone3\FanBladesBig\fan-blades-fast-005		1234896
 

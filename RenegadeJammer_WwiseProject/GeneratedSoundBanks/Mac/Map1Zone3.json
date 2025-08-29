@@ -10,11 +10,83 @@
     "Type": "User",
     "GUID": "{7F62A4E5-D661-423D-8844-8163056272D4}",
     "Language": "SFX",
-    "Hash": "{565F643D-4B4F-ED36-0471-7AC7AC1B64F0}",
+    "Hash": "{45DD35BC-54FB-C2F2-1A0D-99471CEEBC43}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Map1Zone3",
     "ShortName": "Map1Zone3",
     "Path": "Map1Zone3.bnk",
     "Media": [
+     {
+      "Id": "63620182",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-big-loop.wav",
+      "CachePath": "9F/{9F2AE4EA-41BB-993D-958E-3A07BA66A310}.wem"
+     },
+     {
+      "Id": "75985460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-slow-001.wav",
+      "CachePath": "70/{70A29DD3-9382-6BD0-3E94-4D9E9B7A528E}.wem"
+     },
+     {
+      "Id": "210207377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-slow-004.wav",
+      "CachePath": "B5/{B57D8322-25CC-4B90-67DA-E59572840604}.wem"
+     },
+     {
+      "Id": "354977944",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-small-loop.wav",
+      "CachePath": "75/{75FC23A5-E533-8F20-2440-9F3B5F157872}.wem"
+     },
+     {
+      "Id": "492348246",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-slow-002.wav",
+      "CachePath": "51/{518FCF06-4E7E-C4DC-AD71-B63C27176F97}.wem"
+     },
+     {
+      "Id": "743650651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-fast-001.wav",
+      "CachePath": "CB/{CB35F8C8-1742-D1CC-73F9-B2E2CE6A3016}.wem"
+     },
+     {
+      "Id": "763000700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wind-impulse.wav",
+      "CachePath": "05/{05934DE6-F6FA-A0E0-DC9F-A5BE1D4DD5DE}.wem"
+     },
+     {
+      "Id": "766284788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-slow-005.wav",
+      "CachePath": "C2/{C2D33DCC-BA6C-93E3-1E91-67F880340D6A}.wem"
+     },
+     {
+      "Id": "824057416",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-fast-002.wav",
+      "CachePath": "0A/{0AE4BC6F-ACFD-718F-17E8-E180F3315E61}.wem"
+     },
      {
       "Id": "880682140",
       "Language": "SFX",
@@ -22,9 +94,121 @@
       "Location": "Memory",
       "ShortName": "LOOP_Fan.wav",
       "CachePath": "60/{60F15E49-7672-BEA9-8584-A459A08BD7F9}.wem"
+     },
+     {
+      "Id": "972293396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-slow-003.wav",
+      "CachePath": "BB/{BBBF4D7D-2942-230F-24E7-563041D6BC4F}.wem"
+     },
+     {
+      "Id": "974598765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-fast-004.wav",
+      "CachePath": "B4/{B4B24A46-5F33-4B9C-F0F7-331524404684}.wem"
+     },
+     {
+      "Id": "1019748764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-fast-003.wav",
+      "CachePath": "5E/{5E908BF6-E151-A20D-706A-EE507D102A25}.wem"
+     },
+     {
+      "Id": "1055902431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan-blades-fast-005.wav",
+      "CachePath": "21/{212C1111-88F2-A325-67DB-D91CA5BCEFC9}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "721009059",
+      "Name": "Play_fan_big_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Play_fan_big_loop",
+      "GUID": "{730D1EA5-81E9-4EC0-82B4-AB4A39933A95}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "63620182"
+       }
+      ]
+     },
+     {
+      "Id": "515631738",
+      "Name": "Play_fan_small_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Play_fan_small_loop",
+      "GUID": "{E63DE760-598F-4D8A-9176-A56161D14EF5}",
+      "MaxAttenuation": "10000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "354977944"
+       }
+      ]
+     },
+     {
+      "Id": "2069604762",
+      "Name": "Play_FanBladesBig",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Play_FanBladesBig",
+      "GUID": "{CD3B8DDF-F6D1-402C-BFA2-A3DE0AFE43F9}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.5",
+      "DurationMax": "7",
+      "MediaRefs": [
+       {
+        "Id": "743650651"
+       },
+       {
+        "Id": "824057416"
+       },
+       {
+        "Id": "974598765"
+       },
+       {
+        "Id": "1019748764"
+       },
+       {
+        "Id": "1055902431"
+       }
+      ]
+     },
+     {
+      "Id": "139810029",
+      "Name": "Play_FanBladesSmall",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Play_FanBladesSmall",
+      "GUID": "{F8F6BAD5-FEE3-4FBB-902F-F3455991E1D3}",
+      "MaxAttenuation": "10000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.5",
+      "DurationMax": "7",
+      "MediaRefs": [
+       {
+        "Id": "75985460"
+       },
+       {
+        "Id": "210207377"
+       },
+       {
+        "Id": "492348246"
+       },
+       {
+        "Id": "766284788"
+       },
+       {
+        "Id": "972293396"
+       }
+      ]
+     },
      {
       "Id": "3419961242",
       "Name": "Play_LOOP_Fan",
@@ -37,10 +221,44 @@
         "Id": "880682140"
        }
       ]
+     },
+     {
+      "Id": "1219303552",
+      "Name": "Play_wind_impulse",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Play_wind_impulse",
+      "GUID": "{7FA738BA-3DB2-4522-8F6F-497A9BAAFA8B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0803668",
+      "DurationMax": "1.0803668",
+      "MediaRefs": [
+       {
+        "Id": "763000700"
+       }
+      ]
+     },
+     {
+      "Id": "1629637513",
+      "Name": "Stop_fan_big_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Stop_fan_big_loop",
+      "GUID": "{5409A3C9-A880-441F-90F0-66A4D23E687C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "955114348",
+      "Name": "Stop_fan_small_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\ObjectsEvents\\Map1Zone3\\Stop_fan_small_loop",
+      "GUID": "{F9B64803-814F-4C3E-A2F4-7061BFC3CFB0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{AEB3F7F9-F916-7179-B471-F47177D84609}"
+  "FileHash": "{B581B272-96FF-7FED-F0AA-6E36FF9C95E8}"
  }
 }

@@ -4,7 +4,11 @@
 		<WorkUnit Name="ObjectsSB" ID="{30CE414E-B9E3-404B-9EAC-D0F88F93F22D}" OwnerID="{F36D7E29-50DE-43DA-9A36-6083EC85206C}" PersistMode="Nested">
 			<ChildrenList>
 				<SoundBank Name="Map1Zone1" ID="{54429D62-D3DE-4F0F-AAD6-ECCF9AFBC7D3}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_rotating_machine_loop" ID="{6A9EB0E2-57BE-433D-8A91-4F74C3EF05AD}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_rotating_machine_loop" ID="{6444375E-4C53-4648-8B95-23C93155996F}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_punch_gears" ID="{2A4B27E6-F961-4D1A-9F2D-2E7C9A42D7CB}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -18,7 +22,22 @@
 				</SoundBank>
 				<SoundBank Name="Map1Zone3" ID="{7F62A4E5-D661-423D-8844-8163056272D4}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_FanBladesBig" ID="{CD3B8DDF-F6D1-402C-BFA2-A3DE0AFE43F9}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_fan_big_loop" ID="{5409A3C9-A880-441F-90F0-66A4D23E687C}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_fan_small_loop" ID="{F9B64803-814F-4C3E-A2F4-7061BFC3CFB0}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_fan_small_loop" ID="{E63DE760-598F-4D8A-9176-A56161D14EF5}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="wind-impulse" ID="{5A2133D2-07DB-4E8C-B7B7-3B52D2415DD6}" WorkUnitID="{490141D1-C546-4C8A-B4A8-1D0527AE7AA8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_fan_big_loop" ID="{730D1EA5-81E9-4EC0-82B4-AB4A39933A95}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LOOP_Fan" ID="{2B5754B6-A4BD-4FA0-AA5D-59F548F3A7F1}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FanBladesSmall" ID="{F8F6BAD5-FEE3-4FBB-902F-F3455991E1D3}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Generic" ID="{E24C5750-4FCE-465E-A0FA-66C30A629749}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_select" ID="{A654C3A6-192D-48C0-963E-AAC6348E8327}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_success" ID="{E87AD592-B9BA-4B59-932E-69F959724F94}" WorkUnitID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
