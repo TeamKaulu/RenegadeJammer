@@ -10,11 +10,31 @@
     "Type": "User",
     "GUID": "{1B8009D5-5496-410B-BBD5-A6E32F5EE31B}",
     "Language": "SFX",
-    "Hash": "{B55A029A-5D10-91B5-54C4-E7813CC17632}",
+    "Hash": "{EE4858A0-5EE8-4CF7-C2C0-9124CAEB486A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\GenericPlayer",
     "ShortName": "GenericPlayer",
     "Path": "GenericPlayer.bnk",
     "Events": [
+     {
+      "Id": "3320182505",
+      "Name": "Mute_LevelSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_LevelSounds",
+      "GUID": "{89AD6CF1-79C1-4AF0-A19B-A9AB0B9F9B50}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3231232354",
+      "Name": "Mute_PlayerSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_PlayerSounds",
+      "GUID": "{0814A0E6-BD8B-44CA-8139-4D391A00E8AC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
      {
       "Id": "4091047182",
       "Name": "PauseAll",
@@ -34,10 +54,30 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "1340680988",
+      "Name": "UnMute_LevelSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_LevelSounds",
+      "GUID": "{79433F5D-2E5D-4AAD-A5C9-BCE852D60211}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3055728041",
+      "Name": "UnMute_PlayerSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_PlayerSounds",
+      "GUID": "{EE9505D0-AC1A-4BE5-82A1-BA3A69DBDE91}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{75764864-CE2B-AED0-C38D-70C6D7674EDA}"
+  "FileHash": "{B7B24AA3-15BD-FD5E-A1C0-3C756E3AEA28}"
  }
 }

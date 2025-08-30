@@ -1,4 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1340680988	UnMute_LevelSounds			\Default Work Unit\UnMute_LevelSounds	
+	3055728041	UnMute_PlayerSounds			\Default Work Unit\UnMute_PlayerSounds	
+	3231232354	Mute_PlayerSounds			\Default Work Unit\Mute_PlayerSounds	
 	3240900869	ResumeAll			\Default Work Unit\PlayerEvents\ResumeAll	
+	3320182505	Mute_LevelSounds			\Default Work Unit\Mute_LevelSounds	
 	4091047182	PauseAll			\Default Work Unit\PlayerEvents\PauseAll	
 

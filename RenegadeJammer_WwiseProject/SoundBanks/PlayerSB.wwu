@@ -34,6 +34,10 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="PauseAll" ID="{CAA3E5D1-869D-40C9-AFCF-5CBB030DBF21}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ResumeAll" ID="{C6632815-05A7-4314-9233-F8DA75CC50F7}" WorkUnitID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mute_PlayerSounds" ID="{0814A0E6-BD8B-44CA-8139-4D391A00E8AC}" WorkUnitID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnMute_LevelSounds" ID="{79433F5D-2E5D-4AAD-A5C9-BCE852D60211}" WorkUnitID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mute_LevelSounds" ID="{89AD6CF1-79C1-4AF0-A19B-A9AB0B9F9B50}" WorkUnitID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnMute_PlayerSounds" ID="{EE9505D0-AC1A-4BE5-82A1-BA3A69DBDE91}" WorkUnitID="{51B3AB77-4559-4B45-A78D-B432846CC4CD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5FEC579A-307C-431B-BF65-28F440CFE99F}",
     "Language": "SFX",
-    "Hash": "{905C03A1-7D8F-DDB4-69E3-1FAC015304A3}",
+    "Hash": "{16696804-C8F2-DF09-F154-FEC1CDF32AA5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB\\Level1",
     "ShortName": "Level1",
     "Path": "Level1.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "RJMusicLevel1_Intro.wav",
       "CachePath": "E2/{E252EF25-2759-37E3-D256-D284F07C25E2}.wem"
+     },
+     {
+      "Id": "283106678",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GameEndLoop.wav",
+      "CachePath": "0F/{0F9E1F48-8AD4-FE21-3A12-431576A7FCC9}.wem"
      },
      {
       "Id": "310183909",
@@ -62,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "Polystratus_BackToMainLoop.wav",
       "CachePath": "A7/{A7CDBB6C-9FA9-FBA7-55B3-118E5CD024D7}.wem"
+     },
+     {
+      "Id": "442295089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GameEndPart1.wav",
+      "CachePath": "7D/{7D14575B-D874-0F54-7BBA-6F499BEEE8DA}.wem"
      },
      {
       "Id": "446467944",
@@ -142,6 +158,14 @@
       "Location": "Memory",
       "ShortName": "Polystratus_ToGreenEnergy_TransitionDefault.wav",
       "CachePath": "1C/{1C7B0829-F6F0-FDFE-ADE2-187B300E4089}.wem"
+     },
+     {
+      "Id": "962811187",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Polystratus_GameEndPart2.wav",
+      "CachePath": "63/{63CACD0A-B735-C864-EB68-CCE5E8AF4CB1}.wem"
      },
      {
       "Id": "1027540700",
@@ -317,7 +341,13 @@
         },
         "MediaRefs": [
          {
-          "Id": "513893476"
+          "Id": "283106678"
+         },
+         {
+          "Id": "442295089"
+         },
+         {
+          "Id": "962811187"
          }
         ]
        },
@@ -469,6 +499,6 @@
     ]
    }
   ],
-  "FileHash": "{4AA04BA5-D7BD-D4FC-F9F9-9C70601CCB38}"
+  "FileHash": "{5D0F7159-CCBA-A7D8-014E-91D8FA1F3955}"
  }
 }

@@ -17,7 +17,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume\MainMixVolume\SFX	
 	480770934	SFXMixBus			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume\MainMixVolume\SFX\SFXDesignBus\SFXMixBus	
+	1162791285	LevelSounds			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume\MainMixVolume\SFX\SFXDesignBus\SFXMixBus\LevelSounds	
 	1205223454	MainMixVolume			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume\MainMixVolume	
+	1327972334	PlayerSounds			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume\MainMixVolume\SFX\SFXDesignBus\SFXMixBus\PlayerSounds	
 	1394054918	MusicDesignBus			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume\MainMixVolume\Music\MusicDesignBus	
 	1493748214	MainDesignVolume			\Default Work Unit\Master Audio Bus\MainVolume\MainDesignVolume	
 	1843561328	MainVolume			\Default Work Unit\Master Audio Bus\MainVolume	
