@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	438056247	Play_uinav			\Default Work Unit\Play_uinav	
+	1340680988	UnMute_LevelSounds			\Default Work Unit\UnMute_LevelSounds	
+	3055728041	UnMute_PlayerSounds			\Default Work Unit\UnMute_PlayerSounds	
+	3231232354	Mute_PlayerSounds			\Default Work Unit\Mute_PlayerSounds	
+	3240900869	ResumeAll			\Default Work Unit\PlayerEvents\ResumeAll	
+	3320182505	Mute_LevelSounds			\Default Work Unit\Mute_LevelSounds	
+	4091047182	PauseAll			\Default Work Unit\PlayerEvents\PauseAll	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	239928225	uinav	C:\Users\PC GAMING\Documents\git\RenegadeJammer\RenegadeJammer\RenegadeJammer_WwiseProject\.cache\B5\{B50D5FBB-F91A-3ABA-D82B-5036BEF41A26}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UserInterface\uinav		24140
+

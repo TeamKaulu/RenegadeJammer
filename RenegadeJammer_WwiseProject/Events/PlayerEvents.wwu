@@ -237,6 +237,26 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="PauseAll" ID="{CAA3E5D1-869D-40C9-AFCF-5CBB030DBF21}">
+					<ChildrenList>
+						<Action Name="" ID="{2AB172F5-2DE0-48DF-85D4-AF24170C0049}" ShortID="679341136">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ResumeAll" ID="{C6632815-05A7-4314-9233-F8DA75CC50F7}">
+					<ChildrenList>
+						<Action Name="" ID="{A331CBE0-DEA9-4C5B-822E-42B9020FDC96}" ShortID="597710858">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

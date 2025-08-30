@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+							<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -31,7 +31,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+							<ObjectRef Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -45,6 +45,72 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="success" ID="{01E04762-DE6D-471C-B96D-B309CF31EA4E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="music_example" ID="{A2842936-1B67-4506-9534-3F120E896FD5}" ShortID="697503185">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MusicMixBus" ID="{D864B653-4496-476B-A152-7069A2E3090A}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="success" ID="{B7319C38-E91C-4829-9889-A00258BDD77D}">
+							<Language>SFX</Language>
+							<AudioFile>success.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="177832835"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="success" ID="{B7319C38-E91C-4829-9889-A00258BDD77D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="main_example" ID="{4B0AC0BD-1C97-448C-AB28-5634C21ED179}" ShortID="669551643">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MainMixVolume" ID="{AB131C1E-E980-4060-BD44-3A22FA88AF5F}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="select" ID="{339A9364-4D4E-4E83-A5C1-89FA2A8970CD}">
+							<Language>SFX</Language>
+							<AudioFile>select.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="39640563"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="select" ID="{339A9364-4D4E-4E83-A5C1-89FA2A8970CD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="uinav" ID="{DB965E1B-01C3-4ADE-AC0F-E9028FD00549}" ShortID="511595235">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="uinav" ID="{9D578D6D-3E24-44FF-BBE4-00CA9FFC3AB2}">
+							<Language>SFX</Language>
+							<AudioFile>uinav.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="239928225"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="uinav" ID="{9D578D6D-3E24-44FF-BBE4-00CA9FFC3AB2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

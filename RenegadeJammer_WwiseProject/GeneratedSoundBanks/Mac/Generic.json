@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E24C5750-4FCE-465E-A0FA-66C30A629749}",
     "Language": "SFX",
-    "Hash": "{BAD807E1-E54E-31B3-FA2F-A8DC6678D3FA}",
+    "Hash": "{955A9F8E-441A-B9DC-48A4-37A7EBD2A6BA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Generic",
     "ShortName": "Generic",
     "Path": "Generic.bnk",
@@ -33,6 +33,34 @@
      }
     ],
     "Events": [
+     {
+      "Id": "475564810",
+      "Name": "Play_main_example",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_main_example",
+      "GUID": "{B6F50C17-954B-45FE-8407-26611EF75438}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16482992",
+      "DurationMax": "0.16482992",
+      "MediaRefs": [
+       {
+        "Id": "39640563"
+       }
+      ]
+     },
+     {
+      "Id": "558594024",
+      "Name": "Play_music_example",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_music_example",
+      "GUID": "{81602181-FC91-44D2-B8D8-B1816944E0F1}",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "177832835"
+       }
+      ]
+     },
      {
       "Id": "1042987450",
       "Name": "Play_select",
@@ -64,6 +92,6 @@
     ]
    }
   ],
-  "FileHash": "{AD0DF7D0-57B8-A471-1EB0-D3A5B792EFDE}"
+  "FileHash": "{17BE6D53-1B79-6422-E59F-11A235C90986}"
  }
 }

@@ -6,6 +6,101 @@
 				<WorkUnit Name="PlayerEvents" ID="{D4B05260-8388-4C80-87A6-D777AE398BE4}" PersistMode="Reference"/>
 				<WorkUnit Name="ObjectsEvents" ID="{259B1F35-6BE3-4456-B074-73A3810CA5FC}" PersistMode="Reference"/>
 				<WorkUnit Name="MusicEvents" ID="{4E1638A2-17CE-43CB-8765-807B901B85B6}" PersistMode="Reference"/>
+				<Event Name="Play_music_example" ID="{81602181-FC91-44D2-B8D8-B1816944E0F1}">
+					<ChildrenList>
+						<Action Name="" ID="{CD13DE33-C435-4DD1-B7EC-4DC50C466A37}" ShortID="871473223">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_example" ID="{A2842936-1B67-4506-9534-3F120E896FD5}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_main_example" ID="{B6F50C17-954B-45FE-8407-26611EF75438}">
+					<ChildrenList>
+						<Action Name="" ID="{AC6881E7-662F-4BC2-B169-9B00E30A6F9E}" ShortID="243935534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_example" ID="{4B0AC0BD-1C97-448C-AB28-5634C21ED179}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_LevelSounds" ID="{89AD6CF1-79C1-4AF0-A19B-A9AB0B9F9B50}">
+					<ChildrenList>
+						<Action Name="" ID="{379AB871-3560-4CCB-89BA-4762E5C1DD63}" ShortID="384128827">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelSounds" ID="{4F5C64CF-1D8F-4671-8C18-2C9B87B989FE}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_LevelSounds" ID="{79433F5D-2E5D-4AAD-A5C9-BCE852D60211}">
+					<ChildrenList>
+						<Action Name="" ID="{4C636EF5-1651-4463-A08D-5747B63C02BF}" ShortID="988353272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelSounds" ID="{4F5C64CF-1D8F-4671-8C18-2C9B87B989FE}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_PlayerSounds" ID="{0814A0E6-BD8B-44CA-8139-4D391A00E8AC}">
+					<ChildrenList>
+						<Action Name="" ID="{DD5DF68D-66F7-4D7F-817C-0A3BAC093378}" ShortID="979448089">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerSounds" ID="{7CF13C3D-08EC-4F63-B7DB-9AF5C51F7B93}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_PlayerSounds" ID="{EE9505D0-AC1A-4BE5-82A1-BA3A69DBDE91}">
+					<ChildrenList>
+						<Action Name="" ID="{E45EFF0F-3005-46DB-AAF0-19F5DD30AD7B}" ShortID="905321857">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerSounds" ID="{7CF13C3D-08EC-4F63-B7DB-9AF5C51F7B93}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_uinav" ID="{B3B3132A-DBA6-448F-961F-AB501C2D3B0A}">
+					<ChildrenList>
+						<Action Name="" ID="{6EAF3C39-1403-4299-8625-6EC54E1BA0E3}" ShortID="411755967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="uinav" ID="{DB965E1B-01C3-4ADE-AC0F-E9028FD00549}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,107 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2395314679",
+    "Type": "User",
+    "GUID": "{1B8009D5-5496-410B-BBD5-A6E32F5EE31B}",
+    "Language": "SFX",
+    "Hash": "{7439BF95-8CD1-A8D1-6901-AB46A18010A6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\GenericPlayer",
+    "ShortName": "GenericPlayer",
+    "Path": "GenericPlayer.bnk",
+    "Media": [
+     {
+      "Id": "239928225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "uinav.wav",
+      "CachePath": "B5/{B50D5FBB-F91A-3ABA-D82B-5036BEF41A26}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3320182505",
+      "Name": "Mute_LevelSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_LevelSounds",
+      "GUID": "{89AD6CF1-79C1-4AF0-A19B-A9AB0B9F9B50}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3231232354",
+      "Name": "Mute_PlayerSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_PlayerSounds",
+      "GUID": "{0814A0E6-BD8B-44CA-8139-4D391A00E8AC}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4091047182",
+      "Name": "PauseAll",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\PauseAll",
+      "GUID": "{CAA3E5D1-869D-40C9-AFCF-5CBB030DBF21}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "438056247",
+      "Name": "Play_uinav",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_uinav",
+      "GUID": "{B3B3132A-DBA6-448F-961F-AB501C2D3B0A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13630386",
+      "DurationMax": "0.13630386",
+      "MediaRefs": [
+       {
+        "Id": "239928225"
+       }
+      ]
+     },
+     {
+      "Id": "3240900869",
+      "Name": "ResumeAll",
+      "ObjectPath": "\\Events\\Default Work Unit\\PlayerEvents\\ResumeAll",
+      "GUID": "{C6632815-05A7-4314-9233-F8DA75CC50F7}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1340680988",
+      "Name": "UnMute_LevelSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_LevelSounds",
+      "GUID": "{79433F5D-2E5D-4AAD-A5C9-BCE852D60211}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3055728041",
+      "Name": "UnMute_PlayerSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_PlayerSounds",
+      "GUID": "{EE9505D0-AC1A-4BE5-82A1-BA3A69DBDE91}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1F4B940A-06A5-6C2A-259E-9E4033DE1EB2}"
+ }
+}

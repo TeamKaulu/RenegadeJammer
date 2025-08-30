@@ -313,10 +313,6 @@
 										<MusicTransition Name="Transition" ID="{14CC7B5D-193C-45FC-9882-B51EBC76FD3A}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
-												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
-												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-												<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
-												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 											</PropertyList>
@@ -416,6 +412,115 @@
 											</ReferenceList>
 											<TransitionInfo>
 												<TransitionObjectRef Name="Polystratus_TransitionToGreenBoost" ID="{F2C127A2-66B9-46A6-BC41-2E216C2F5D19}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{8B0E8ED4-AC20-405F-9662-DC9F621C38C4}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="ChillSequence" ID="{6B0410FF-058A-46E5-9403-32B69445F356}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_TransitionToChillSequence" ID="{4E5F4EAF-9A71-4621-AC9C-680065B9C654}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												<TransitionFadeIn>
+													<MusicFade Name="Transition Fade-in" ID="{92A32666-68A4-4B76-98B9-B5FD8AE4889D}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+															<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+														</PropertyList>
+													</MusicFade>
+												</TransitionFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{131066F3-1CC1-41CD-A93F-680BDB35B2AC}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="ChillSequence" ID="{6B0410FF-058A-46E5-9403-32B69445F356}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Polystratus_ToGreenEnergy_TransitionDefault" ID="{7BA6C561-46D6-4F05-A70C-FE1DEB7B3A6A}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_TransitionToChillSequence" ID="{4E5F4EAF-9A71-4621-AC9C-680065B9C654}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												<TransitionFadeIn>
+													<MusicFade Name="Transition Fade-in" ID="{166A4B9E-5C60-4A1F-838F-6029944A59C6}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</MusicFade>
+												</TransitionFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{3C6F9F8A-C7AA-438C-BE5D-94DFBC5BFB76}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="ChillSequence" ID="{6B0410FF-058A-46E5-9403-32B69445F356}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Polystratus_ToGreenEnergy_TransitionOne" ID="{36D9164F-18AF-44FC-B8EA-565436F447B2}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_TransitionToChillSequence" ID="{4E5F4EAF-9A71-4621-AC9C-680065B9C654}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												<TransitionFadeIn>
+													<MusicFade Name="Transition Fade-in" ID="{A238EDA2-4BC3-45D0-A505-5857413E9490}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</MusicFade>
+												</TransitionFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{C0F4ACEA-0260-4C00-BE8A-1B0304B0C0F9}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="1"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="ChillSequence" ID="{6B0410FF-058A-46E5-9403-32B69445F356}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Polystratus_DrumSolo" ID="{01EE1FFE-8A1E-4EFF-85F6-0EFD340EFD7F}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_TransitionToChillSequence" ID="{4E5F4EAF-9A71-4621-AC9C-680065B9C654}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												<TransitionFadeIn>
+													<MusicFade Name="Transition Fade-in" ID="{6982534B-E76A-4104-B34E-0D1183AD7782}">
+														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</MusicFade>
+												</TransitionFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
@@ -2489,7 +2594,7 @@
 						</MusicSegment>
 						<MusicSegment Name="Polystratus_MainLoop" ID="{0772B9F3-2C7B-4E42-9397-E6F380E25E74}" ShortID="313229038">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="123464.178823843"/>
+								<Property Name="EndPosition" Type="Real64" Value="147134.923687953"/>
 								<Property Name="Tempo" Type="Real64" Value="87"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2540,7 +2645,6 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="88275.873015873"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="35188.3058079696"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Polystratus_MainLoop" ID="{9D55D7C2-674F-4914-AC54-881B013B3E63}"/>
 																		</MusicClip>
@@ -2559,11 +2663,7 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{4B1EC7C4-190B-4F70-94D6-2A06FE10FE3C}">
-												<PropertyList>
-													<Property Name="TimeMs" Type="Real64" Value="3915.46203244117"/>
-												</PropertyList>
-											</MusicCue>
+											<MusicCue Name="Entry Cue" ID="{4B1EC7C4-190B-4F70-94D6-2A06FE10FE3C}"/>
 										</Local>
 									</Reference>
 									<Reference>
@@ -2571,7 +2671,7 @@
 											<MusicCue Name="Exit Cue" ID="{BFD8D55A-20ED-42E5-87CE-35C16718AC8D}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="92191.3350483142"/>
+													<Property Name="TimeMs" Type="Real64" Value="88275.873015873"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -4688,6 +4788,490 @@
 								</MusicSegment>
 							</ChildrenList>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="ChillSequence" ID="{6B0410FF-058A-46E5-9403-32B69445F356}" ShortID="168839189">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{53DB4D83-4235-457B-9309-12565BD03950}" ShortID="45183772">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{4767BBAE-BBF5-4A67-9C34-FDCB728AF84E}" ShortID="991165135">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="2"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Polystratus_GameEndPart1" ID="{2843F035-52FE-4138-A63D-5F45BA503728}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{4AD8CB3B-16B5-4214-BB7F-D33C0113774D}" ShortID="489758908">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Polystratus_GameEndPart2" ID="{FBEFEA69-8BCF-4B8F-A484-7F1935FBF5FF}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{E70C3BDF-06D4-46F4-9D9D-C7E078D1D2F7}" ShortID="1010860457">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Polystratus_GameEndLoop" ID="{22E279B6-6CF9-4C14-B01A-0B56F8C1532E}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{438464D0-C8D6-44E6-AAA8-CBCC3376D02B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{F136137C-8969-4DDF-BC55-02810B0E87F0}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Polystratus_GameEndLoop" ID="{22E279B6-6CF9-4C14-B01A-0B56F8C1532E}" ShortID="482193235">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5517.2335600907"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Polystratus_GameEndLoop" ID="{DFC0843B-202A-44A2-8F54-00E49D3A99FD}" ShortID="281414124">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{FB3066D0-C4FE-4A67-8F9E-44F33C949BC0}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Polystratus_GameEndLoop" ID="{45D3D8E9-46B4-40FC-A999-C7A6CC03FF21}">
+													<Language>SFX</Language>
+													<AudioFile>Polystratus_GameEndLoop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="283106678"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3AFAD50A-08B6-42A6-9892-8538498D92A6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Polystratus_GameEndLoop" ID="{A61946B2-CC83-487E-BAAE-D578B98C6541}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.2335600907"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Polystratus_GameEndLoop" ID="{45D3D8E9-46B4-40FC-A999-C7A6CC03FF21}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E8EF66F0-3D5E-4346-8D73-F31F80C1A736}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{832C9EF8-AD84-464B-B5FC-1A4E5B68174E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5517.2335600907"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Polystratus_GameEndPart1" ID="{2843F035-52FE-4138-A63D-5F45BA503728}" ShortID="576455992">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5517.2335600907"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Polystratus_GameEndPart1" ID="{D831289F-F90A-4ED4-B6A6-D08E43AAB6DD}" ShortID="833392248">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{613E69CA-6BA6-4409-8A6E-A5C5D891C633}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Polystratus_GameEndPart1" ID="{1A4FFDCB-368D-44E1-AC56-2EBC68850AC6}">
+													<Language>SFX</Language>
+													<AudioFile>Polystratus_GameEndPart1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="442295089"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1FC3EADF-279C-41B4-964E-42495FF5F409}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Polystratus_GameEndPart1" ID="{055DB604-4615-4963-9964-A292135A853A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.2335600907"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Polystratus_GameEndPart1" ID="{1A4FFDCB-368D-44E1-AC56-2EBC68850AC6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A4DE8D57-5B39-4B84-BBF7-2877F9D3EB24}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{252BE493-1B31-4C01-B163-96646EAAAC31}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5517.2335600907"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Polystratus_GameEndPart2" ID="{FBEFEA69-8BCF-4B8F-A484-7F1935FBF5FF}" ShortID="547103687">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5517.2335600907"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Polystratus_GameEndPart2" ID="{AC9BE27A-67EB-4AB4-A68F-E8A040D32582}" ShortID="530083239">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{43C959C3-6E1B-4637-9CE9-BDE6BFEA5B09}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Polystratus_GameEndPart2" ID="{5EC8FA5A-3813-4BE0-AD3C-4D261D890C57}">
+													<Language>SFX</Language>
+													<AudioFile>Polystratus_GameEndPart2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962811187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2606D2B0-2465-4649-A819-85D222C5BC06}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Polystratus_GameEndPart2" ID="{5D565E76-54E9-4E85-B93C-0F567EE190A2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5517.2335600907"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Polystratus_GameEndPart2" ID="{5EC8FA5A-3813-4BE0-AD3C-4D261D890C57}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D9943DDF-91E6-4C32-8F91-39BDCF00BFBE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9142DDB7-22CD-4942-9D23-91EC4238E6DB}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5517.2335600907"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="Polystratus_TransitionToChillSequence" ID="{4E5F4EAF-9A71-4621-AC9C-680065B9C654}" ShortID="414692857">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8368.03112049417"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Polystratus_TransitionToDrumLoop" ID="{9CCAAC44-3BBB-4669-B4CD-36681DC39F04}" ShortID="457461393">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{770CAD50-742D-4FF5-87DD-32DB4EC125EB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Polystratus_TransitionToDrumLoop" ID="{253AF1A4-FE27-4BCA-9E6A-6A06AE0A6B98}">
+											<Language>SFX</Language>
+											<AudioFile>Polystratus_TransitionToDrumLoop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="456771501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{20D78437-3F94-4607-9E8C-B83766AA26AA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Polystratus_TransitionToDrumLoop" ID="{C8257793-EE4E-46D4-855C-657E16EA2B22}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="603.960661944254"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="2291.47712945474"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="100.808797059986"/>
+																				<Property Name="FadeInShape" Type="int16" Value="6"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="1465.00485529713"/>
+																				<Property Name="PlayAt" Type="Real64" Value="467.957883874513"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Polystratus_TransitionToDrumLoop" ID="{253AF1A4-FE27-4BCA-9E6A-6A06AE0A6B98}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{5C8D08AC-C607-4279-A437-03948166543C}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0.60396</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.29148</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{5BF87DEE-8D4C-4850-BDEC-CD78237CB52E}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0.60396</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.29148</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{463FA410-5C48-40E4-BEC1-BD52C4C3D79F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0.60396</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>2.29148</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{086715C1-3846-4F95-91A8-B91E93C38ED0}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="1157.61305628831"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{C4F5180E-E1B4-4094-896D-E0D93D6DBCDF}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1157.61305628831"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="Arguments">
@@ -4773,7 +5357,7 @@
 									<MultiSwitchEntry Name="" ID="{FD711A1E-EB6A-4143-A1FD-85DD2F6D726C}">
 										<ReferenceList>
 											<Reference Name="AudioNode">
-												<ObjectRef Name="GameEnd" ID="{61716B8E-E7BA-47D9-AFBA-C60E557E87C6}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												<ObjectRef Name="ChillSequence" ID="{6B0410FF-058A-46E5-9403-32B69445F356}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
 											</Reference>
 										</ReferenceList>
 										<ObjectLists>
