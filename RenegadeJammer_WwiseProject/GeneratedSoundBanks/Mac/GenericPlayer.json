@@ -10,10 +10,20 @@
     "Type": "User",
     "GUID": "{1B8009D5-5496-410B-BBD5-A6E32F5EE31B}",
     "Language": "SFX",
-    "Hash": "{EE4858A0-5EE8-4CF7-C2C0-9124CAEB486A}",
+    "Hash": "{7439BF95-8CD1-A8D1-6901-AB46A18010A6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\GenericPlayer",
     "ShortName": "GenericPlayer",
     "Path": "GenericPlayer.bnk",
+    "Media": [
+     {
+      "Id": "239928225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "uinav.wav",
+      "CachePath": "B5/{B50D5FBB-F91A-3ABA-D82B-5036BEF41A26}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "3320182505",
@@ -44,6 +54,20 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "438056247",
+      "Name": "Play_uinav",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_uinav",
+      "GUID": "{B3B3132A-DBA6-448F-961F-AB501C2D3B0A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13630386",
+      "DurationMax": "0.13630386",
+      "MediaRefs": [
+       {
+        "Id": "239928225"
+       }
+      ]
      },
      {
       "Id": "3240900869",
@@ -78,6 +102,6 @@
     ]
    }
   ],
-  "FileHash": "{B7B24AA3-15BD-FD5E-A1C0-3C756E3AEA28}"
+  "FileHash": "{94EC5156-325E-DD47-D2F0-A0278ACEE219}"
  }
 }

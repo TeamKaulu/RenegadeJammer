@@ -91,6 +91,28 @@
 						<ActiveSource Name="select" ID="{339A9364-4D4E-4E83-A5C1-89FA2A8970CD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="uinav" ID="{DB965E1B-01C3-4ADE-AC0F-E9028FD00549}" ShortID="511595235">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="uinav" ID="{9D578D6D-3E24-44FF-BBE4-00CA9FFC3AB2}">
+							<Language>SFX</Language>
+							<AudioFile>uinav.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="239928225"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="uinav" ID="{9D578D6D-3E24-44FF-BBE4-00CA9FFC3AB2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

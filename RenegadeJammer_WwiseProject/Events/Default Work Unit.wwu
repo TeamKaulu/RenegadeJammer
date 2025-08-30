@@ -90,6 +90,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_uinav" ID="{B3B3132A-DBA6-448F-961F-AB501C2D3B0A}">
+					<ChildrenList>
+						<Action Name="" ID="{6EAF3C39-1403-4299-8625-6EC54E1BA0E3}" ShortID="411755967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="uinav" ID="{DB965E1B-01C3-4ADE-AC0F-E9028FD00549}" WorkUnitID="{E7ABA5A0-D87A-450F-8F6F-5EF5E8C1B62E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
