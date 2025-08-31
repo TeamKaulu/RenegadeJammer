@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{333D2BDC-0318-4F49-8449-29B53C17D679}",
     "Language": "SFX",
-    "Hash": "{A8EDC9F9-8552-F9D2-10F2-3AD5D7DFDB0C}",
+    "Hash": "{5AE81D70-E4D6-F3B0-3CE0-F9625C69CF15}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\PlayerSB\\States",
     "ShortName": "States",
     "Path": "States.bnk",
@@ -383,6 +383,6 @@
     ]
    }
   ],
-  "FileHash": "{4BBAF372-5BA1-C8CA-8F0A-62856348BE14}"
+  "FileHash": "{2FEA0B47-F914-5999-ADB4-92CE631B68E8}"
  }
 }

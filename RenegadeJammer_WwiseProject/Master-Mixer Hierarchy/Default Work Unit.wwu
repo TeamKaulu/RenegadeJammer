@@ -68,7 +68,12 @@
 													<ChildrenList>
 														<Bus Name="SFXDesignBus" ID="{4EF6C633-BEA7-4EDA-B234-EFA944548971}">
 															<ChildrenList>
-																<Bus Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}"/>
+																<Bus Name="SFXMixBus" ID="{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}">
+																	<ChildrenList>
+																		<Bus Name="LevelSounds" ID="{4F5C64CF-1D8F-4671-8C18-2C9B87B989FE}"/>
+																		<Bus Name="PlayerSounds" ID="{7CF13C3D-08EC-4F63-B7DB-9AF5C51F7B93}"/>
+																	</ChildrenList>
+																</Bus>
 															</ChildrenList>
 														</Bus>
 													</ChildrenList>

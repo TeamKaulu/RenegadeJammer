@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{54429D62-D3DE-4F0F-AAD6-ECCF9AFBC7D3}",
     "Language": "SFX",
-    "Hash": "{B20CC811-303D-55D9-9DB5-C4241F6A09DE}",
+    "Hash": "{06006BF8-250E-9B60-DE3F-BB4A17B6A2CD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ObjectsSB\\Map1Zone1",
     "ShortName": "Map1Zone1",
     "Path": "Map1Zone1.bnk",
@@ -96,6 +96,6 @@
     ]
    }
   ],
-  "FileHash": "{5E5E451E-7343-B581-CAA5-7EEF08D00770}"
+  "FileHash": "{C370FD05-CC56-D91B-E598-2FD57B8498E7}"
  }
 }

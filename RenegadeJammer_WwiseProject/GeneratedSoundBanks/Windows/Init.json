@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DE482E54-F926-572D-0B63-562E973D0427}",
+    "Hash": "{FC71B15C-CB0B-D142-DADE-4191D3281254}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,10 +48,22 @@
       "GUID": "{AAAB2D1F-7248-4A38-960E-3EF92B610EA1}"
      },
      {
+      "Id": "1162791285",
+      "Name": "LevelSounds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\SFX\\SFXDesignBus\\SFXMixBus\\LevelSounds",
+      "GUID": "{4F5C64CF-1D8F-4671-8C18-2C9B87B989FE}"
+     },
+     {
       "Id": "1205223454",
       "Name": "MainMixVolume",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume",
       "GUID": "{AB131C1E-E980-4060-BD44-3A22FA88AF5F}"
+     },
+     {
+      "Id": "1327972334",
+      "Name": "PlayerSounds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MainVolume\\MainDesignVolume\\MainMixVolume\\SFX\\SFXDesignBus\\SFXMixBus\\PlayerSounds",
+      "GUID": "{7CF13C3D-08EC-4F63-B7DB-9AF5C51F7B93}"
      },
      {
       "Id": "1394054918",
@@ -226,6 +238,6 @@
     ]
    }
   ],
-  "FileHash": "{25E2D3ED-CE00-DF30-8E8F-9463F42AB218}"
+  "FileHash": "{A49BDF34-29BB-9E6E-9C50-5549EA099755}"
  }
 }
