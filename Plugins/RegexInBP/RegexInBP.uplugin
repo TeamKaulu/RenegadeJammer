@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.1",
+	"FriendlyName": "Regex in Blueprints",
+	"Description": "Regex functionality exposed to blueprints",
+	"Category": "Other",
+	"CreatedBy": "CrazyClock",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/16339a5a34cb452c9a277bc3044b4608",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RegexInBP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
