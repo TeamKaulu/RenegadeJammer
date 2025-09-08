@@ -544,6 +544,26 @@
 												<TransitionObjectRef Name="Polystratus_GreenEnergyCrashNoTime" ID="{2D479204-AF5D-4A80-8050-6E21D9CFA642}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
 											</TransitionInfo>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{0E47D9D7-BFFB-4718-8144-EF8933497FD2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_GreenEnergyCrashNoTime" ID="{2D479204-AF5D-4A80-8050-6E21D9CFA642}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+											</TransitionInfo>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
