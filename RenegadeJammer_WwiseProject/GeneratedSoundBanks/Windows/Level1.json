@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5FEC579A-307C-431B-BF65-28F440CFE99F}",
     "Language": "SFX",
-    "Hash": "{16696804-C8F2-DF09-F154-FEC1CDF32AA5}",
+    "Hash": "{DD49394E-FC28-D087-6420-D580882A9A1E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MusicSB\\Level1",
     "ShortName": "Level1",
     "Path": "Level1.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "JammerLobbyTune-Prelude.wav",
-      "CachePath": "60/{6095A14E-F5D0-1921-97B6-4908A57926AE}.wem"
+      "CachePath": "23/{23DF92A2-FDB8-849F-3B40-FA1DF95EAD06}.wem"
      },
      {
       "Id": "376594082",
@@ -499,6 +499,6 @@
     ]
    }
   ],
-  "FileHash": "{C314A5CC-DB5A-B3F2-6E26-FD535C312F10}"
+  "FileHash": "{88C2FAF7-3A1A-0AC0-F46F-8EEDD688D084}"
  }
 }
