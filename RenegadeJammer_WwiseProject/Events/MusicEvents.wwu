@@ -79,6 +79,9 @@
 						<Event Name="Play_PolystratusSwitchContainer" ID="{4FE7AD8A-277F-4741-A5B9-7E1529D547CC}">
 							<ChildrenList>
 								<Action Name="" ID="{0F1F63A1-C2DD-4071-8EE2-77BF91CA2563}" ShortID="769037348">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="PolystratusSwitchContainer" ID="{97638693-36D9-4D1A-885D-22288BE769FC}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
@@ -94,6 +97,10 @@
 						<Event Name="PlayLoading" ID="{26563861-A7E4-4F6A-A479-940A9896CD99}">
 							<ChildrenList>
 								<Action Name="" ID="{CC9EF40E-5287-4B7A-BD55-BB0A24A7DDBA}" ShortID="960263407">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="LoadingSequence" ID="{C5DEF788-576D-4002-B93D-F041FCBB01F2}" WorkUnitID="{D5F7E2A5-587A-4A6A-922D-56B9ED5FCB70}"/>
@@ -138,6 +145,10 @@
 						<Event Name="Play_Lobby" ID="{C9174FA5-F967-4858-898F-B26FD90B6F71}">
 							<ChildrenList>
 								<Action Name="" ID="{3DB321A4-2A62-4D64-B3A0-3E24389EC7D9}" ShortID="489758390">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="LobbySequence" ID="{CD3EE0FA-36FB-46FB-AEA8-49C5935A3FAD}" WorkUnitID="{EF285FCE-4877-4D5D-8609-220F7473AEEB}"/>
@@ -165,6 +176,7 @@
 								<Action Name="" ID="{11CC4DB6-92F9-4EE5-B426-F1999EE575A9}" ShortID="170535276">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
