@@ -523,6 +523,47 @@
 												</TransitionFadeIn>
 											</TransitionInfo>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{33B0DFB5-E024-474F-A89D-E376BFA812E2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+												<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="GreenEnergy" ID="{FFEB96A2-A63A-4A85-B870-995C6A762933}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_GreenEnergyCrashNoTime" ID="{2D479204-AF5D-4A80-8050-6E21D9CFA642}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+											</TransitionInfo>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{0E47D9D7-BFFB-4718-8144-EF8933497FD2}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+												<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo>
+												<TransitionObjectRef Name="Polystratus_GreenEnergyCrashNoTime" ID="{2D479204-AF5D-4A80-8050-6E21D9CFA642}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+											</TransitionInfo>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
@@ -530,131 +571,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" ShortID="188575084">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="22068.9569160998"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Polystratus_GreenBoost" ID="{9C3FEBFE-E151-4FE9-BC43-9ADA54887B4D}" ShortID="700747531">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
-										</Reference>
-										<Reference Name="TransitionRoot">
-											<Custom>
-												<MusicTransition Name="Root" ID="{64B9196D-8857-42FD-A306-0C796247F7B8}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</Custom>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Polystratus_GreenBoost" ID="{1A443B01-1110-4BAC-9964-267ABF6340C6}">
-											<Language>SFX</Language>
-											<AudioFile>Polystratus_GreenBoost.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="748866671"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{62AE4761-205A-45B5-9F1A-8625B2C426C1}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Polystratus_GreenBoost" ID="{4CD7AC5B-5CC5-446B-B995-B36C3F892EBA}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="22068.9569160998"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Polystratus_GreenBoost" ID="{1A443B01-1110-4BAC-9964-267ABF6340C6}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{519E114A-8E81-4923-8680-371D0DF02662}"/>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{D82940AE-6409-4142-8101-44E705F4F58F}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="22068.9569160998"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Go" ID="{6266972E-736F-428D-9AA0-17C7ECB8B3EF}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="5517.24137931035"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Go" ID="{00B7F748-6E68-4881-9639-8BC6E4E12CF7}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="11034.4827586207"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Go" ID="{43F26E50-90BA-4B96-9AE4-E50D35C8155D}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="16551.724137931"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Go" ID="{112FC9D3-F953-487B-9A55-E8B100A6D1E1}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="2"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
 						<MusicPlaylistContainer Name="Default" ID="{5DB7A9DB-0170-47EB-BE69-016DF71FE228}" ShortID="770989772">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5272,6 +5188,263 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicPlaylistContainer Name="UsingGreenBoost" ID="{9B566FBB-008A-4D85-AABA-7918973DFF9E}" ShortID="539237571">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{935D77FC-5143-4B09-B4E3-667C09E3C1F0}" ShortID="213526089">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{D887C39D-1404-44EB-AE1A-120D65F49FF4}" ShortID="556658553">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{4190416A-0B74-40DB-A356-AF421085ECE4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{0969BB7D-89BD-41ED-8E09-7B31D691421B}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" ShortID="188575084">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="22068.9569160998"/>
+										<Property Name="Tempo" Type="Real64" Value="174"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MusicMixBus" ID="{D864B653-4496-476B-A152-7069A2E3090A}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Polystratus_GreenBoost" ID="{9C3FEBFE-E151-4FE9-BC43-9ADA54887B4D}" ShortID="700747531">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{64B9196D-8857-42FD-A306-0C796247F7B8}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Polystratus_GreenBoost" ID="{1A443B01-1110-4BAC-9964-267ABF6340C6}">
+													<Language>SFX</Language>
+													<AudioFile>Polystratus_GreenBoost.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="748866671"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{62AE4761-205A-45B5-9F1A-8625B2C426C1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Polystratus_GreenBoost" ID="{4CD7AC5B-5CC5-446B-B995-B36C3F892EBA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="22068.9569160998"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Polystratus_GreenBoost" ID="{1A443B01-1110-4BAC-9964-267ABF6340C6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{519E114A-8E81-4923-8680-371D0DF02662}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D82940AE-6409-4142-8101-44E705F4F58F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="22068.9569160998"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Go" ID="{6266972E-736F-428D-9AA0-17C7ECB8B3EF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="5517.24137931035"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Go" ID="{00B7F748-6E68-4881-9639-8BC6E4E12CF7}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="11034.4827586207"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Go" ID="{43F26E50-90BA-4B96-9AE4-E50D35C8155D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+															<Property Name="TimeMs" Type="Real64" Value="16551.724137931"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Go" ID="{112FC9D3-F953-487B-9A55-E8B100A6D1E1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="2"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="Polystratus_GreenEnergyCrashNoTime" ID="{2D479204-AF5D-4A80-8050-6E21D9CFA642}" ShortID="346476632">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8275.87301587302"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{709C814F-769D-4933-BCB0-FD9F766FF414}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Polystratus_GreenEnergyCrash" ID="{92CAD45D-8DA0-4EF6-9588-5A378A72685B}" ShortID="141035463">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48C21E50-3561-4FF0-B66A-DF34CA2BDE69}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{885A9295-4DB8-4699-A92C-F1A5215798F2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Polystratus_GreenEnergyCrash" ID="{A32038EE-20C9-46E7-91D5-E7E5D0D2F664}">
+											<Language>SFX</Language>
+											<AudioFile>Polystratus_GreenEnergyCrash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="458253040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F46039BD-1E55-462C-BA6F-63A1A7D85678}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Polystratus_GreenEnergyCrash" ID="{B11CFB68-CADF-498E-97CD-C99BCB6FAF09}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="8275.87301587302"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Polystratus_GreenEnergyCrash" ID="{A32038EE-20C9-46E7-91D5-E7E5D0D2F664}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{A5E056D4-1A4A-4DAC-8741-8B23735AF75E}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E491815E-8F12-4242-931C-343FD5F21B31}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="Arguments">
@@ -5321,7 +5494,7 @@
 									<MultiSwitchEntry Name="" ID="{12511740-EC6B-4C2B-86BA-6DE699221CF2}">
 										<ReferenceList>
 											<Reference Name="AudioNode">
-												<ObjectRef Name="Polystratus_GreenBoost" ID="{CCEC219A-7F85-4106-B812-C51882503AB8}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
+												<ObjectRef Name="UsingGreenBoost" ID="{9B566FBB-008A-4D85-AABA-7918973DFF9E}" WorkUnitID="{2BE7672C-2846-45EC-9D8F-E99556013D57}"/>
 											</Reference>
 										</ReferenceList>
 										<ObjectLists>
