@@ -18,6 +18,8 @@
 !/Content/WwiseAudio/**
 !/Content/Movies/**
 !/RenegadeJammer.png
+!/RenegadeJammer.ico
+!/Splash.png
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
