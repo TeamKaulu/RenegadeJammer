@@ -1,0 +1,2654 @@
+﻿# Game Galician (Spain) translation.
+# Fill out your copyright notice in the Description page of Project Settings.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2025-10-30 17:24\n"
+"PO-Revision-Date: 2025-10-30 17:24\n"
+"Language-Team: \n"
+"Language: gl-ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	71329C6F4F7CB8820F1129821A944907
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",71329C6F4F7CB8820F1129821A944907"
+msgid "NoBoost"
+msgstr ""
+
+#. Key:	82006EAE41BC46AFCA3DC19D1B9906D6
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",82006EAE41BC46AFCA3DC19D1B9906D6"
+msgid "YellowBoost"
+msgstr ""
+
+#. Key:	D11B5B304C7E466486B956A07A45224B
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",D11B5B304C7E466486B956A07A45224B"
+msgid "BlueBoost"
+msgstr ""
+
+#. Key:	1D2217034A8E293AC8DDBABA9F607FAA
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_BoostStateEnum.E_BoostStateEnum.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",1D2217034A8E293AC8DDBABA9F607FAA"
+msgid "GreenBoost"
+msgstr ""
+
+#. Key:	FD7E48F34844FBF913F5FBB0B8C92CD5
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",FD7E48F34844FBF913F5FBB0B8C92CD5"
+msgid "Punch"
+msgstr ""
+
+#. Key:	AF4B624C4E089CA41C1B3298950A70F3
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",AF4B624C4E089CA41C1B3298950A70F3"
+msgid "Burn"
+msgstr ""
+
+#. Key:	8CD0D3E74B8788C3710F9EA60ADD9F87
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",8CD0D3E74B8788C3710F9EA60ADD9F87"
+msgid "Swirl"
+msgstr ""
+
+#. Key:	1473E67242BE16094CFF1AA56770E528
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",1473E67242BE16094CFF1AA56770E528"
+msgid "Teleport"
+msgstr ""
+
+#. Key:	C81299564BB6400C4B5593AC6F536122
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_MovementDisturbances.E_MovementDisturbances.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",C81299564BB6400C4B5593AC6F536122"
+msgid "TurboGate"
+msgstr ""
+
+#. Key:	422617B14055483680C5799670B481E3
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",422617B14055483680C5799670B481E3"
+msgid "Idle"
+msgstr ""
+
+#. Key:	8CC847B246C9E5E3C2D934A2B0BF35EF
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",8CC847B246C9E5E3C2D934A2B0BF35EF"
+msgid "RightTurnFall"
+msgstr ""
+
+#. Key:	B80E145B4E2A220D7F0F14A5F782AB53
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",B80E145B4E2A220D7F0F14A5F782AB53"
+msgid "RightTurnRecover"
+msgstr ""
+
+#. Key:	A44619BF4BC4FEC13C143F843E63AEB5
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",A44619BF4BC4FEC13C143F843E63AEB5"
+msgid "RightTurnStabilized"
+msgstr ""
+
+#. Key:	E8A4780A460430E200E74DB5217D12FF
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",E8A4780A460430E200E74DB5217D12FF"
+msgid "LeftTurnFall"
+msgstr ""
+
+#. Key:	66DD29AB4B5F84DF8DB270B4D0F9F101
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(5 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(5 - Value).DisplayNameMap
+msgctxt ",66DD29AB4B5F84DF8DB270B4D0F9F101"
+msgid "LeftTurnRecover"
+msgstr ""
+
+#. Key:	1E36F66D47F0A6338AA96FB11B5A8AFB
+#. SourceLocation:	/Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(6 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Characters/Jammer/E_TurnAnimationState.E_TurnAnimationState.DisplayNameMap(6 - Value).DisplayNameMap
+msgctxt ",1E36F66D47F0A6338AA96FB11B5A8AFB"
+msgid "LeftTurnStabilized"
+msgstr ""
+
+#. Key:	C3B77EF5415302A49A84FE80FB935333
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioConfigs.E_AudioConfigs.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioConfigs.E_AudioConfigs.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",C3B77EF5415302A49A84FE80FB935333"
+msgid "BeginLevel"
+msgstr ""
+
+#. Key:	EC428B644AB234911EB2EC88C42B7C83
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioConfigs.E_AudioConfigs.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioConfigs.E_AudioConfigs.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",EC428B644AB234911EB2EC88C42B7C83"
+msgid "EndLevel"
+msgstr ""
+
+#. Key:	174DE8F346FD75BE4858A385B89567A8
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",174DE8F346FD75BE4858A385B89567A8"
+msgid "Polystratus"
+msgstr ""
+
+#. Key:	43F34D26412494FB46B9EE848EDAAB6A
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",43F34D26412494FB46B9EE848EDAAB6A"
+msgid "LoadingLevel"
+msgstr ""
+
+#. Key:	E2C0AA39457B6030D918EB87ACEDD51D
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",E2C0AA39457B6030D918EB87ACEDD51D"
+msgid "Lobby"
+msgstr ""
+
+#. Key:	B5DB121F44900ECCDBE30B911169890B
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioScenes.E_AudioScenes.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",B5DB121F44900ECCDBE30B911169890B"
+msgid "Null"
+msgstr ""
+
+#. Key:	EE68B3CC4E122CF6C3A7FA964D2E75F0
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",EE68B3CC4E122CF6C3A7FA964D2E75F0"
+msgid "Default"
+msgstr ""
+
+#. Key:	86D25B3642CF447E019199ADCEC08533
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",86D25B3642CF447E019199ADCEC08533"
+msgid "GreenEnergyAchieved"
+msgstr ""
+
+#. Key:	18770CDA498B1476651127BC380B1407
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",18770CDA498B1476651127BC380B1407"
+msgid "UsingGreenBoost"
+msgstr ""
+
+#. Key:	50378794465D07579133EEAE0E50D0CA
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",50378794465D07579133EEAE0E50D0CA"
+msgid "LeftGreenBoost"
+msgstr ""
+
+#. Key:	58D75E7B40ADDF555A026FBCBB3F29D8
+#. SourceLocation:	/Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Components/E_AudioStates.E_AudioStates.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",58D75E7B40ADDF555A026FBCBB3F29D8"
+msgid "GameEnd"
+msgstr ""
+
+#. Key:	77DD39174A0AFDEEF038508B0C06935E
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/BP_BlueDestructibleObject.BP_BlueDestructibleObject_C:ExecuteUbergraph_BP_BlueDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/BP_BlueDestructibleObject.BP_BlueDestructibleObject_C:ExecuteUbergraph_BP_BlueDestructibleObject [Script Bytecode]
+msgctxt ",77DD39174A0AFDEEF038508B0C06935E"
+msgid "Destroyed blue hard object - Zone 2"
+msgstr ""
+
+#. Key:	AF6AFE92434F96E409B845921A075337
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/BP_BlueDestructibleObject.BP_BlueDestructibleObject_C:ExecuteUbergraph_BP_BlueDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/BP_BlueDestructibleObject.BP_BlueDestructibleObject_C:ExecuteUbergraph_BP_BlueDestructibleObject [Script Bytecode]
+msgctxt ",AF6AFE92434F96E409B845921A075337"
+msgid "Destroyed blue hard object - Zone 1"
+msgstr ""
+
+#. Key:	976E4B524956E902095944871F51CC20
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/FirstZone/BP_FirstZoneTargetBlueObject.BP_FirstZoneTargetBlueObject_C:ExecuteUbergraph_BP_FirstZoneTargetBlueObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/FirstZone/BP_FirstZoneTargetBlueObject.BP_FirstZoneTargetBlueObject_C:ExecuteUbergraph_BP_FirstZoneTargetBlueObject [Script Bytecode]
+msgctxt ",976E4B524956E902095944871F51CC20"
+msgid "Destroyed blue easy object - Zone 1"
+msgstr ""
+
+#. Key:	0691D979492D1740BF21E19C73FCA10E
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/SecondZone/BP_SecondZoneTargetBlueObject.BP_SecondZoneTargetBlueObject_C:ExecuteUbergraph_BP_SecondZoneTargetBlueObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/SecondZone/BP_SecondZoneTargetBlueObject.BP_SecondZoneTargetBlueObject_C:ExecuteUbergraph_BP_SecondZoneTargetBlueObject [Script Bytecode]
+msgctxt ",0691D979492D1740BF21E19C73FCA10E"
+msgid "Destroyed blue easy object - Zone 2"
+msgstr ""
+
+#. Key:	068F4D5E4E8F344C38D04DB8D6AA2726
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/SecondZone/BP_SecondZoneTargetBlueObjectDeactivateRamps.BP_SecondZoneTargetBlueObjectDeactivateRamps_C:ExecuteUbergraph_BP_SecondZoneTargetBlueObjectDeactivateRamps [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/SecondZone/BP_SecondZoneTargetBlueObjectDeactivateRamps.BP_SecondZoneTargetBlueObjectDeactivateRamps_C:ExecuteUbergraph_BP_SecondZoneTargetBlueObjectDeactivateRamps [Script Bytecode]
+msgctxt ",068F4D5E4E8F344C38D04DB8D6AA2726"
+msgid "Destroyed blue easy object - Zone 2"
+msgstr ""
+
+#. Key:	009E6BE348BA8C41E3C44B90BA0E926A
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/ThirdZone/BP_ThirdZoneHardTargetBlueObject.BP_ThirdZoneHardTargetBlueObject_C:ExecuteUbergraph_BP_ThirdZoneHardTargetBlueObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/ThirdZone/BP_ThirdZoneHardTargetBlueObject.BP_ThirdZoneHardTargetBlueObject_C:ExecuteUbergraph_BP_ThirdZoneHardTargetBlueObject [Script Bytecode]
+msgctxt ",009E6BE348BA8C41E3C44B90BA0E926A"
+msgid "Destroyed blue hard object - Zone 3"
+msgstr ""
+
+#. Key:	DADACA2F46825BA030B4E7A82E2A28FA
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Blue/ThirdZone/BP_ThirdZoneTargetBlueObject.BP_ThirdZoneTargetBlueObject_C:ExecuteUbergraph_BP_ThirdZoneTargetBlueObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Blue/ThirdZone/BP_ThirdZoneTargetBlueObject.BP_ThirdZoneTargetBlueObject_C:ExecuteUbergraph_BP_ThirdZoneTargetBlueObject [Script Bytecode]
+msgctxt ",DADACA2F46825BA030B4E7A82E2A28FA"
+msgid "Destroyed blue easy object - Zone 3"
+msgstr ""
+
+#. Key:	10F9572B4D1CC738AA9399B738394BBF
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/BP_BaseDestructibleObject.BP_BaseDestructibleObject_C:ExecuteUbergraph_BP_BaseDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/BP_BaseDestructibleObject.BP_BaseDestructibleObject_C:ExecuteUbergraph_BP_BaseDestructibleObject [Script Bytecode]
+msgctxt ",10F9572B4D1CC738AA9399B738394BBF"
+msgid "{className} destroyed"
+msgstr ""
+
+#. Key:	D42AC1F242538811D71CCC8753F2D750
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",D42AC1F242538811D71CCC8753F2D750"
+msgid "None"
+msgstr ""
+
+#. Key:	1A606F6744EB5390CBAA98BD18D246D2
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",1A606F6744EB5390CBAA98BD18D246D2"
+msgid "Zone1"
+msgstr ""
+
+#. Key:	0D603FDB46C7064E388633B62291AAD3
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",0D603FDB46C7064E388633B62291AAD3"
+msgid "Zone2"
+msgstr ""
+
+#. Key:	6F4C0E9B471F2BB62596F3BBE792D6A8
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_DeactivationZone.E_DeactivationZone.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",6F4C0E9B471F2BB62596F3BBE792D6A8"
+msgid "Zone3"
+msgstr ""
+
+#. Key:	3BEBF77049BE8EEC768CD79DEFF9DD6F
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_PlaySplineMode.E_PlaySplineMode.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_PlaySplineMode.E_PlaySplineMode.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",3BEBF77049BE8EEC768CD79DEFF9DD6F"
+msgid "OnBeginPlay"
+msgstr ""
+
+#. Key:	FFA07F9C456F5EF4A6FD9DAB375B1545
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_PlaySplineMode.E_PlaySplineMode.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_PlaySplineMode.E_PlaySplineMode.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",FFA07F9C456F5EF4A6FD9DAB375B1545"
+msgid "OnOverlapTriggerBox"
+msgstr ""
+
+#. Key:	BD7340FE40AF2B7D8051B28B6EBE85A6
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Common/E_PlaySplineMode.E_PlaySplineMode.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Common/E_PlaySplineMode.E_PlaySplineMode.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",BD7340FE40AF2B7D8051B28B6EBE85A6"
+msgid "None"
+msgstr ""
+
+#. Key:	3DD87C174163A547D46BE09AF2520F0C
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Green/BP_FirstZoneGreenDestructibleObject.BP_FirstZoneGreenDestructibleObject_C:ExecuteUbergraph_BP_FirstZoneGreenDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Green/BP_FirstZoneGreenDestructibleObject.BP_FirstZoneGreenDestructibleObject_C:ExecuteUbergraph_BP_FirstZoneGreenDestructibleObject [Script Bytecode]
+msgctxt ",3DD87C174163A547D46BE09AF2520F0C"
+msgid "Destroyed green object - Zone 1"
+msgstr ""
+
+#. Key:	4D4007024A9EF2207F2065816A8FC8AB
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Green/BP_SecondZoneGreenDestructibleObject.BP_SecondZoneGreenDestructibleObject_C:ExecuteUbergraph_BP_SecondZoneGreenDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Green/BP_SecondZoneGreenDestructibleObject.BP_SecondZoneGreenDestructibleObject_C:ExecuteUbergraph_BP_SecondZoneGreenDestructibleObject [Script Bytecode]
+msgctxt ",4D4007024A9EF2207F2065816A8FC8AB"
+msgid "Destroyed green object - Zone 2"
+msgstr ""
+
+#. Key:	865B3AF949DFF8B31EF4B8BFEE59ACCB
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Green/BP_ThirdZoneGreenDestructibleObject.BP_ThirdZoneGreenDestructibleObject_C:ExecuteUbergraph_BP_ThirdZoneGreenDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Green/BP_ThirdZoneGreenDestructibleObject.BP_ThirdZoneGreenDestructibleObject_C:ExecuteUbergraph_BP_ThirdZoneGreenDestructibleObject [Script Bytecode]
+msgctxt ",865B3AF949DFF8B31EF4B8BFEE59ACCB"
+msgid "Destroyed green object - Zone 3"
+msgstr ""
+
+#. Key:	D39205C94F2B153A91091BB57ED4415D
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/TimeReward/BP_TimeRewardWhiteDestructibleObject.BP_TimeRewardWhiteDestructibleObject_C:ExecuteUbergraph_BP_TimeRewardWhiteDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/TimeReward/BP_TimeRewardWhiteDestructibleObject.BP_TimeRewardWhiteDestructibleObject_C:ExecuteUbergraph_BP_TimeRewardWhiteDestructibleObject [Script Bytecode]
+msgctxt ",D39205C94F2B153A91091BB57ED4415D"
+msgid "Time reward achieved"
+msgstr ""
+
+#. Key:	77CAD8FA44A9E7E55053CCB8BC435E57
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/White/BP_WhiteDestructibleObject.BP_WhiteDestructibleObject_C:ExecuteUbergraph_BP_WhiteDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/White/BP_WhiteDestructibleObject.BP_WhiteDestructibleObject_C:ExecuteUbergraph_BP_WhiteDestructibleObject [Script Bytecode]
+msgctxt ",77CAD8FA44A9E7E55053CCB8BC435E57"
+msgid "Destroyed white"
+msgstr ""
+
+#. Key:	69C4B0CE484AF2B9A286478DE3EBCC82
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/BP_YellowDestructibleObject.BP_YellowDestructibleObject_C:ExecuteUbergraph_BP_YellowDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/BP_YellowDestructibleObject.BP_YellowDestructibleObject_C:ExecuteUbergraph_BP_YellowDestructibleObject [Script Bytecode]
+msgctxt ",69C4B0CE484AF2B9A286478DE3EBCC82"
+msgid "Destroyed yellow hard object - Zone 1"
+msgstr ""
+
+#. Key:	8D500C6A4005962B1F3813BA7D23588B
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/BP_YellowDestructibleObject.BP_YellowDestructibleObject_C:ExecuteUbergraph_BP_YellowDestructibleObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/BP_YellowDestructibleObject.BP_YellowDestructibleObject_C:ExecuteUbergraph_BP_YellowDestructibleObject [Script Bytecode]
+msgctxt ",8D500C6A4005962B1F3813BA7D23588B"
+msgid "Destroyed yellow hard object - Zone 2"
+msgstr ""
+
+#. Key:	A05FC77D4E9F80CC3A91CE8214055329
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/FirstZone/BP_FirstZoneTargetYellowObject.BP_FirstZoneTargetYellowObject_C:ExecuteUbergraph_BP_FirstZoneTargetYellowObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/FirstZone/BP_FirstZoneTargetYellowObject.BP_FirstZoneTargetYellowObject_C:ExecuteUbergraph_BP_FirstZoneTargetYellowObject [Script Bytecode]
+msgctxt ",A05FC77D4E9F80CC3A91CE8214055329"
+msgid "Destroyed yellow easy object - Zone1"
+msgstr ""
+
+#. Key:	3CF1EFA64B89CD3C529F39AFF5F0CEA0
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/SecondZone/BP_SecondZoneTargetYellowObject.BP_SecondZoneTargetYellowObject_C:ExecuteUbergraph_BP_SecondZoneTargetYellowObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/SecondZone/BP_SecondZoneTargetYellowObject.BP_SecondZoneTargetYellowObject_C:ExecuteUbergraph_BP_SecondZoneTargetYellowObject [Script Bytecode]
+msgctxt ",3CF1EFA64B89CD3C529F39AFF5F0CEA0"
+msgid "Destroyed yellow easy object - Zone 2"
+msgstr ""
+
+#. Key:	D62FE90A4B829A0D42931D8072245F6E
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/SecondZone/BP_SecondZoneTargetYellowObjectDeactivateRamps.BP_SecondZoneTargetYellowObjectDeactivateRamps_C:ExecuteUbergraph_BP_SecondZoneTargetYellowObjectDeactivateRamps [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/SecondZone/BP_SecondZoneTargetYellowObjectDeactivateRamps.BP_SecondZoneTargetYellowObjectDeactivateRamps_C:ExecuteUbergraph_BP_SecondZoneTargetYellowObjectDeactivateRamps [Script Bytecode]
+msgctxt ",D62FE90A4B829A0D42931D8072245F6E"
+msgid "Destroyed yellow easy object - Zone 2"
+msgstr ""
+
+#. Key:	514067EA4AF8FED473E8AB89478C3EFC
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/ThirdZone/BP_ThirdZoneHardTargetYellowObject.BP_ThirdZoneHardTargetYellowObject_C:ExecuteUbergraph_BP_ThirdZoneHardTargetYellowObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/ThirdZone/BP_ThirdZoneHardTargetYellowObject.BP_ThirdZoneHardTargetYellowObject_C:ExecuteUbergraph_BP_ThirdZoneHardTargetYellowObject [Script Bytecode]
+msgctxt ",514067EA4AF8FED473E8AB89478C3EFC"
+msgid "Destroyed yellow hard object - Zone 3"
+msgstr ""
+
+#. Key:	FE09C2184ECC82289160EDBBF5102ABC
+#. SourceLocation:	/Game/RenegadeJammer/Core/DestructibleObjects/Yellow/ThirdZone/BP_ThirdZoneTargetYellowObject.BP_ThirdZoneTargetYellowObject_C:ExecuteUbergraph_BP_ThirdZoneTargetYellowObject [Script Bytecode]
+#: /Game/RenegadeJammer/Core/DestructibleObjects/Yellow/ThirdZone/BP_ThirdZoneTargetYellowObject.BP_ThirdZoneTargetYellowObject_C:ExecuteUbergraph_BP_ThirdZoneTargetYellowObject [Script Bytecode]
+msgctxt ",FE09C2184ECC82289160EDBBF5102ABC"
+msgid "Destroyed yellow easy object - Zone 3"
+msgstr ""
+
+#. Key:	E3D28D1B46B4A67E3351A9B7400F2C71
+#. SourceLocation:	/Game/RenegadeJammer/Core/Dialogue/WBP_Dialoge.WBP_Dialoge_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/Core/Dialogue/WBP_Dialoge.WBP_Dialoge_C:WidgetTree.TextBlock_0.Text
+msgctxt ",E3D28D1B46B4A67E3351A9B7400F2C71"
+msgid "[E] Next"
+msgstr ""
+
+#. Key:	D9E393FE4FE282DC95D7C79D9AFA6830
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_AudioVolumes.E_AudioVolumes.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_AudioVolumes.E_AudioVolumes.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",D9E393FE4FE282DC95D7C79D9AFA6830"
+msgid "Main"
+msgstr ""
+
+#. Key:	B0CF4E60495FA00495550AB9C7827D1D
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_AudioVolumes.E_AudioVolumes.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_AudioVolumes.E_AudioVolumes.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",B0CF4E60495FA00495550AB9C7827D1D"
+msgid "Music"
+msgstr ""
+
+#. Key:	2D6A6D3B406D3C86B49E2E998C4A7C51
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_AudioVolumes.E_AudioVolumes.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_AudioVolumes.E_AudioVolumes.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",2D6A6D3B406D3C86B49E2E998C4A7C51"
+msgid "SFX"
+msgstr ""
+
+#. Key:	F0B9C4334ABE3E69A363128AC4D041B0
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",F0B9C4334ABE3E69A363128AC4D041B0"
+msgid "MainMenu"
+msgstr ""
+
+#. Key:	57972F2D4B7920667D10CA8FF5EF18F5
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",57972F2D4B7920667D10CA8FF5EF18F5"
+msgid "Lobby"
+msgstr ""
+
+#. Key:	8210CDC748198FB953083E9B4676BEDA
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",8210CDC748198FB953083E9B4676BEDA"
+msgid "DemoLevel"
+msgstr ""
+
+#. Key:	E1EF5AAD44FBB8A8EC3200BD2183616A
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",E1EF5AAD44FBB8A8EC3200BD2183616A"
+msgid "Tutorial"
+msgstr "Titorial"
+
+#. Key:	D73A84224FF9A5940F6998B56C84403E
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",D73A84224FF9A5940F6998B56C84403E"
+msgid "Selector"
+msgstr "Selector"
+
+#. Key:	535C6A4049B8CC7F32DBDA94B9625144
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(5 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameInstance/Common/E_Levels.E_Levels.DisplayNameMap(5 - Value).DisplayNameMap
+msgctxt ",535C6A4049B8CC7F32DBDA94B9625144"
+msgid "Leaderboard"
+msgstr "Táboa de clasificacións"
+
+#. Key:	D1F4081E4525D84B1526D5A97045234E
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",D1F4081E4525D84B1526D5A97045234E"
+msgid "Level1"
+msgstr ""
+
+#. Key:	2587D68C4BD8BBFC46BDE08E3A33165E
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",2587D68C4BD8BBFC46BDE08E3A33165E"
+msgid "Level2"
+msgstr ""
+
+#. Key:	63D9C6024689C4C5CC64D28D42750249
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",63D9C6024689C4C5CC64D28D42750249"
+msgid "Level3"
+msgstr ""
+
+#. Key:	7698FD784DC3415DEF7BDFB59B14BB5E
+#. SourceLocation:	/Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/GameMode/E_FirstZoneDifficulty.E_FirstZoneDifficulty.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",7698FD784DC3415DEF7BDFB59B14BB5E"
+msgid "Level4"
+msgstr ""
+
+#. Key:	DAF24F3948A58EC5FCABBB903EB79DB6
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Controller_InputBaseControllerData.Default__BP_PC_Controller_InputBaseControllerData_C.GamepadDisplayName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Controller_InputBaseControllerData.Default__BP_PC_Controller_InputBaseControllerData_C.GamepadDisplayName
+msgctxt ",DAF24F3948A58EC5FCABBB903EB79DB6"
+msgid "Generic"
+msgstr ""
+
+#. Key:	ECE428984A4EE90FF2EDA1B2FB1E4F39
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Controller_InputBaseControllerData.Default__BP_PC_Controller_InputBaseControllerData_C.GamepadPlatformName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Controller_InputBaseControllerData.Default__BP_PC_Controller_InputBaseControllerData_C.GamepadPlatformName
+msgctxt ",ECE428984A4EE90FF2EDA1B2FB1E4F39"
+msgid "Windows"
+msgstr ""
+
+#. Key:	2821C1604246A34F1062E0B7B171BF7B
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Keyboard_InputBaseControllerData.Default__BP_PC_Keyboard_InputBaseControllerData_C.GamepadDisplayName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Keyboard_InputBaseControllerData.Default__BP_PC_Keyboard_InputBaseControllerData_C.GamepadDisplayName
+msgctxt ",2821C1604246A34F1062E0B7B171BF7B"
+msgid "Generic"
+msgstr ""
+
+#. Key:	41E66245458B46491ADE27BC610EC459
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Keyboard_InputBaseControllerData.Default__BP_PC_Keyboard_InputBaseControllerData_C.GamepadPlatformName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/BP_PC_Keyboard_InputBaseControllerData.Default__BP_PC_Keyboard_InputBaseControllerData_C.GamepadPlatformName
+msgctxt ",41E66245458B46491ADE27BC610EC459"
+msgid "Windows"
+msgstr ""
+
+#. Key:	3FBB5BB4445939ED2B6D2094E59E4C8B
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Accept.DisplayName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Accept.DisplayName
+msgctxt ",3FBB5BB4445939ED2B6D2094E59E4C8B"
+msgid "Accept"
+msgstr ""
+
+#. Key:	0C6525994CDCF5A51F38558087CD1957
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Accept.HoldDisplayName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Accept.HoldDisplayName
+msgctxt ",0C6525994CDCF5A51F38558087CD1957"
+msgid "Accept"
+msgstr ""
+
+#. Key:	AE9F2969480FB6A0BE4FE3823A2E80D5
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Back.DisplayName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Back.DisplayName
+msgctxt ",AE9F2969480FB6A0BE4FE3823A2E80D5"
+msgid "Back"
+msgstr ""
+
+#. Key:	8EBBFBF844D8C077760D929E3619B210
+#. SourceLocation:	/Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Back.HoldDisplayName
+#: /Game/RenegadeJammer/Core/Input/CommonUI/DT_InputActionDataTable.DT_InputActionDataTable.Back.HoldDisplayName
+msgctxt ",8EBBFBF844D8C077760D929E3619B210"
+msgid "Back"
+msgstr ""
+
+#. Key:	509E461E445E1640D1BD468876531326
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter01.BP_BigWaveEmitter01_C:VisibleCounter_GEN_VARIABLE.Text
+#: /Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter01.BP_BigWaveEmitter01_C:VisibleCounter_GEN_VARIABLE.Text
+msgctxt ",509E461E445E1640D1BD468876531326"
+msgid "0"
+msgstr ""
+
+#. Key:	6CB816004C045718727FC3A7D27E38B8
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter1_GEN_VARIABLE.Text
+#: /Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter1_GEN_VARIABLE.Text
+msgctxt ",6CB816004C045718727FC3A7D27E38B8"
+msgid "0"
+msgstr ""
+
+#. Key:	ED027E8E4C9452B5BDF2428EF8421181
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter2_GEN_VARIABLE.Text
+#: /Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter2_GEN_VARIABLE.Text
+msgctxt ",ED027E8E4C9452B5BDF2428EF8421181"
+msgid "0"
+msgstr ""
+
+#. Key:	13985C6741DFF108B65034A3491F66B7
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter3_GEN_VARIABLE.Text
+#: /Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter3_GEN_VARIABLE.Text
+msgctxt ",13985C6741DFF108B65034A3491F66B7"
+msgid "0"
+msgstr ""
+
+#. Key:	E582A8BB4370F3B3D19A6BBE3420093D
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter4_GEN_VARIABLE.Text
+#: /Game/RenegadeJammer/Core/Obstacles/BP_BigWaveEmitter02.BP_BigWaveEmitter02_C:VisibleCounter4_GEN_VARIABLE.Text
+msgctxt ",E582A8BB4370F3B3D19A6BBE3420093D"
+msgid "0"
+msgstr ""
+
+#. Key:	AC3F5FCA463FDCB255F04CB7A1809EA5
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",AC3F5FCA463FDCB255F04CB7A1809EA5"
+msgid "SimpleWithRamp"
+msgstr ""
+
+#. Key:	458F690947562C0F367EFFA17205BA12
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",458F690947562C0F367EFFA17205BA12"
+msgid "DoubleSideBowlWithRamp"
+msgstr ""
+
+#. Key:	78887D294CF78AEEB39256A32411DD2D
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",78887D294CF78AEEB39256A32411DD2D"
+msgid "LeftSideBowlWithRamp"
+msgstr ""
+
+#. Key:	43E2B7E5409FC5698C2048997D3281E5
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",43E2B7E5409FC5698C2048997D3281E5"
+msgid "RightSideBowlWithRamp"
+msgstr ""
+
+#. Key:	0853900E431E4838CDE855A12FE84222
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",0853900E431E4838CDE855A12FE84222"
+msgid "Simple"
+msgstr ""
+
+#. Key:	F692F02D413318CB94D431A0357BBD4F
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(5 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(5 - Value).DisplayNameMap
+msgctxt ",F692F02D413318CB94D431A0357BBD4F"
+msgid "LeftSideCurveRamp"
+msgstr ""
+
+#. Key:	A3B9A3F7480D49182BF7729151421802
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(6 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/E_PlatformType.E_PlatformType.DisplayNameMap(6 - Value).DisplayNameMap
+msgctxt ",A3B9A3F7480D49182BF7729151421802"
+msgid "RightSideCurveRamp"
+msgstr ""
+
+#. Key:	7C4D78574CD50C60AD66F392F727D926
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/Fan/Common/E_FanDirection.E_FanDirection.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/Fan/Common/E_FanDirection.E_FanDirection.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",7C4D78574CD50C60AD66F392F727D926"
+msgid "Clockwise"
+msgstr ""
+
+#. Key:	2EDDBA3245B31F32D6BB7EBC30430FD8
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/Fan/Common/E_FanDirection.E_FanDirection.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/Fan/Common/E_FanDirection.E_FanDirection.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",2EDDBA3245B31F32D6BB7EBC30430FD8"
+msgid "Counterclockwise"
+msgstr ""
+
+#. Key:	A5D9C14D4953B01D67278EAD82B085D3
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",A5D9C14D4953B01D67278EAD82B085D3"
+msgid "Simple"
+msgstr ""
+
+#. Key:	70B06DEB46AAAA291A024F89A3C19E49
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",70B06DEB46AAAA291A024F89A3C19E49"
+msgid "ForwardRamp"
+msgstr ""
+
+#. Key:	4C9633A0411EF50C6A34B48337EC103D
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",4C9633A0411EF50C6A34B48337EC103D"
+msgid "LeftSideBowl"
+msgstr ""
+
+#. Key:	DCE752294069F4BB6C0E3EAF3BD13A15
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",DCE752294069F4BB6C0E3EAF3BD13A15"
+msgid "RightSideBowl"
+msgstr ""
+
+#. Key:	4A69B3AF4DF438F24C5E17AC9658D3C1
+#. SourceLocation:	/Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Obstacles/PlatformSplineTool/E_SplineToolPlatformType.E_SplineToolPlatformType.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",4A69B3AF4DF438F24C5E17AC9658D3C1"
+msgid "BackwardRamp"
+msgstr ""
+
+#. Key:	18D57A1C456D7547B497DCB0EA3B0D33
+#. SourceLocation:	/Game/RenegadeJammer/Core/PlayerController/E_ControllerInputType.E_ControllerInputType.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/PlayerController/E_ControllerInputType.E_ControllerInputType.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",18D57A1C456D7547B497DCB0EA3B0D33"
+msgid "Mouse"
+msgstr ""
+
+#. Key:	DDF05B244CBC99298E2157962D354759
+#. SourceLocation:	/Game/RenegadeJammer/Core/PlayerController/E_ControllerInputType.E_ControllerInputType.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/PlayerController/E_ControllerInputType.E_ControllerInputType.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",DDF05B244CBC99298E2157962D354759"
+msgid "Controller"
+msgstr ""
+
+#. Key:	6175E02348A86CF608C766A62DC05E3D
+#. SourceLocation:	/Game/RenegadeJammer/Core/PlayerController/E_ControllerInputType.E_ControllerInputType.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/PlayerController/E_ControllerInputType.E_ControllerInputType.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",6175E02348A86CF608C766A62DC05E3D"
+msgid "Keyboard"
+msgstr ""
+
+#. Key:	BE7F943B454496906CC826B9C48EA335
+#. SourceLocation:	/Game/RenegadeJammer/Core/SaveObject/LevelsComponents/E_LevelIds.E_LevelIds.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/SaveObject/LevelsComponents/E_LevelIds.E_LevelIds.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",BE7F943B454496906CC826B9C48EA335"
+msgid "Tutorial"
+msgstr ""
+
+#. Key:	67841E5341DD6991620EB7B95CD8D719
+#. SourceLocation:	/Game/RenegadeJammer/Core/SaveObject/LevelsComponents/E_LevelIds.E_LevelIds.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/SaveObject/LevelsComponents/E_LevelIds.E_LevelIds.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",67841E5341DD6991620EB7B95CD8D719"
+msgid "Polystratus"
+msgstr ""
+
+#. Key:	Polystratus
+#. SourceLocation:	/Game/RenegadeJammer/Core/SaveObject/LevelsComponents/ST_LevelNames.ST_LevelNames
+#: /Game/RenegadeJammer/Core/SaveObject/LevelsComponents/ST_LevelNames.ST_LevelNames
+msgctxt "ST_LevelNames,Polystratus"
+msgid "PolyStratus"
+msgstr ""
+
+#. Key:	Tutorial
+#. SourceLocation:	/Game/RenegadeJammer/Core/SaveObject/LevelsComponents/ST_LevelNames.ST_LevelNames
+#: /Game/RenegadeJammer/Core/SaveObject/LevelsComponents/ST_LevelNames.ST_LevelNames
+msgctxt "ST_LevelNames,Tutorial"
+msgid "Tutorial"
+msgstr "Titorial"
+
+#. Key:	B8FD311B44A9434A6B21EAAFA8D136E3
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",B8FD311B44A9434A6B21EAAFA8D136E3"
+msgid "Start"
+msgstr ""
+
+#. Key:	1E2CC09341EF0F946FD40E8BF37E616A
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",1E2CC09341EF0F946FD40E8BF37E616A"
+msgid "HasUsed2Boost"
+msgstr ""
+
+#. Key:	26DAC0104BD127FBCCC88D9E3A648AD8
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(10 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(10 - Value).DisplayNameMap
+msgctxt ",26DAC0104BD127FBCCC88D9E3A648AD8"
+msgid "BoostSensibleZone"
+msgstr ""
+
+#. Key:	AC93ED034555108E91F6279E651EF8CC
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(11 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(11 - Value).DisplayNameMap
+msgctxt ",AC93ED034555108E91F6279E651EF8CC"
+msgid "HasCompletedBoostSensibleZone"
+msgstr ""
+
+#. Key:	6156C9454FD204503F4C108FF5A4FE09
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(12 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(12 - Value).DisplayNameMap
+msgctxt ",6156C9454FD204503F4C108FF5A4FE09"
+msgid "FinalZone"
+msgstr ""
+
+#. Key:	22C068D64DBDB9E7A20DA396014D9FE2
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(13 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(13 - Value).DisplayNameMap
+msgctxt ",22C068D64DBDB9E7A20DA396014D9FE2"
+msgid "HasCompletedFinalZone"
+msgstr ""
+
+#. Key:	BC6E4792412E12C34E3FC5907BE6C40F
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",BC6E4792412E12C34E3FC5907BE6C40F"
+msgid "FirstZone"
+msgstr ""
+
+#. Key:	AC224004461947D46018AD95BEA13D72
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",AC224004461947D46018AD95BEA13D72"
+msgid "HasCompletedFirstZone"
+msgstr ""
+
+#. Key:	5326AAE34F75044599170E9EDB56DD7B
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(4 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(4 - Value).DisplayNameMap
+msgctxt ",5326AAE34F75044599170E9EDB56DD7B"
+msgid "RampsZone"
+msgstr ""
+
+#. Key:	876E6D394EFEA6D641E2CA8961AC4271
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(5 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(5 - Value).DisplayNameMap
+msgctxt ",876E6D394EFEA6D641E2CA8961AC4271"
+msgid "HasCompletedRampsZone"
+msgstr ""
+
+#. Key:	9F2096ED458D7D29228B5E8A29CF1C0B
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(6 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(6 - Value).DisplayNameMap
+msgctxt ",9F2096ED458D7D29228B5E8A29CF1C0B"
+msgid "DriftZone"
+msgstr ""
+
+#. Key:	E575D8A84CEBD1CAC04CB383278E6479
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(7 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(7 - Value).DisplayNameMap
+msgctxt ",E575D8A84CEBD1CAC04CB383278E6479"
+msgid "HasCompletedDriftZone"
+msgstr ""
+
+#. Key:	90275A2C49202F3463F0E7A224B9C34F
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(8 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(8 - Value).DisplayNameMap
+msgctxt ",90275A2C49202F3463F0E7A224B9C34F"
+msgid "ObjectsZone"
+msgstr ""
+
+#. Key:	2EFE77904C7F08C7C77096BC9B552D2F
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(9 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Core/Tutorial/E_Phases.E_Phases.DisplayNameMap(9 - Value).DisplayNameMap
+msgctxt ",2EFE77904C7F08C7C77096BC9B552D2F"
+msgid "HasCompletedObjectsZone"
+msgstr ""
+
+#. Key:	AchieveOneGreen
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,AchieveOneGreen"
+msgid "Consigue al menos una cápsula verde y regresa al portal."
+msgstr "Apaña, cando menos, unha cápsula verde e tira de volta para o portal."
+
+#. Key:	Back
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,Back"
+msgid "¡Deprisa! Vuelve al portal del inicio."
+msgstr "A toda présa! Volve axiña ao portal do principio, que o tempo voa!"
+
+#. Key:	BeatFirstZone
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,BeatFirstZone"
+msgid "Esquiva los obstáculos y accede al próximo túnel."
+msgstr "Esquiva os obstáculos e entra no seguinte túnel."
+
+#. Key:	BoostSensibleZone
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,BoostSensibleZone"
+msgid "Recorre las rampas alternando el boost correspondiente."
+msgstr "Percorre as ramplas alternando o impulso que corresponda."
+
+#. Key:	ColorBoost
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,ColorBoost"
+msgid "Usa los boost amarillo y azul."
+msgstr "Usa os boost amarelo e azul."
+
+#. Key:	DriftZone
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,DriftZone"
+msgid "Prueba el derrape (X) para llegar al túnel antes de que se cierre la compuerta."
+msgstr "Dálle ao derrape (X) e chega ao túnel antes de que che pechen a porta nos fociños!"
+
+#. Key:	FinalZone
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,FinalZone"
+msgid "Suma energía amarilla y azul para desbloquear el boost verde (Y) y arrolla la cápsula central."
+msgstr "Xunta o amarelo co azul pra sacar o turbo verde (Y) e rebenta esa cápsula do medio!"
+
+#. Key:	ObjectsZone
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,ObjectsZone"
+msgid "Arrolla los objetos usando el boost del color correspondiente."
+msgstr "Arrasa cos obxectos usando o boost da cor correspondente."
+
+#. Key:	RampsZone
+#. SourceLocation:	/Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+#: /Game/RenegadeJammer/Core/Tutorial/STab_Mission.STab_Mission
+msgctxt "STab_Mission,RampsZone"
+msgid "Usa las rampas para llegar al siguiente acceso."
+msgstr "Aproveita as ramplas e lánzate cara á seguinte zona, sen medo!"
+
+#. Key:	B6E08EBF4BAE2D9EE3428FA699CA9946
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_10.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_10.BackEvent
+msgctxt ",B6E08EBF4BAE2D9EE3428FA699CA9946"
+msgid "Entered alpha zone from omega tunnel"
+msgstr ""
+
+#. Key:	4BAFC1AD411F7D3D9D5FDE82216E76C5
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_10.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_10.ForwardEvent
+msgctxt ",4BAFC1AD411F7D3D9D5FDE82216E76C5"
+msgid "Entered omega tunnel from alpha zone"
+msgstr ""
+
+#. Key:	805E94D8409B984640042F88277B8ADB
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_11.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_11.BackEvent
+msgctxt ",805E94D8409B984640042F88277B8ADB"
+msgid "Entered omega zone from alpha tunnel"
+msgstr ""
+
+#. Key:	AC3B879141F82967E97E34946C95130C
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_11.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_11.ForwardEvent
+msgctxt ",AC3B879141F82967E97E34946C95130C"
+msgid "Entered alpha tunnel from omega zone"
+msgstr ""
+
+#. Key:	5EC4155B4F17B801EB2D7E871A527862
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_12.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_12.BackEvent
+msgctxt ",5EC4155B4F17B801EB2D7E871A527862"
+msgid "Entered omega zone from omega tunnel"
+msgstr ""
+
+#. Key:	F573526043253EE59111DE99382C99AC
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_12.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_12.ForwardEvent
+msgctxt ",F573526043253EE59111DE99382C99AC"
+msgid "Entered omega tunnel from omega zone"
+msgstr ""
+
+#. Key:	E29AC6104C1E7812063D94A27528524F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_13.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_13.BackEvent
+msgctxt ",E29AC6104C1E7812063D94A27528524F"
+msgid "Entered omega zone from beta tunnel"
+msgstr ""
+
+#. Key:	876231B841160CFFA94A1FA49D2CB580
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_13.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_13.ForwardEvent
+msgctxt ",876231B841160CFFA94A1FA49D2CB580"
+msgid "Entered beta tunnel from omega zone"
+msgstr ""
+
+#. Key:	AB04D49E445A0D0391E7A19F4CE6000E
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_14.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_14.BackEvent
+msgctxt ",AB04D49E445A0D0391E7A19F4CE6000E"
+msgid "Entered beta zone from omega tunnel"
+msgstr ""
+
+#. Key:	426875FD404ED59545D4918EE45566CF
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_14.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_14.ForwardEvent
+msgctxt ",426875FD404ED59545D4918EE45566CF"
+msgid "Entered omega tunnel from beta zone"
+msgstr ""
+
+#. Key:	503494994044D7B3D71DEE969E506F4F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_15.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_15.BackEvent
+msgctxt ",503494994044D7B3D71DEE969E506F4F"
+msgid "Entered beta zone from alpha tunnel"
+msgstr ""
+
+#. Key:	8E59E0634D2A06F9EA7AF0998C2B6A50
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_15.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_15.ForwardEvent
+msgctxt ",8E59E0634D2A06F9EA7AF0998C2B6A50"
+msgid "Entered alpha tunnel from beta zone"
+msgstr ""
+
+#. Key:	02E336B54F791498666AF6B79AEDE216
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_16.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_16.BackEvent
+msgctxt ",02E336B54F791498666AF6B79AEDE216"
+msgid "Entered beta zone from beta tunnel"
+msgstr ""
+
+#. Key:	9024E05D419F185BB1D92C88E603ACED
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_16.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_16.ForwardEvent
+msgctxt ",9024E05D419F185BB1D92C88E603ACED"
+msgid "Entered beta tunnel from beta zone"
+msgstr ""
+
+#. Key:	2143E806419C173C16B0368E9800DDF3
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_3.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_3.BackEvent
+msgctxt ",2143E806419C173C16B0368E9800DDF3"
+msgid "Entered entrance from beta tunnel"
+msgstr ""
+
+#. Key:	1A808B3C4D111B2E985D22AA07F9ECAC
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_3.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_3.ForwardEvent
+msgctxt ",1A808B3C4D111B2E985D22AA07F9ECAC"
+msgid "Entered beta tunnel from entrance"
+msgstr ""
+
+#. Key:	BB4E8EB7407BF8E1D38FE993C4DF2C39
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_4.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_4.BackEvent
+msgctxt ",BB4E8EB7407BF8E1D38FE993C4DF2C39"
+msgid "Entered entrance from omega tunnel"
+msgstr ""
+
+#. Key:	892EC15847A0DEBDD95B72ADD4A35ED9
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_4.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_4.ForwardEvent
+msgctxt ",892EC15847A0DEBDD95B72ADD4A35ED9"
+msgid "Entered omega tunnel from entrance"
+msgstr ""
+
+#. Key:	BBD6E4414B5CEEB755A1F3ACCABB059F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_5.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_5.BackEvent
+msgctxt ",BBD6E4414B5CEEB755A1F3ACCABB059F"
+msgid "Entered entrance from alpha tunnel"
+msgstr ""
+
+#. Key:	8D993A6A49EC1091139CBE9B6301F8B3
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_5.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_5.ForwardEvent
+msgctxt ",8D993A6A49EC1091139CBE9B6301F8B3"
+msgid "Entered alpha tunnel from entrance"
+msgstr ""
+
+#. Key:	906DCB084098B6F89EA01AB47677767F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_6.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_6.BackEvent
+msgctxt ",906DCB084098B6F89EA01AB47677767F"
+msgid "Entered entrance from hidden tunnel"
+msgstr ""
+
+#. Key:	67A7A1C04390A9C1AB72608967A46961
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_6.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_6.ForwardEvent
+msgctxt ",67A7A1C04390A9C1AB72608967A46961"
+msgid "Entered hidden tunnel from entrance"
+msgstr ""
+
+#. Key:	B8C03F1F4421717A2DFB0083D4FF2878
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_7.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_7.BackEvent
+msgctxt ",B8C03F1F4421717A2DFB0083D4FF2878"
+msgid "Entered omega zone from hidden tunnel"
+msgstr ""
+
+#. Key:	3ADB6A134076F8A5889798A588571215
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_7.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_7.ForwardEvent
+msgctxt ",3ADB6A134076F8A5889798A588571215"
+msgid "Entered hidden tunnel from omega zone"
+msgstr ""
+
+#. Key:	184DF3CC4C609298B6D5298D3847DD2A
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_8.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_8.BackEvent
+msgctxt ",184DF3CC4C609298B6D5298D3847DD2A"
+msgid "Entered alpha zone from alpha tunnel"
+msgstr ""
+
+#. Key:	A51E8FDF431B8A781EC896B29556BA99
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_8.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_8.ForwardEvent
+msgctxt ",A51E8FDF431B8A781EC896B29556BA99"
+msgid "Entered alpha tunnel from alpha zone"
+msgstr ""
+
+#. Key:	B8F01E8F45D76CFF44FCFC86B5FB0882
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_9.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_9.BackEvent
+msgctxt ",B8F01E8F45D76CFF44FCFC86B5FB0882"
+msgid "Entered alpha zone from beta tunnel"
+msgstr ""
+
+#. Key:	0F6291BE4747079C0DC6088D1D8A98E8
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_9.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevel.LV_DemoLevel:PersistentLevel.BP_Observer_C_9.ForwardEvent
+msgctxt ",0F6291BE4747079C0DC6088D1D8A98E8"
+msgid "Entered beta tunnel from alpha zone"
+msgstr ""
+
+#. Key:	5F5AAB0E497EB89736CA8BA08221D01F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_10.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_10.BackEvent
+msgctxt ",5F5AAB0E497EB89736CA8BA08221D01F"
+msgid "Entered alpha zone from omega tunnel"
+msgstr ""
+
+#. Key:	7B10A10A49AF5FF2B18424A1270035AD
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_10.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_10.ForwardEvent
+msgctxt ",7B10A10A49AF5FF2B18424A1270035AD"
+msgid "Entered omega tunnel from alpha zone"
+msgstr ""
+
+#. Key:	F5A1E5C548120644209E36BE4BFB39ED
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_11.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_11.BackEvent
+msgctxt ",F5A1E5C548120644209E36BE4BFB39ED"
+msgid "Entered omega zone from alpha tunnel"
+msgstr ""
+
+#. Key:	3B89680648009A4EA039388F19930822
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_11.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_11.ForwardEvent
+msgctxt ",3B89680648009A4EA039388F19930822"
+msgid "Entered alpha tunnel from omega zone"
+msgstr ""
+
+#. Key:	FFE4394E4FA6DCB4CE5BC08A4A1DE88E
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_12.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_12.BackEvent
+msgctxt ",FFE4394E4FA6DCB4CE5BC08A4A1DE88E"
+msgid "Entered omega zone from omega tunnel"
+msgstr ""
+
+#. Key:	13713F6A4CC6A32F61B9CEBBAEB63105
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_12.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_12.ForwardEvent
+msgctxt ",13713F6A4CC6A32F61B9CEBBAEB63105"
+msgid "Entered omega tunnel from omega zone"
+msgstr ""
+
+#. Key:	2D76C60547B7E522C3551E9AAE67B798
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_13.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_13.BackEvent
+msgctxt ",2D76C60547B7E522C3551E9AAE67B798"
+msgid "Entered omega zone from beta tunnel"
+msgstr ""
+
+#. Key:	C6A1AE8A4D7D0306645A6299D110C524
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_13.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_13.ForwardEvent
+msgctxt ",C6A1AE8A4D7D0306645A6299D110C524"
+msgid "Entered beta tunnel from omega zone"
+msgstr ""
+
+#. Key:	D04F843F48327C5960EDA0A6DC652E86
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_14.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_14.BackEvent
+msgctxt ",D04F843F48327C5960EDA0A6DC652E86"
+msgid "Entered beta zone from omega tunnel"
+msgstr ""
+
+#. Key:	90D9AD5746C5DCA6CFB8CBB4BBE4AA72
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_14.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_14.ForwardEvent
+msgctxt ",90D9AD5746C5DCA6CFB8CBB4BBE4AA72"
+msgid "Entered omega tunnel from beta zone"
+msgstr ""
+
+#. Key:	02E15B854F784AA9725248A55F7AA7AE
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_15.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_15.BackEvent
+msgctxt ",02E15B854F784AA9725248A55F7AA7AE"
+msgid "Entered beta zone from alpha tunnel"
+msgstr ""
+
+#. Key:	81D05FF44DBC22CDAC2AAB918F942792
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_15.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_15.ForwardEvent
+msgctxt ",81D05FF44DBC22CDAC2AAB918F942792"
+msgid "Entered alpha tunnel from beta zone"
+msgstr ""
+
+#. Key:	050C36AC42017F7151E3F18400C2E1EC
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_16.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_16.BackEvent
+msgctxt ",050C36AC42017F7151E3F18400C2E1EC"
+msgid "Entered beta zone from beta tunnel"
+msgstr ""
+
+#. Key:	3E317DBC4C34050BE10A319F5036656C
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_16.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_16.ForwardEvent
+msgctxt ",3E317DBC4C34050BE10A319F5036656C"
+msgid "Entered beta tunnel from beta zone"
+msgstr ""
+
+#. Key:	238383DE46D276347E57EAA88937DDC4
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_3.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_3.BackEvent
+msgctxt ",238383DE46D276347E57EAA88937DDC4"
+msgid "Entered entrance from beta tunnel"
+msgstr ""
+
+#. Key:	7551E0B2490D3809DEC4E38F2C30BA76
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_3.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_3.ForwardEvent
+msgctxt ",7551E0B2490D3809DEC4E38F2C30BA76"
+msgid "Entered beta tunnel from entrance"
+msgstr ""
+
+#. Key:	282FC57146C3172CED8A85A8D1AAE721
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_4.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_4.BackEvent
+msgctxt ",282FC57146C3172CED8A85A8D1AAE721"
+msgid "Entered entrance from omega tunnel"
+msgstr ""
+
+#. Key:	B6E7ABF9465B3A5884AF6AA8DFF640A2
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_4.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_4.ForwardEvent
+msgctxt ",B6E7ABF9465B3A5884AF6AA8DFF640A2"
+msgid "Entered omega tunnel from entrance"
+msgstr ""
+
+#. Key:	4CF4CF284DF3CD30AF7F9F8DA8BB4931
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_5.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_5.BackEvent
+msgctxt ",4CF4CF284DF3CD30AF7F9F8DA8BB4931"
+msgid "Entered entrance from alpha tunnel"
+msgstr ""
+
+#. Key:	87D76B924000897E1B0F84B31BCA6D38
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_5.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_5.ForwardEvent
+msgctxt ",87D76B924000897E1B0F84B31BCA6D38"
+msgid "Entered alpha tunnel from entrance"
+msgstr ""
+
+#. Key:	6E6AF24347B618A211107FB44DAC9672
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_6.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_6.BackEvent
+msgctxt ",6E6AF24347B618A211107FB44DAC9672"
+msgid "Entered entrance from hidden tunnel"
+msgstr ""
+
+#. Key:	91AE4A6F44C80F4BDC652088F37C9688
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_6.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_6.ForwardEvent
+msgctxt ",91AE4A6F44C80F4BDC652088F37C9688"
+msgid "Entered hidden tunnel from entrance"
+msgstr ""
+
+#. Key:	F5B88A5A44A75990EAB3028D7EE5F4C7
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_7.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_7.BackEvent
+msgctxt ",F5B88A5A44A75990EAB3028D7EE5F4C7"
+msgid "Entered omega zone from hidden tunnel"
+msgstr ""
+
+#. Key:	C685CF5B4DD2B1FF8C8C15AC941280F3
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_7.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_7.ForwardEvent
+msgctxt ",C685CF5B4DD2B1FF8C8C15AC941280F3"
+msgid "Entered hidden tunnel from omega zone"
+msgstr ""
+
+#. Key:	31EBF85D4B472D4CAFD35A83E731A8E1
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_8.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_8.BackEvent
+msgctxt ",31EBF85D4B472D4CAFD35A83E731A8E1"
+msgid "Entered alpha zone from alpha tunnel"
+msgstr ""
+
+#. Key:	D1C8B1CD4F198683566EDB81CCA8E493
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_8.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_8.ForwardEvent
+msgctxt ",D1C8B1CD4F198683566EDB81CCA8E493"
+msgid "Entered alpha tunnel from alpha zone"
+msgstr ""
+
+#. Key:	1CA0A8DA430F54F943AFF4B728637D3F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_9.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_9.BackEvent
+msgctxt ",1CA0A8DA430F54F943AFF4B728637D3F"
+msgid "Entered alpha zone from beta tunnel"
+msgstr ""
+
+#. Key:	58DB4CE9455BDA159E36398475186C8B
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_9.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_DemoLevelSnapshots.LV_DemoLevelSnapshots:PersistentLevel.BP_Observer_C_9.ForwardEvent
+msgctxt ",58DB4CE9455BDA159E36398475186C8B"
+msgid "Entered beta tunnel from alpha zone"
+msgstr ""
+
+#. Key:	27CA7FE147B809708FE160B0BA2B5637
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_10.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_10.BackEvent
+msgctxt ",27CA7FE147B809708FE160B0BA2B5637"
+msgid "Entered alpha zone from omega tunnel"
+msgstr ""
+
+#. Key:	238E78BB49B6939410D623BCD9E9AEC5
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_10.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_10.ForwardEvent
+msgctxt ",238E78BB49B6939410D623BCD9E9AEC5"
+msgid "Entered omega tunnel from alpha zone"
+msgstr ""
+
+#. Key:	4E3B643D44E03C498FF41F86E6A5213D
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_11.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_11.BackEvent
+msgctxt ",4E3B643D44E03C498FF41F86E6A5213D"
+msgid "Entered omega zone from alpha tunnel"
+msgstr ""
+
+#. Key:	3D7218BA41B6E43ABC37BD96F0A4A87C
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_11.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_11.ForwardEvent
+msgctxt ",3D7218BA41B6E43ABC37BD96F0A4A87C"
+msgid "Entered alpha tunnel from omega zone"
+msgstr ""
+
+#. Key:	6FF0EC744A9074DADF9DEE9A31ECDAF4
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_12.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_12.BackEvent
+msgctxt ",6FF0EC744A9074DADF9DEE9A31ECDAF4"
+msgid "Entered omega zone from omega tunnel"
+msgstr ""
+
+#. Key:	498578F844151931D044A7B6FAABE8C5
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_12.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_12.ForwardEvent
+msgctxt ",498578F844151931D044A7B6FAABE8C5"
+msgid "Entered omega tunnel from omega zone"
+msgstr ""
+
+#. Key:	27441BB3422CC8A0A7C819AC64550231
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_13.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_13.BackEvent
+msgctxt ",27441BB3422CC8A0A7C819AC64550231"
+msgid "Entered omega zone from beta tunnel"
+msgstr ""
+
+#. Key:	50D7F48141BA75402EAEA99315702E3E
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_13.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_13.ForwardEvent
+msgctxt ",50D7F48141BA75402EAEA99315702E3E"
+msgid "Entered beta tunnel from omega zone"
+msgstr ""
+
+#. Key:	FC07AB214C982D584B2E4AB3CCCBC700
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_14.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_14.BackEvent
+msgctxt ",FC07AB214C982D584B2E4AB3CCCBC700"
+msgid "Entered beta zone from omega tunnel"
+msgstr ""
+
+#. Key:	3477515349941B8A03B341B32A3911C6
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_14.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_14.ForwardEvent
+msgctxt ",3477515349941B8A03B341B32A3911C6"
+msgid "Entered omega tunnel from beta zone"
+msgstr ""
+
+#. Key:	5649E066467AA2085FF43C9F96AB9D64
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_15.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_15.BackEvent
+msgctxt ",5649E066467AA2085FF43C9F96AB9D64"
+msgid "Entered beta zone from alpha tunnel"
+msgstr ""
+
+#. Key:	274D95544B4ADA974E2E49AFF9EC0D2E
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_15.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_15.ForwardEvent
+msgctxt ",274D95544B4ADA974E2E49AFF9EC0D2E"
+msgid "Entered alpha tunnel from beta zone"
+msgstr ""
+
+#. Key:	3D43C7564B24A5C2E3B8B889C26CA99F
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_16.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_16.BackEvent
+msgctxt ",3D43C7564B24A5C2E3B8B889C26CA99F"
+msgid "Entered beta zone from beta tunnel"
+msgstr ""
+
+#. Key:	8EB9430F4ECBF62BA65EC3BDE11CC154
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_16.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_16.ForwardEvent
+msgctxt ",8EB9430F4ECBF62BA65EC3BDE11CC154"
+msgid "Entered beta tunnel from beta zone"
+msgstr ""
+
+#. Key:	4EB6E3994CCCCFA4A43CCFB74252F3C7
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_3.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_3.BackEvent
+msgctxt ",4EB6E3994CCCCFA4A43CCFB74252F3C7"
+msgid "Entered entrance from beta tunnel"
+msgstr ""
+
+#. Key:	237F78FD41448642985D45B857A4F5BC
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_3.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_3.ForwardEvent
+msgctxt ",237F78FD41448642985D45B857A4F5BC"
+msgid "Entered beta tunnel from entrance"
+msgstr ""
+
+#. Key:	C5011CE441D9D475871F98968A364AF5
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_4.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_4.BackEvent
+msgctxt ",C5011CE441D9D475871F98968A364AF5"
+msgid "Entered entrance from omega tunnel"
+msgstr ""
+
+#. Key:	FCEE97EB4EAC9079473E8EBF08C73F88
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_4.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_4.ForwardEvent
+msgctxt ",FCEE97EB4EAC9079473E8EBF08C73F88"
+msgid "Entered omega tunnel from entrance"
+msgstr ""
+
+#. Key:	4544A5D642B222B1C271648F22D07A5C
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_5.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_5.BackEvent
+msgctxt ",4544A5D642B222B1C271648F22D07A5C"
+msgid "Entered entrance from alpha tunnel"
+msgstr ""
+
+#. Key:	D1947EA6424B8CA7E1EDD89520B2FC52
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_5.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_5.ForwardEvent
+msgctxt ",D1947EA6424B8CA7E1EDD89520B2FC52"
+msgid "Entered alpha tunnel from entrance"
+msgstr ""
+
+#. Key:	0D858B2645769F2E79EDA6906B1F5AFA
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_6.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_6.BackEvent
+msgctxt ",0D858B2645769F2E79EDA6906B1F5AFA"
+msgid "Entered entrance from hidden tunnel"
+msgstr ""
+
+#. Key:	15ED0B2A40E81161A75087A980B8CC84
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_6.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_6.ForwardEvent
+msgctxt ",15ED0B2A40E81161A75087A980B8CC84"
+msgid "Entered hidden tunnel from entrance"
+msgstr ""
+
+#. Key:	4F06402643A6C19B29B5D3AF80812897
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_7.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_7.BackEvent
+msgctxt ",4F06402643A6C19B29B5D3AF80812897"
+msgid "Entered omega zone from hidden tunnel"
+msgstr ""
+
+#. Key:	30F8643C4F9095049FE74F8F38B4F75B
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_7.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_7.ForwardEvent
+msgctxt ",30F8643C4F9095049FE74F8F38B4F75B"
+msgid "Entered hidden tunnel from omega zone"
+msgstr ""
+
+#. Key:	F1AF1EFF4A0875EAF4DC3187D5DAB763
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_8.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_8.BackEvent
+msgctxt ",F1AF1EFF4A0875EAF4DC3187D5DAB763"
+msgid "Entered alpha zone from alpha tunnel"
+msgstr ""
+
+#. Key:	9B3D17F440EE767AB4D084B53CB849D3
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_8.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_8.ForwardEvent
+msgctxt ",9B3D17F440EE767AB4D084B53CB849D3"
+msgid "Entered alpha tunnel from alpha zone"
+msgstr ""
+
+#. Key:	22B62BB94006754D8EFDC3A6D4724E33
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_9.BackEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_9.BackEvent
+msgctxt ",22B62BB94006754D8EFDC3A6D4724E33"
+msgid "Entered alpha zone from beta tunnel"
+msgstr ""
+
+#. Key:	74749F30424E752E8707B280F47CFEA0
+#. SourceLocation:	/Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_9.ForwardEvent
+#: /Game/RenegadeJammer/Maps/Demo/LV_RJTutorial.LV_RJTutorial:PersistentLevel.BP_Observer_C_9.ForwardEvent
+msgctxt ",74749F30424E752E8707B280F47CFEA0"
+msgid "Entered beta tunnel from alpha zone"
+msgstr ""
+
+#. Key:	ED686ECC4EFEEF7C9F54288EE2C80A2A
+#. SourceLocation:	/Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",ED686ECC4EFEEF7C9F54288EE2C80A2A"
+msgid "ServerResponseUnsuccessful"
+msgstr ""
+
+#. Key:	C03838084E6C7787118C73ACD26BB3C0
+#. SourceLocation:	/Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",C03838084E6C7787118C73ACD26BB3C0"
+msgid "LoadJsonUnsuccessful"
+msgstr ""
+
+#. Key:	D85CC50B412D2F3D765D73BCA34F980A
+#. SourceLocation:	/Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",D85CC50B412D2F3D765D73BCA34F980A"
+msgid "ItemNotFound"
+msgstr ""
+
+#. Key:	17697D7B47C003D56A73D7B8E6DAB32D
+#. SourceLocation:	/Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(3 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/Online/serverResponseStatus.serverResponseStatus.DisplayNameMap(3 - Value).DisplayNameMap
+msgctxt ",17697D7B47C003D56A73D7B8E6DAB32D"
+msgid "Success"
+msgstr ""
+
+#. Key:	3A4073154472957AFFCC81A12ABBAAC1
+#. SourceLocation:	/Game/RenegadeJammer/Online/WBP_ConnCheck.WBP_ConnCheck_C:ExecuteUbergraph_WBP_ConnCheck [Script Bytecode]
+#: /Game/RenegadeJammer/Online/WBP_ConnCheck.WBP_ConnCheck_C:ExecuteUbergraph_WBP_ConnCheck [Script Bytecode]
+msgctxt ",3A4073154472957AFFCC81A12ABBAAC1"
+msgid "Connected"
+msgstr ""
+
+#. Key:	A8A5D6AE4094467E1B631DAC66C8D8B7
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/JammerFace/E_JammerFaceState.E_JammerFaceState.DisplayNameMap(0 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/UserInterface/Components/JammerFace/E_JammerFaceState.E_JammerFaceState.DisplayNameMap(0 - Value).DisplayNameMap
+msgctxt ",A8A5D6AE4094467E1B631DAC66C8D8B7"
+msgid "Normal"
+msgstr ""
+
+#. Key:	FEFFBC8D45B671D897EA9A8C48B180B7
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/JammerFace/E_JammerFaceState.E_JammerFaceState.DisplayNameMap(1 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/UserInterface/Components/JammerFace/E_JammerFaceState.E_JammerFaceState.DisplayNameMap(1 - Value).DisplayNameMap
+msgctxt ",FEFFBC8D45B671D897EA9A8C48B180B7"
+msgid "Green"
+msgstr ""
+
+#. Key:	D2A26C2B47994206B2A143B84D11EC62
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/JammerFace/E_JammerFaceState.E_JammerFaceState.DisplayNameMap(2 - Value).DisplayNameMap
+#: /Game/RenegadeJammer/UserInterface/Components/JammerFace/E_JammerFaceState.E_JammerFaceState.DisplayNameMap(2 - Value).DisplayNameMap
+msgctxt ",D2A26C2B47994206B2A143B84D11EC62"
+msgid "Rush"
+msgstr ""
+
+#. Key:	9EEA61EC4F58546C3271C7A98356594D
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_ButtonWithArrow.Default__WBP_ButtonWithArrow_C.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_ButtonWithArrow.Default__WBP_ButtonWithArrow_C.Text
+msgctxt ",9EEA61EC4F58546C3271C7A98356594D"
+msgid "This is a custom button!"
+msgstr ""
+
+#. Key:	3FA9027F415B25A83CD60F99DF009788
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_ButtonWithArrow.WBP_ButtonWithArrow_C:WidgetTree.CommonTextBlock_18.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_ButtonWithArrow.WBP_ButtonWithArrow_C:WidgetTree.CommonTextBlock_18.Text
+msgctxt ",3FA9027F415B25A83CD60F99DF009788"
+msgid "Holaaa"
+msgstr "Booooas"
+
+#. Key:	F675E7364A5D613F96ADDA9C60EAC720
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_GenericButton.Default__WBP_GenericButton_C.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_GenericButton.Default__WBP_GenericButton_C.Text
+msgctxt ",F675E7364A5D613F96ADDA9C60EAC720"
+msgid "This is an example"
+msgstr ""
+
+#. Key:	A27435244338D8A515DF498246F1E51A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_GuideText.WBP_GuideText_C:WidgetTree.Dialog.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_GuideText.WBP_GuideText_C:WidgetTree.Dialog.Text
+msgctxt ",A27435244338D8A515DF498246F1E51A"
+msgid "¿Qué tal estás, Jammer? Yo todo bien, todo correcto..."
+msgstr "Que tal imos, Jammer? Eu ben, sen queixa ningunha..."
+
+#. Key:	1D400601463CFFA2A516FDAE16D5DE1D
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_LeaderboardItem.WBP_LeaderboardItem_C:WidgetTree.TextBlock_897.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_LeaderboardItem.WBP_LeaderboardItem_C:WidgetTree.TextBlock_897.Text
+msgctxt ",1D400601463CFFA2A516FDAE16D5DE1D"
+msgid "Text "
+msgstr ""
+
+#. Key:	0B79ACFF4997F94ED2D385BD14C2746F
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_13.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_13.Text
+msgctxt ",0B79ACFF4997F94ED2D385BD14C2746F"
+msgid "medio"
+msgstr "normal"
+
+#. Key:	8BDC71A2455D58A630F56E9064228BBB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_14.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_14.Text
+msgctxt ",8BDC71A2455D58A630F56E9064228BBB"
+msgid "alto"
+msgstr "alto"
+
+#. Key:	33E484084FE3F3EE7AF50CBF34AAD924
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_15.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_15.Text
+msgctxt ",33E484084FE3F3EE7AF50CBF34AAD924"
+msgid "épico"
+msgstr "épico"
+
+#. Key:	03F5A2A1416EC1AB1A957186ED67D9FB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_9.Text
+#: /Game/RenegadeJammer/UserInterface/Components/WBP_QualitySelector.WBP_QualitySelector_C:WidgetTree.TextBlock_9.Text
+msgctxt ",03F5A2A1416EC1AB1A957186ED67D9FB"
+msgid "bajo"
+msgstr "baixo"
+
+#. Key:	F644347544215371693C8CA4774CFD4D
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/LevelDetails/WBP_LevelDetails.WBP_LevelDetails_C:WidgetTree.Title.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/LevelDetails/WBP_LevelDetails.WBP_LevelDetails_C:WidgetTree.Title.Text
+msgctxt ",F644347544215371693C8CA4774CFD4D"
+msgid "Title"
+msgstr ""
+
+#. Key:	81F94E194DF5AF954ED9928A28B30E0F
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/LevelDetails/WBP_LevelItem.Default__WBP_LevelItem_C.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/LevelDetails/WBP_LevelItem.Default__WBP_LevelItem_C.LevelName
+msgctxt ",81F94E194DF5AF954ED9928A28B30E0F"
+msgid "Title"
+msgstr ""
+
+#. Key:	457F77DD4A172D6199BEC4A374589C1E
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/LevelDetails/WBP_LevelItem.Default__WBP_LevelItem_C.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/LevelDetails/WBP_LevelItem.Default__WBP_LevelItem_C.Subtitle
+msgctxt ",457F77DD4A172D6199BEC4A374589C1E"
+msgid "Subtitle"
+msgstr ""
+
+#. Key:	A33BA23C4B9377B051D91988D0D8231A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Aegimus.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Aegimus.LevelName
+msgctxt ",A33BA23C4B9377B051D91988D0D8231A"
+msgid "Aegimius"
+msgstr ""
+
+#. Key:	63720BA1496FDCBC05CB89B5628B29FC
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Aegimus.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Aegimus.Subtitle
+msgctxt ",63720BA1496FDCBC05CB89B5628B29FC"
+msgid "UJ - 96"
+msgstr ""
+
+#. Key:	71972999491DE74C4C3598B51D7DF293
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.LevelDetails.Detail_5_24ABD97F476618A790005CB5F5AA939B
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.LevelDetails.Detail_5_24ABD97F476618A790005CB5F5AA939B
+msgctxt ",71972999491DE74C4C3598B51D7DF293"
+msgid "Preparate para iniciar tu viaje a la galaxia Astreus e inhabilitar uno de los mayores laboratorios de ZenCore"
+msgstr "Vai preparando o corpo, que imos poñer rumbo á galaxia Astreus pra desactivar un dos laboratorios máis tolos de ZenCore!"
+
+#. Key:	8E2ED46A4E89AC9DAAFBFBAE32D287F4
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.LevelDetails.Title_4_91522F19487C8D12D878039077CFA946
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.LevelDetails.Title_4_91522F19487C8D12D878039077CFA946
+msgctxt ",8E2ED46A4E89AC9DAAFBFBAE32D287F4"
+msgid "Astreus - Destino Polystratus"
+msgstr "Astreus – Rumbo a Polystratus"
+
+#. Key:	EEBC2BC0451723092ED2A587EA77A871
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.LevelName
+msgctxt ",EEBC2BC0451723092ED2A587EA77A871"
+msgid "Astreus"
+msgstr ""
+
+#. Key:	ECC8C5EE43F5FF586F3BF7B2AA0F2531
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Astreus.Subtitle
+msgctxt ",ECC8C5EE43F5FF586F3BF7B2AA0F2531"
+msgid "WAZ - 5K"
+msgstr ""
+
+#. Key:	D6C2A82A4BD75AC4E85BC19F2F82EE13
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Comae.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Comae.LevelName
+msgctxt ",D6C2A82A4BD75AC4E85BC19F2F82EE13"
+msgid "Comae"
+msgstr ""
+
+#. Key:	195A1A404B8D22FC216D6CAFF21BEFD1
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Comae.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Comae.Subtitle
+msgctxt ",195A1A404B8D22FC216D6CAFF21BEFD1"
+msgid "VLD - 881"
+msgstr ""
+
+#. Key:	C49753134CD58625FA0C30B0D3DD5899
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Cruxly.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Cruxly.LevelName
+msgctxt ",C49753134CD58625FA0C30B0D3DD5899"
+msgid "Cruxly"
+msgstr ""
+
+#. Key:	FCD9948440CFCDE7ACFBE28DCA61EF85
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Cruxly.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Cruxly.Subtitle
+msgctxt ",FCD9948440CFCDE7ACFBE28DCA61EF85"
+msgid "FQ - 105"
+msgstr ""
+
+#. Key:	A54E1B3742E2EF5CA26DC2876D7329C9
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Eridanus.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Eridanus.LevelName
+msgctxt ",A54E1B3742E2EF5CA26DC2876D7329C9"
+msgid "Eridanus"
+msgstr ""
+
+#. Key:	748B5C0145A6B15B7B8E25AE9F68F893
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Eridanus.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Eridanus.Subtitle
+msgctxt ",748B5C0145A6B15B7B8E25AE9F68F893"
+msgid "ETH - 72C"
+msgstr ""
+
+#. Key:	7B4CBED94DEA2540B381839EA167BEE6
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Euphorion.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Euphorion.LevelName
+msgctxt ",7B4CBED94DEA2540B381839EA167BEE6"
+msgid "Euphorion"
+msgstr ""
+
+#. Key:	CCB35A1D4030CA397EF58EA88FA0BF64
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Euphorion.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Euphorion.Subtitle
+msgctxt ",CCB35A1D4030CA397EF58EA88FA0BF64"
+msgid "KY - 884"
+msgstr ""
+
+#. Key:	083A8A1C4697C26B4251B6AD0EE66135
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.RosePetal.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.RosePetal.LevelName
+msgctxt ",083A8A1C4697C26B4251B6AD0EE66135"
+msgid "Rose Petal"
+msgstr ""
+
+#. Key:	1D01D37543635567C32A8F879A34D6AC
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.RosePetal.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.RosePetal.Subtitle
+msgctxt ",1D01D37543635567C32A8F879A34D6AC"
+msgid "SK - 504"
+msgstr ""
+
+#. Key:	708C6DCB44644657DBD99EB8F0AAA162
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Serpens.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Serpens.LevelName
+msgctxt ",708C6DCB44644657DBD99EB8F0AAA162"
+msgid "Serpens"
+msgstr ""
+
+#. Key:	11BCCDD049CBE0B6ACEEDE8D3280D1A1
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Serpens.Subtitle
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Serpens.Subtitle
+msgctxt ",11BCCDD049CBE0B6ACEEDE8D3280D1A1"
+msgid "AT - 80"
+msgstr ""
+
+#. Key:	54FF07E74826BB88613DC58FE8865F73
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Syst.LevelName
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Syst.LevelName
+msgctxt ",54FF07E74826BB88613DC58FE8865F73"
+msgid "Syst"
+msgstr ""
+
+#. Key:	445C43464939AEF1B6DED6B1552D17C8
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.Text.Text
+msgctxt ",445C43464939AEF1B6DED6B1552D17C8"
+msgid "Seleccionar"
+msgstr "Seleccionar"
+
+#. Key:	214E9A7B491176F5987BD2AF299C9186
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.TextBlock.Text
+msgctxt ",214E9A7B491176F5987BD2AF299C9186"
+msgid "Volver"
+msgstr "Voltar"
+
+#. Key:	A2F4B2574F8BC7E5686DC9AEBC78847C
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.TitleText.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/LevelSelector/WBP_Selector_Level.WBP_Selector_Level_C:WidgetTree.TitleText.Text
+msgctxt ",A2F4B2574F8BC7E5686DC9AEBC78847C"
+msgid "Tu base está en Euphorion"
+msgstr "A túa base está en Euphorion"
+
+#. Key:	All
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,All"
+msgid "¿Eso fue todo? [n] Esperaba un reto"
+msgstr "Iso foi todo? [n] Esperaba algo con máis chicha, a verdade"
+
+#. Key:	Aloha
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Aloha"
+msgid "Aloha... [n] Igual tus resultados no han sido los más satisfactorios"
+msgstr "Aloha... [n] Pois vaia, os teus resultados non foron precisamente para botar foguetes"
+
+#. Key:	Binary
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Binary"
+msgid "01001100 01101111 01110011 01100101 01110010 00001010"
+msgstr "Outra viaxe máis ó chan… xa lle vas collendo cariño, non si?"
+
+#. Key:	Dramatic
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Dramatic"
+msgid "Tan dramático, tanto sacrificio… [n] Y al final nada... [n] ¡Brillante actuación!"
+msgstr "Tanto drama, tanto sacrificio... [n] E ó final nada. [n] Iso si, a interpretación de dez!"
+
+#. Key:	Effort
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Effort"
+msgid "Tanto esfuerzo… para nada"
+msgstr "Tanto esforzo... e todo pro lixo, meu rei"
+
+#. Key:	Endure
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Endure"
+msgid "De verdad pensé que durarías un poco más"
+msgstr "Eu pensaba que ías aguantar un chisquiño máis, pero mira ti..."
+
+#. Key:	LikeYou
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,LikeYou"
+msgid "Quería ser como tú... [n] Pero prefiero oxidarme a terminar así"
+msgstr "Quería ser coma ti... [n] Pero mira, mellor enferruxarse que rematar dese xeito"
+
+#. Key:	Thanks
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Thanks"
+msgid "Gracias por la función, Jammer... [n] Ha sido mi comedia favorita del día"
+msgstr "Non pasa nada.. [n] sempre é bo facerme rir"
+
+#. Key:	Try
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/ST_RobotMessages.ST_RobotMessages
+msgctxt "ST_RobotMessages,Try"
+msgid "Oh, no te pongas así, ¡al menos lo intentaste!... [n] Y fallaste espectacularmente"
+msgstr "Ai, non te poñas así, home... polo menos, intentáchelo! [n] Iso si, fallaches con moita arte."
+
+#. Key:	A107D5464F9258D2863F4B88036BC850
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/WBP_Lose.WBP_Lose_C:ExecuteUbergraph_WBP_Lose [Script Bytecode]
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/WBP_Lose.WBP_Lose_C:ExecuteUbergraph_WBP_Lose [Script Bytecode]
+msgctxt ",A107D5464F9258D2863F4B88036BC850"
+msgid "Tabla de clasificación"
+msgstr "Táboa de clasificacions"
+
+#. Key:	9A5289DE444D2F2C6F69B2A13875B712
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/WBP_Lose.WBP_Lose_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/WBP_Lose.WBP_Lose_C:WidgetTree.Text.Text
+msgctxt ",9A5289DE444D2F2C6F69B2A13875B712"
+msgid "Reiniciar"
+msgstr "Reiniciar"
+
+#. Key:	150FB97547D75BC236A4E797D0E1F2FB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Lose/WBP_Lose.WBP_Lose_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Lose/WBP_Lose.WBP_Lose_C:WidgetTree.TextBlock_2.Text
+msgctxt ",150FB97547D75BC236A4E797D0E1F2FB"
+msgid "Volver al lobby"
+msgstr "Volver ó lobby"
+
+#. Key:	74D07A694FE41F8B4052139A57EC2DD5
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock.Text
+msgctxt ",74D07A694FE41F8B4052139A57EC2DD5"
+msgid "Mover a Jammer"
+msgstr "Mover a Jammer"
+
+#. Key:	1DF85C9F4DE8FA7501425FAD271D3210
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_0.Text
+msgctxt ",1DF85C9F4DE8FA7501425FAD271D3210"
+msgid "Boost Amarillo"
+msgstr "Boost Amarelo"
+
+#. Key:	2C08D0C84FF4CCEBFED5C0B2A6594F45
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_1.Text
+msgctxt ",2C08D0C84FF4CCEBFED5C0B2A6594F45"
+msgid "Rotar Cámara"
+msgstr "Rotar Cámara"
+
+#. Key:	B3E7BD0047EBE731F217D59932BC2542
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_2.Text
+msgctxt ",B3E7BD0047EBE731F217D59932BC2542"
+msgid "Boost Azul"
+msgstr "Boost Azul"
+
+#. Key:	619F3FB9416E72A98980D693ECC1E2FF
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_3.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_3.Text
+msgctxt ",619F3FB9416E72A98980D693ECC1E2FF"
+msgid "Ayuda/Interactuar"
+msgstr "Axuda/Interactuar"
+
+#. Key:	14013BF64845DC9E34FA738CA07BB548
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_4.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_4.Text
+msgctxt ",14013BF64845DC9E34FA738CA07BB548"
+msgid "Frenar"
+msgstr "Frear"
+
+#. Key:	0AD16CA44A1CCEB3F62298A5BE59AC80
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_5.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_5.Text
+msgctxt ",0AD16CA44A1CCEB3F62298A5BE59AC80"
+msgid "Derrape"
+msgstr "Derrape"
+
+#. Key:	B08B65274E51565E443846A267244ADE
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_6.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_6.Text
+msgctxt ",B08B65274E51565E443846A267244ADE"
+msgid "Boost Verde"
+msgstr "Boost Verde"
+
+#. Key:	0171C5B84358392CB7C7919DD0F927DB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_7.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Mando.WBP_Mando_C:WidgetTree.TextBlock_7.Text
+msgctxt ",0171C5B84358392CB7C7919DD0F927DB"
+msgid "Pausa"
+msgstr "Pausa"
+
+#. Key:	CB6AB9FF4BE690A9FAAD47842F16AAA0
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.Default__WBP_Options_C.FullscreenLabel
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.Default__WBP_Options_C.FullscreenLabel
+msgctxt ",CB6AB9FF4BE690A9FAAD47842F16AAA0"
+msgid "Pantalla completa"
+msgstr "Pantalla completa"
+
+#. Key:	F7C0E0264A09DB0B3B3FABA256042596
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.Default__WBP_Options_C.WindowedFullscreenLabel
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.Default__WBP_Options_C.WindowedFullscreenLabel
+msgctxt ",F7C0E0264A09DB0B3B3FABA256042596"
+msgid "Ventana completa"
+msgstr "Xanela completa"
+
+#. Key:	EA52C283424B6CFBC38F9F96E45FDFCD
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.Default__WBP_Options_C.WindowedLabel
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.Default__WBP_Options_C.WindowedLabel
+msgctxt ",EA52C283424B6CFBC38F9F96E45FDFCD"
+msgid "Ventana"
+msgstr "Xanela"
+
+#. Key:	3F2F772E43554F92608FB5AF22CD8B19
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock.Text
+msgctxt ",3F2F772E43554F92608FB5AF22CD8B19"
+msgid "AUDIO"
+msgstr "AUDIO"
+
+#. Key:	88872BE04185ADF7256E3EB03D2159A2
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_0.Text
+msgctxt ",88872BE04185ADF7256E3EB03D2159A2"
+msgid "GRÁFICOS"
+msgstr "GRÁFICOS"
+
+#. Key:	740C1710445E06B099FB7D9F72A6E0B2
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_1.Text
+msgctxt ",740C1710445E06B099FB7D9F72A6E0B2"
+msgid "MANDO"
+msgstr "MANDO"
+
+#. Key:	552759004F9ADF87DDE56DB0594FC95C
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_10.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_10.Text
+msgctxt ",552759004F9ADF87DDE56DB0594FC95C"
+msgid "Sombras"
+msgstr "Sombras"
+
+#. Key:	5D6990FC4926D822BE359191039CC7E2
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_18.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_18.Text
+msgctxt ",5D6990FC4926D822BE359191039CC7E2"
+msgid "Texturas"
+msgstr "Texturas"
+
+#. Key:	F4F472B44EF012DFB8BB2B94CE2825F8
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_2.Text
+msgctxt ",F4F472B44EF012DFB8BB2B94CE2825F8"
+msgid "TECLADO"
+msgstr "TECLADO"
+
+#. Key:	323478384095BB64A3E5F79401D8C437
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_23.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_23.Text
+msgctxt ",323478384095BB64A3E5F79401D8C437"
+msgid "Efectos visuales"
+msgstr "Efectos visuais"
+
+#. Key:	8C1F2476499833EB18564D85849A9229
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_3.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_3.Text
+msgctxt ",8C1F2476499833EB18564D85849A9229"
+msgid "Modo de pantalla"
+msgstr "Modo de pantalla"
+
+#. Key:	6A9ABB664857CAA448549DB6C030218F
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_4.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_4.Text
+msgctxt ",6A9ABB664857CAA448549DB6C030218F"
+msgid "Resolución de pantalla"
+msgstr "Resolución de pantalla"
+
+#. Key:	9D0794A744E93093D2E4FAAFE33FCD50
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_5.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_5.Text
+msgctxt ",9D0794A744E93093D2E4FAAFE33FCD50"
+msgid "Post procesado"
+msgstr "Post procesado"
+
+#. Key:	1558B5EB4D15838B70073B99B6452D9A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_6.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_6.Text
+msgctxt ",1558B5EB4D15838B70073B99B6452D9A"
+msgid "Anti-Aliasing"
+msgstr "Anti-Aliasing"
+
+#. Key:	7887B618449BF67BCDCAA39ABE42FD1A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_7.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_7.Text
+msgctxt ",7887B618449BF67BCDCAA39ABE42FD1A"
+msgid "aplicar"
+msgstr "aplicar"
+
+#. Key:	C0670C744399047EEDB693B10F1DD257
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_8.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_8.Text
+msgctxt ",C0670C744399047EEDB693B10F1DD257"
+msgid "cerrar"
+msgstr "pechar"
+
+#. Key:	82E6296A4A2816D081763EAD55F5794A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_9.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Options.WBP_Options_C:WidgetTree.TextBlock_9.Text
+msgctxt ",82E6296A4A2816D081763EAD55F5794A"
+msgid "Distancia de dibujado"
+msgstr "Distancia de debuxado"
+
+#. Key:	3542D12A4D7531E90619F48059704006
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido.WBP_Sonido_C:WidgetTree.TextBlock_3.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido.WBP_Sonido_C:WidgetTree.TextBlock_3.Text
+msgctxt ",3542D12A4D7531E90619F48059704006"
+msgid "     Volumen general"
+msgstr "     Volume xeral"
+
+#. Key:	B43BBF1C416CB85A2206048B3D1D9AEB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido.WBP_Sonido_C:WidgetTree.TextBlock_4.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido.WBP_Sonido_C:WidgetTree.TextBlock_4.Text
+msgctxt ",B43BBF1C416CB85A2206048B3D1D9AEB"
+msgid "     Música"
+msgstr "     Música"
+
+#. Key:	E9CB25FE41CB469AC5B9B3B35358D8BF
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido.WBP_Sonido_C:WidgetTree.TextBlock_5.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido.WBP_Sonido_C:WidgetTree.TextBlock_5.Text
+msgctxt ",E9CB25FE41CB469AC5B9B3B35358D8BF"
+msgid "     Efectos de sonido"
+msgstr "     Efectos de son"
+
+#. Key:	CE86E4FC4E931CCD7DEA529289D82E25
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido1.WBP_Sonido1_C:WidgetTree.TextBlock_3.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido1.WBP_Sonido1_C:WidgetTree.TextBlock_3.Text
+msgctxt ",CE86E4FC4E931CCD7DEA529289D82E25"
+msgid "     Volumen general"
+msgstr "     Volume xeral"
+
+#. Key:	D4A272EA4B61296E25640A8CDFD2ACAB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido1.WBP_Sonido1_C:WidgetTree.TextBlock_4.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido1.WBP_Sonido1_C:WidgetTree.TextBlock_4.Text
+msgctxt ",D4A272EA4B61296E25640A8CDFD2ACAB"
+msgid "     Música"
+msgstr "     Música"
+
+#. Key:	7A6A283D4C8888ADC046848B5C440C59
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido1.WBP_Sonido1_C:WidgetTree.TextBlock_5.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Sonido1.WBP_Sonido1_C:WidgetTree.TextBlock_5.Text
+msgctxt ",7A6A283D4C8888ADC046848B5C440C59"
+msgid "     Efectos de sonido"
+msgstr "     Efectos de son"
+
+#. Key:	F5650A154A0E88CFC389DB8E142DC661
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_0.Text
+msgctxt ",F5650A154A0E88CFC389DB8E142DC661"
+msgid "/"
+msgstr ""
+
+#. Key:	2C529F1E46FA22BD568D1F9503B2C8BC
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_1.Text
+msgctxt ",2C529F1E46FA22BD568D1F9503B2C8BC"
+msgid "Boost Azul"
+msgstr "Boost Azul"
+
+#. Key:	7C987DD349905972DF78DEA3F9AEDBD7
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_2.Text
+msgctxt ",7C987DD349905972DF78DEA3F9AEDBD7"
+msgid "Boost Amarillo"
+msgstr "Boost Amarelo"
+
+#. Key:	4678EC7D46943146BDBECCB4961EB1EC
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_4.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_4.Text
+msgctxt ",4678EC7D46943146BDBECCB4961EB1EC"
+msgid "Boost Verde"
+msgstr "Boost Verde"
+
+#. Key:	20FBBCA6417B68CB43F61EB698417E22
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_5.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_5.Text
+msgctxt ",20FBBCA6417B68CB43F61EB698417E22"
+msgid "Derrape"
+msgstr "Derrape"
+
+#. Key:	31BCCAAC47A6A5DA3853D89971E17D9C
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_6.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_6.Text
+msgctxt ",31BCCAAC47A6A5DA3853D89971E17D9C"
+msgid "Frenar"
+msgstr "Frear"
+
+#. Key:	0223CD1B41E3DFB90D9FD08107287947
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_7.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/Options/WBP_Teclado.WBP_Teclado_C:WidgetTree.TextBlock_7.Text
+msgctxt ",0223CD1B41E3DFB90D9FD08107287947"
+msgid "Ayuda / Interactuar"
+msgstr "Axuda / Interactuar"
+
+#. Key:	E822D30B42E3E29B674788ADBC8CB0FE
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_ComprarNivel.WBP_ComprarNivel_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_ComprarNivel.WBP_ComprarNivel_C:WidgetTree.Text.Text
+msgctxt ",E822D30B42E3E29B674788ADBC8CB0FE"
+msgid "Sí"
+msgstr "Si"
+
+#. Key:	F3552A3246432B1CBABD999529577290
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_ComprarNivel.WBP_ComprarNivel_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_ComprarNivel.WBP_ComprarNivel_C:WidgetTree.TextBlock_0.Text
+msgctxt ",F3552A3246432B1CBABD999529577290"
+msgid "¿Quieres gastar \t\t\tx1 capsula \r\npara desbloquear este nivel?"
+msgstr "Queres gastar \t\t\tx1 cápsula \r\npara desbloquear este nivel?"
+
+#. Key:	4BE36BAD4B2AB46F807197BCCE1394AF
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_ComprarNivel.WBP_ComprarNivel_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_ComprarNivel.WBP_ComprarNivel_C:WidgetTree.TextBlock_2.Text
+msgctxt ",4BE36BAD4B2AB46F807197BCCE1394AF"
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#. Key:	C17F0BAC466D570546638E99DC33DC6F
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_ConnectionError.WBP_ConnectionError_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_ConnectionError.WBP_ConnectionError_C:WidgetTree.TextBlock_0.Text
+msgctxt ",C17F0BAC466D570546638E99DC33DC6F"
+msgid "No tienes conexión a Internet. \r\nTu progreso puede no haberse guardado."
+msgstr "Quedaches sen Internet, ho! \r\nIgual o progreso non se chegou a gardar, ollo aí."
+
+#. Key:	7D82D59845AD339EE0E8749726F883C3
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock.Text
+msgctxt ",7D82D59845AD339EE0E8749726F883C3"
+msgid "Arte\r\n\r\n\r\n\r\nAnimación de Personajes\r\n\r\nVFX Y Technical Artist\r\n\r\nArte UI"
+msgstr "Arte\r\n\r\n\r\n\r\nAnimación de Personaxes\r\n\r\nVFX E Technical Artist\r\n\r\nArte UI"
+
+#. Key:	315BC59F4A221D14DA7564A50D542F1B
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_1.Text
+msgctxt ",315BC59F4A221D14DA7564A50D542F1B"
+msgid "Andrea Salgado\r\nManuel Sanjurjo\r\nAndrea Alonso\r\nDavid Muradás\r\nManuel Sanjurjo\r\nDavid Muradás\r\nÁlvaro Martos\r\nDavid Muradás\r\nAndrea Alonso\r\nAndrea Salgado"
+msgstr ""
+
+#. Key:	0FE87E944DAF613F2C6A0E9A0DCC997B
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_10.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_10.Text
+msgctxt ",0FE87E944DAF613F2C6A0E9A0DCC997B"
+msgid "Álvaro Martos\r\nGael Alberto\r\nDavid Muradás\r\nÁlvaro Martos"
+msgstr ""
+
+#. Key:	1E85D5404BF6A139ACCDCF835EE92030
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_11.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_11.Text
+msgctxt ",1E85D5404BF6A139ACCDCF835EE92030"
+msgid "UDC Productions"
+msgstr ""
+
+#. Key:	5B40BC0E416CBA94BAB9F3AEAD206733
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_12.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_12.Text
+msgctxt ",5B40BC0E416CBA94BAB9F3AEAD206733"
+msgid "Presidenta y CEO\r\nInvocador de Magias en Unreal\r\nHechicero Supremo del Caos Divertido\r\nOráculo del Color y Conceptos Visuales\r\nMaestro del Rigging y Marionetista Digital\r\nArquitecto de Mapas y Trampas Mortales"
+msgstr "Presidenta e CEO\r\nInvocador de Maxias en Unreal\r\nFeiticeiro Supremo do Caos Divertido\r\nOráculo da Cor e Conceptos Visuais\r\nMestre do Rigging e Monicrequeiro Dixital\r\nArquitecto de Mapas e Trampas Mortais"
+
+#. Key:	5F0A2C104FFA152A28328897FFF3BECA
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_13.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_13.Text
+msgctxt ",5F0A2C104FFA152A28328897FFF3BECA"
+msgid "María Luz Castro\r\nLuis Omar Álvarez\r\nMarcos Lourido\r\nVicente López\r\nÁngel Fariña\r\nAbrahan Dopazo"
+msgstr ""
+
+#. Key:	2B27809540F5093A062B4C91D952087C
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_14.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_14.Text
+msgctxt ",2B27809540F5093A062B4C91D952087C"
+msgid "Patrocinado por:"
+msgstr "Patrocinado por:"
+
+#. Key:	F791D12A469A5E6BE9420ABF92F4FD77
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_156.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_156.Text
+msgctxt ",F791D12A469A5E6BE9420ABF92F4FD77"
+msgid "Director y Productor\r\nDirectora de Arte\r\nLíder de Animación \r\nLíder de Programación \r\nLíder de Gameplay\r\nLíder de Sonido"
+msgstr "Director e Produtor\r\nDirectora de Arte\r\nLíder de Animación \r\nLíder de Programación \r\nLíder de Gameplay\r\nLíder de Son"
+
+#. Key:	6C5C98274F79FA62104598BEBA627BE2
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_2.Text
+msgctxt ",6C5C98274F79FA62104598BEBA627BE2"
+msgid "AUDIO"
+msgstr "AUDIO"
+
+#. Key:	898AF7634197386E23DFC49C51DA31D5
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_3.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_3.Text
+msgctxt ",898AF7634197386E23DFC49C51DA31D5"
+msgid "Diseñador de Sonido\r\nCompositor\r\nProgramador de Sonido"
+msgstr "Deseñador de Son\r\nCompositor\r\nProgramador de Son"
+
+#. Key:	68F11151438A4527DC5347BCE5F117FB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_312.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_312.Text
+msgctxt ",68F11151438A4527DC5347BCE5F117FB"
+msgid "Por los amigos que \r\nhicimos en el camino"
+msgstr "Polos amigos que \r\nfixemos no camiño"
+
+#. Key:	F033DBAF46D948FF1309E38F9B3409D6
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_4.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_4.Text
+msgctxt ",F033DBAF46D948FF1309E38F9B3409D6"
+msgid "Gael Alberto\r\nGael Alberto\r\nGael Alberto"
+msgstr ""
+
+#. Key:	9A61E2F84F67D4D95AEFE788B7300915
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_402.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_402.Text
+msgctxt ",9A61E2F84F67D4D95AEFE788B7300915"
+msgid "Manuel Sanjurjo\r\nAndrea Salgado\r\nManuel Sanjurjo\r\nÁlvaro Martos\r\nÁlvaro Martos\r\nGael Alberto"
+msgstr ""
+
+#. Key:	1E7748D4450844F10722A8B569CF4D6A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_5.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_5.Text
+msgctxt ",1E7748D4450844F10722A8B569CF4D6A"
+msgid "DISEÑO"
+msgstr "DESEÑO"
+
+#. Key:	597C4A0543964F9DFC88EE91F7E7E95F
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_585.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_585.Text
+msgctxt ",597C4A0543964F9DFC88EE91F7E7E95F"
+msgid "ARTE"
+msgstr "ARTE"
+
+#. Key:	8D7B73494869C4B626810286CE807040
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_6.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_6.Text
+msgctxt ",8D7B73494869C4B626810286CE807040"
+msgid "Diseñado por\r\n\r\n\r\nDiseñadores Adjuntos"
+msgstr "Deseñado por\r\n\r\n\r\nDeseñadores Adxuntos"
+
+#. Key:	25DF675B4737C62B2FD0D6BF86763B89
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_7.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_7.Text
+msgctxt ",25DF675B4737C62B2FD0D6BF86763B89"
+msgid "Gael Alberto\r\nÁlvaro Martos\r\nDavid Muradás\r\nManuel Sanjurjo\r\nAndrea Alonso\r\nAndrea Salgado"
+msgstr ""
+
+#. Key:	6DEA4B1F448D074F8ADD42840BB5FEB4
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_8.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_8.Text
+msgctxt ",6DEA4B1F448D074F8ADD42840BB5FEB4"
+msgid "PROGRAMACIÓN"
+msgstr "PROGRAMACIÓN"
+
+#. Key:	FB08C19B480C9ED05F50CE97EB8A1910
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_9.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Creditos.WBP_Creditos_C:WidgetTree.TextBlock_9.Text
+msgctxt ",FB08C19B480C9ED05F50CE97EB8A1910"
+msgid "Gameplay\r\nNivel"
+msgstr "Gameplay\r\nNivel"
+
+#. Key:	619F770A419AF04584CA2FAA57289A03
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.BotonA.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.BotonA.Text
+msgctxt ",619F770A419AF04584CA2FAA57289A03"
+msgid "Pulsa             para jugar."
+msgstr "Preme             para xogar."
+
+#. Key:	41209E4D481C4843B3E0EAB00BD575B0
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.BotonB.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.BotonB.Text
+msgctxt ",41209E4D481C4843B3E0EAB00BD575B0"
+msgid "Pulsa             para\r\ndar marcha atras"
+msgstr "Preme             para\r\ndar marcha atrás"
+
+#. Key:	E2EC8545496374A779C50E8AE8C7A24A
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.BotonX.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.BotonX.Text
+msgctxt ",E2EC8545496374A779C50E8AE8C7A24A"
+msgid "Mantén              para\r\nusar el derrape."
+msgstr "Mantén              para\r\nusar o derrape."
+
+#. Key:	6A81D1D7440C93B8FB17EF92336C1040
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.TextBlock_0.Text
+msgctxt ",6A81D1D7440C93B8FB17EF92336C1040"
+msgid "¡Importante!"
+msgstr "Importante!"
+
+#. Key:	E303C2B54D56A907DD2266AF9DEF46B4
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Instruccion.WBP_Instruccion_C:WidgetTree.TextBlock_1.Text
+msgctxt ",E303C2B54D56A907DD2266AF9DEF46B4"
+msgid "Consigue los objetos verdes para ganar.\r\nEl tiempo empezara a contar cuando pases \r\nesta pantalla"
+msgstr "Consegue os obxectos verdes para gañar.\r\nO tempo empezará a contar cando pases \r\nesta pantalla"
+
+#. Key:	D6CA877E4A5255AAFF45ED9EF4FEEE24
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.Actualizar.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.Actualizar.Text
+msgctxt ",D6CA877E4A5255AAFF45ED9EF4FEEE24"
+msgid "Actualizar tabla"
+msgstr "Actualizar táboa"
+
+#. Key:	247C53414BD4299AA795409CDBF10464
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.Text.Text
+msgctxt ",247C53414BD4299AA795409CDBF10464"
+msgid "Jugar"
+msgstr "Xogar"
+
+#. Key:	3AD3F7AF4E8EA10685FA9E8B807FC39E
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock.Text
+msgctxt ",3AD3F7AF4E8EA10685FA9E8B807FC39E"
+msgid "Cerrar online"
+msgstr "Pechar online"
+
+#. Key:	C1F507F84A0F1B0084A6AA95816111C8
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_1.Text
+msgctxt ",C1F507F84A0F1B0084A6AA95816111C8"
+msgid "Nombre"
+msgstr "Nome"
+
+#. Key:	EBF39FD944975786843B8BAC4248DC8E
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_2.Text
+msgctxt ",EBF39FD944975786843B8BAC4248DC8E"
+msgid "Cápsulas"
+msgstr "Cápsulas"
+
+#. Key:	9D44BFDF4684493DB86DA085F40EC6E6
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_3.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_3.Text
+msgctxt ",9D44BFDF4684493DB86DA085F40EC6E6"
+msgid "Tiempo"
+msgstr "Tempo"
+
+#. Key:	A9BAAF3D4590C23BF96A47BAC2B6901D
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_343.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_343.Text
+msgctxt ",A9BAAF3D4590C23BF96A47BAC2B6901D"
+msgid "ONLINE"
+msgstr "ONLINE"
+
+#. Key:	FE9303B6442D7CC5A8E405A3ECC2BD3C
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_344.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_344.Text
+msgctxt ",FE9303B6442D7CC5A8E405A3ECC2BD3C"
+msgid "Nombre de la liga"
+msgstr "Nome da liga"
+
+#. Key:	D4A64763489018C57F3FF9BFD71762A5
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_87.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LeaderboardMenu.WBP_LeaderboardMenu_C:WidgetTree.TextBlock_87.Text
+msgctxt ",D4A64763489018C57F3FF9BFD71762A5"
+msgid "Algo ha fallado. Comprueba tu conexión a Internet."
+msgstr "Algo fallou. Bota un ollo á túa conexión... seica toleou!"
+
+#. Key:	1F8BF83B475EDE7E576122A53A8ADA64
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_LoadingScreen.WBP_LoadingScreen_C:WidgetTree.TextBlock_42.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_LoadingScreen.WBP_LoadingScreen_C:WidgetTree.TextBlock_42.Text
+msgctxt ",1F8BF83B475EDE7E576122A53A8ADA64"
+msgid "Cargando..."
+msgstr "Cargando..."
+
+#. Key:	A4057A20467527D500E622BC4D400F24
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Credits.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Credits.Text
+msgctxt ",A4057A20467527D500E622BC4D400F24"
+msgid "Créditos"
+msgstr "Créditos"
+
+#. Key:	A44B253F4D219AECB4D5639362931598
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Exit.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Exit.Text
+msgctxt ",A44B253F4D219AECB4D5639362931598"
+msgid "Salir del juego"
+msgstr "Saír do xogo"
+
+#. Key:	858F4010423610AF65A4F283D38B359E
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Play.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Play.Text
+msgctxt ",858F4010423610AF65A4F283D38B359E"
+msgid "Iniciar partida"
+msgstr "Iniciar partida"
+
+#. Key:	EF05396943109FF2789177B729E06CEA
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Settings.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_MainMenu.WBP_MainMenu_C:WidgetTree.Button_Settings.Text
+msgctxt ",EF05396943109FF2789177B729E06CEA"
+msgid "Opciones"
+msgstr "Opcións"
+
+#. Key:	95B8800042C0257C9B273F8A0BB923BE
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.LeagueError.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.LeagueError.Text
+msgctxt ",95B8800042C0257C9B273F8A0BB923BE"
+msgid "No se ha podido conectar con la liga indicada"
+msgstr "Non se puido conectar coa liga indicada"
+
+#. Key:	E603418249CA878B540D8CB46D1EF1B5
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.Text.Text
+msgctxt ",E603418249CA878B540D8CB46D1EF1B5"
+msgid "Acceder"
+msgstr "Acceder"
+
+#. Key:	101BDC6A44C5C390E6F60081C54D3197
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.TextBlock_2.Text
+msgctxt ",101BDC6A44C5C390E6F60081C54D3197"
+msgid "Volver"
+msgstr "Voltar"
+
+#. Key:	2ED22FF84C7DF783DDE9EFADB7A198C3
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.TextBlock_33.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineLeagueAccess.WBP_OnlineLeagueAccess_C:WidgetTree.TextBlock_33.Text
+msgctxt ",2ED22FF84C7DF783DDE9EFADB7A198C3"
+msgid "Introduce el nombre de tu liga:"
+msgstr "Introduce o nome da túa liga:"
+
+#. Key:	8F743B054357FAB44316C1A13B0D4D46
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.Default__WBP_OnlineUsernameAccess_C.MembersNumber
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.Default__WBP_OnlineUsernameAccess_C.MembersNumber
+msgctxt ",8F743B054357FAB44316C1A13B0D4D46"
+msgid "Máximo de miembros alcanzados (10). No se ha podido crear un nuevo usuario.\r\nRevisa los caracteres si has introducido un usuario ya existente."
+msgstr "Máximo de membros alcanzados (10). Non se puido crear un novo usuario.\r\nRevisa os caracteres se introduciches un usuario xa existente."
+
+#. Key:	039224B5476FBCD41FB89BA2A83DCFFB
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.Default__WBP_OnlineUsernameAccess_C.NameFormatError
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.Default__WBP_OnlineUsernameAccess_C.NameFormatError
+msgctxt ",039224B5476FBCD41FB89BA2A83DCFFB"
+msgid "¡Solo letras y números!"
+msgstr "Só letras e números!"
+
+#. Key:	5B3F3C2448F456FB06CE66BD44D05A42
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.LeagueError_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.LeagueError_1.Text
+msgctxt ",5B3F3C2448F456FB06CE66BD44D05A42"
+msgid "Máximo de miembros alcanzados (10). No se ha podido crear un nuevo usuario.\r\nRevisa los caracteres si has introducido un usuario ya existente."
+msgstr "Máximo de membros alcanzados (10). Non se puido crear un novo usuario.\r\nRevisa os caracteres se introduciches un usuario xa existente."
+
+#. Key:	C0A511D64309447D0105578814EA63D7
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.Text.Text
+msgctxt ",C0A511D64309447D0105578814EA63D7"
+msgid "Acceder"
+msgstr "Acceder"
+
+#. Key:	F761ED8745924DE6FAFAC2835EB39679
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.TextBlock_1.Text
+msgctxt ",F761ED8745924DE6FAFAC2835EB39679"
+msgid " Introduce tu nombre de \r\nusuario o crea uno nuevo:"
+msgstr " Introduce o teu nome de \r\nusuario ou crea un novo:"
+
+#. Key:	D40C338A4359707F114F7D8E31B9B816
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_OnlineUsernameAccess.WBP_OnlineUsernameAccess_C:WidgetTree.TextBlock_2.Text
+msgctxt ",D40C338A4359707F114F7D8E31B9B816"
+msgid "Volver"
+msgstr "Voltar"
+
+#. Key:	0D92115145B10159B8CBABB0240F6641
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Continue.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Continue.Text
+msgctxt ",0D92115145B10159B8CBABB0240F6641"
+msgid "Continuar"
+msgstr "Continuar"
+
+#. Key:	FC94047D41D93B4B19C1ADB740E6D0DA
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Quit.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Quit.Text
+msgctxt ",FC94047D41D93B4B19C1ADB740E6D0DA"
+msgid "Salir"
+msgstr "Saír"
+
+#. Key:	35358BD547B0BBEB04488AACA8AD462B
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Replay.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Replay.Text
+msgctxt ",35358BD547B0BBEB04488AACA8AD462B"
+msgid "Reiniciar"
+msgstr "Reiniciar"
+
+#. Key:	71BCE291407D81582FDB65AF47CE5889
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Settings.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Button_Settings.Text
+msgctxt ",71BCE291407D81582FDB65AF47CE5889"
+msgid "Ajustes"
+msgstr "Axustes"
+
+#. Key:	3FA5337745B16F08CBBD55A8BDD526F6
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Text.Text
+msgctxt ",3FA5337745B16F08CBBD55A8BDD526F6"
+msgid "Aceptar"
+msgstr "Aceptar"
+
+#. Key:	69ACDC5540228A5B1CCE98ACC27DA42E
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Text_LevelName.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Text_LevelName.Text
+msgctxt ",69ACDC5540228A5B1CCE98ACC27DA42E"
+msgid "Polystratus\r\nAstreus"
+msgstr ""
+
+#. Key:	FBD26E3F43132189CB165D82B494E0F1
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Text_Pause.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Text_Pause.Text
+msgctxt ",FBD26E3F43132189CB165D82B494E0F1"
+msgid "PAUSA"
+msgstr "PAUSA"
+
+#. Key:	41A175754B1362593B4B71AB648A5200
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Volver.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Pause.WBP_Pause_C:WidgetTree.Volver.Text
+msgctxt ",41A175754B1362593B4B71AB648A5200"
+msgid "Volver"
+msgstr "Voltar"
+
+#. Key:	5F0FDA044D11276ED0A6B598317AFFA0
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.Text.Text
+msgctxt ",5F0FDA044D11276ED0A6B598317AFFA0"
+msgid "Seleccionar"
+msgstr "Seleccionar"
+
+#. Key:	28FCCE724E448CFB40CF788EA08D98B5
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.Text_Map.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.Text_Map.Text
+msgctxt ",28FCCE724E448CFB40CF788EA08D98B5"
+msgid "MAPA"
+msgstr "MAPA"
+
+#. Key:	DDCAF72C4E5DB4B0F52AF6B7F63BFF54
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.Text_Online.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.Text_Online.Text
+msgctxt ",DDCAF72C4E5DB4B0F52AF6B7F63BFF54"
+msgid "ONLINE"
+msgstr "ONLINE"
+
+#. Key:	ED6A1F8F46BF964F712974AC7D92C7E1
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.TextBlock.Text
+msgctxt ",ED6A1F8F46BF964F712974AC7D92C7E1"
+msgid "Volver"
+msgstr "Voltar"
+
+#. Key:	984258F940B63F888688C3ADAFB100C8
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_SelectorPrincipal.WBP_SelectorPrincipal_C:WidgetTree.TextBlock_0.Text
+msgctxt ",984258F940B63F888688C3ADAFB100C8"
+msgid "Tu base está en Euphorion"
+msgstr "A túa base está en Euphorion"
+
+#. Key:	86ADDAF94CFFD2079DFD71B5A81C166B
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_UserInterface.WBP_UserInterface_C:WidgetTree.CountDownTimerText.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_UserInterface.WBP_UserInterface_C:WidgetTree.CountDownTimerText.Text
+msgctxt ",86ADDAF94CFFD2079DFD71B5A81C166B"
+msgid "00:00,00"
+msgstr ""
+
+#. Key:	8894E33C41D7DD59ED079B8F125FFDD4
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_UserInterface.WBP_UserInterface_C:WidgetTree.TimerAddition.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_UserInterface.WBP_UserInterface_C:WidgetTree.TimerAddition.Text
+msgctxt ",8894E33C41D7DD59ED079B8F125FFDD4"
+msgid "+ 30 s"
+msgstr ""
+
+#. Key:	4D29A51D4E9F71C3375313A768DDABBC
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.Text.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.Text.Text
+msgctxt ",4D29A51D4E9F71C3375313A768DDABBC"
+msgid "Repetir"
+msgstr "Repetir"
+
+#. Key:	E5465A5A43BF1140A0308E9D5C130F40
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock.Text
+msgctxt ",E5465A5A43BF1140A0308E9D5C130F40"
+msgid "Cápsulas:"
+msgstr "Cápsulas:"
+
+#. Key:	81560F3149CADBA6BECD8BB6C352A7A7
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock_0.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock_0.Text
+msgctxt ",81560F3149CADBA6BECD8BB6C352A7A7"
+msgid "POLYSTRATUS"
+msgstr ""
+
+#. Key:	8D6FF0B84FACE3263B46D4A8F8562990
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock_1.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock_1.Text
+msgctxt ",8D6FF0B84FACE3263B46D4A8F8562990"
+msgid "Tiempo:"
+msgstr "Tempo:"
+
+#. Key:	F1DBED924C324F2CD601E6A8A4EC8448
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock_2.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TextBlock_2.Text
+msgctxt ",F1DBED924C324F2CD601E6A8A4EC8448"
+msgid "Salir"
+msgstr "Saír"
+
+#. Key:	B81F609D420FABE9CE4BD996326E535E
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TimeText.Text
+#: /Game/RenegadeJammer/UserInterface/Screens/WBP_Win.WBP_Win_C:WidgetTree.TimeText.Text
+msgctxt ",B81F609D420FABE9CE4BD996326E535E"
+msgid "1:20:50,45"
+msgstr ""
+
+#. Key:	93F724264D3392B0A5882F962D540A26
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Tutorial/WBP_Guide.WBP_Guide_C:WidgetTree.TextGuide_0.Text
+#: /Game/RenegadeJammer/UserInterface/Tutorial/WBP_Guide.WBP_Guide_C:WidgetTree.TextGuide_0.Text
+msgctxt ",93F724264D3392B0A5882F962D540A26"
+msgid " Ayuda"
+msgstr " Axuda"
+
+#. Key:	F79A89B141A850D666411598C4D37AD3
+#. SourceLocation:	/Game/RenegadeJammer/UserInterface/Tutorial/WBP_Guide.WBP_Guide_C:WidgetTree.WBP_GuideText.Text
+#: /Game/RenegadeJammer/UserInterface/Tutorial/WBP_Guide.WBP_Guide_C:WidgetTree.WBP_GuideText.Text
+msgctxt ",F79A89B141A850D666411598C4D37AD3"
+msgid "Pulsa botones"
+msgstr "Prema botóns"
+
